@@ -1,0 +1,227 @@
+SOURCE: Premier Pump & Power — Quick Start Manual (general engine startup/shutdown procedures).
+
+QUICK START
+  MANUAL
+                    REV: 2.00
+                   March 2026
+
+
+
+
+      Premier Pump & Power, LLC
+
+
+  7600 NE 47th Ave. Vancouver, Washington 98661
+     Website: www.premierpumpandpower.com
+               Phone: 360.574.4519
+                Fax: 772.679.5989
+          E-mail: info@premier-pump.net
+                            Legal Disclaimer and Terms of Use
+   YOUR WARRANTY MAY BE VOID IF INSTRUCTIONS ARE NOT FOLLOWED PROPERLY
+
+Document Control and Revisions
+This document is subject to change. Premier Pump & Power (PPP) reserves the right to revise, replace, or
+render this manual obsolete at any time without prior notice.
+   •   Before operating any equipment, it is the sole responsibility of the owner and user to ensure they possess
+       the most current version of this manual.
+   •   If there is any uncertainty regarding the document's status, contact PPP for written confirmation.
+   •   Unless governed by a separate express written agreement, PPP is under no obligation to proactively
+       furnish revisions or modifications to the owner or user.
+
+Equipment Modifications
+Premier Pump & Power reserves the right to modify, change, or improve its equipment, including hardware and
+integrated software, at any time without notice. The information provided herein is believed to be accurate but
+serves as a guide only; it is not a substitute for professional judgment or site-specific expertise.
+
+Operational Requirements & Training
+This equipment must be operated, serviced, and upgraded only by trained professionals. Unauthorized handling
+or maintenance may result in equipment failure, injury, or death. Premier Pump & Power’s liability regarding
+the equipment and its use is strictly limited to the terms stated in the Limited Warranty provided in this manual.
+
+Fluid Compatibility & Prohibited Use
+Premier Pump & Power packages are engineered exclusively for aqueous solutions and aqueous waste.
+Pumping any substance other than those specified, or any fluid containing hazardous materials in any
+concentration, is strictly prohibited.
+   •   Any such use is at the user’s sole risk.
+   •   Use with unauthorized substances will void the warranty and absolve Premier Pump & Power of all
+       liability for damages or losses, whether direct or indirect.
+
+Limitations of Liability
+Premier Pump & Power shall not be held liable for any loss, cost, expense, or damage arising from:
+   •   Misuse: Operation of the equipment outside of its intended design or safety parameters.
+   •   Aftermarket Parts: The use of non-OEM or unauthorized replacement parts.
+   •   Tampering: Any instance where serial numbers have been amended, defaced, or removed.
+
+
+
+
+Premier Pump & Power, LLC                               2                          Quick Start Manual / March 2026
+                                                              Table of Contents
+Legal Disclaimer and Terms of Use ....................................................................................................................... 2
+Pre-Start Checklist: ................................................................................................................................................. 4
+Engine Startup Procedures ...................................................................................................................................... 5
+Operational Monitoring .......................................................................................................................................... 6
+Engine Shutdown Procedures ................................................................................................................................. 7
+Starting the Engine Using the Autostart Controller ................................................................................................ 8
+
+
+
+
+Premier Pump & Power, LLC                                                          3                                     Quick Start Manual / March 2026
+                                        Pre-Start Checklist:
+   ✓                                                     Checklist Item
+        Fill the tank with the appropriate type of diesel fuel.
+        Check the fuel/water separator for contaminants & drain.
+        Check the engine oil level.
+        Check engine coolant level and fill via the cap located near the air breather housing.
+           • DANGER: Use caution whenever removing the radiator cap due to the extremely hot
+              and pressurized fluid.
+        Ensure the fan/alternator drive belt is tight.
+        Ensure all finger guards are secure and in place.
+        Check suction and discharge connections for tightness and are properly supported.
+        Ensure the pump is level.
+        Check vacuum pump gear box and fill as needed with 10w30 motor oil.
+        Ensure vacuum pump diaphragm drain valve is closed (unless pumpage needs to be drained).
+        Check the level of the pump’s mechanical seal oil reservoir, and ensure the bearings are properly
+        serviced.
+
+
+Before proceeding to Engine Startup Procedures, ensure all steps in the Pre-Start Checklist have been verified.
+
+
+
+
+Premier Pump & Power, LLC                                  4                    Quick Start Manual / March 2026
+                                  Engine Startup Procedures
+Follow these steps in sequence to ensure a safe and successful pump start.
+   1. Prepare the area for pump operations.
+          a. Alert all personnel in the immediate vicinity that pumping operations are about to begin.
+          b. Ensure you are wearing all required Personal Protective Equipment (PPE), including safety
+              glasses, a hard hat, and steel-toed boots.
+          c. Confirm that the pumpage fluid is available at the suction inlet.
+          d. Open the priming isolation valve (if equipped).
+   2. Start the engine.
+          a. Turn the key to the START position. Once the engine ignites and is running steadily, release the
+              key to the ON position.
+          b. Gradually increase the throttle to half speed.
+   3. Monitor the pump.
+          a. While at half speed, perform a "walk-around" inspection:
+                   i. Listen for abnormal noises and check for excessive vibrations or fluid leaks. Correct any
+                       issues immediately before proceeding.
+                  ii. Verify that all control panel gauges and displays are functioning and showing normal
+                       operating parameters.
+   4. Adjust performance as needed.
+          a. Adjust the engine speed to the desired operational level once the system has stabilized.
+   5. Continuously monitor the bearing housing and stuffing box for signs of overheating
+          a. Use the back of your hand (never the palm) to check the temperature of these components. If the
+              housing is too hot to maintain contact, this may indicate binding internal parts or a lubrication
+              failure.
+          b. If the pump is moving high-temperature liquids, use a handheld IR temperature sensor for an
+              accurate and safe reading.
+
+
+
+
+Premier Pump & Power, LLC                              5                        Quick Start Manual / March 2026
+                                    Operational Monitoring
+After the engine has started and the pump has primed, perform a walk-around inspection to confirm the
+following conditions:
+
+   •   Engine Performance
+          o The engine should produce a consistent, smooth sound without rhythmic knocking, surging, or
+              metallic clicking.
+          o Exhaust should be clear. Persistent black, white, or blue smoke indicates a combustion or fluid
+              leak issue.
+   •   Vacuum and Priming
+          o Verify that the vacuum reading is within the acceptable range of 10 to 28 inHg.
+                  ▪ Note: A reading below 10 inHg may indicate a suction leak, while a reading near 30
+                      inHg may indicate a plugged suction line.
+
+
+
+
+   •   Vital Gauges
+           o Ensure the engine oil pressure is within the manufacturer's specified range for the current RPM.
+           o Monitor the water temperature gauge to ensure the engine is operating within its optimal thermal
+              range (typically 180°F to 205°F).
+   •   Fluid Movement
+           o Confirm that water is moving through the pump by checking the discharge pressure gauge or
+              visually inspecting the discharge point.
+           o Do not continue operation if fluid is not moving, as this can lead to overheating of the
+              mechanical seal and internal components.
+
+
+
+
+Premier Pump & Power, LLC                             6                        Quick Start Manual / March 2026
+                              Engine Shutdown Procedures
+To ensure the engine and pump components cool evenly, always follow this controlled shutdown sequence.
+   1. Gradually reduce the engine speed to its lowest idle setting.
+         a. If the unit is equipped with a manual clutch, disengage the pump from the engine drive.
+   2. Allow the engine to idle for approximately 5 minutes before turning it off.
+         a. This "soak period" allows the coolant and oil to circulate, lowering the temperature of the
+              turbocharger and internal components.
+         b. Skipping this step can lead to oil carbonization and premature bearing failure.
+   3. Once the cool-down period is complete, rotate the ignition switch from the RUN position to the OFF
+      position.
+         a. Remove the key to prevent unauthorized starting or battery drain.
+
+
+
+
+Premier Pump & Power, LLC                           7                        Quick Start Manual / March 2026
+               Starting the Engine Using the Autostart Controller
+When equipped, the Auto Start controller automatically manages engine cycles using external sensors. This
+system is compatible with standard Mechanical Float Switches (normally open, weighted) or Submersible
+Liquid Level Transmitters (4-20mA).
+Sensor Configuration
+Receptacles for these sensors are typically located on the bottom of the control panel.
+   • Use a pair of weighted floats for "pump down" operations. We recommend color-coding them for
+       clarity:
+           o YELLOW (High Float): Set at the high-water mark; provides the START signal.
+           o RED (Low Float): Set at the low-water mark; provides the STOP signal.
+   • A submersible transmitter can be connected to the dedicated 4-20mA receptacle if precise level
+       monitoring is preferred.
+
+
+
+
+System Activation
+DANGER: When in AUTO mode, the engine will start WITHOUT WARNING once the water reaches the
+high-level mark. Ensure all personnel are clear of the unit and all guards are secure before leaving the site.
+
+    1. Rotate the ignition key to the AUTO position.
+    2. The system will perform a self-test and display the
+       start-up screen.
+    3. Power Save Mode: To conserve battery, the display
+       will go dormant after approximately 120 seconds. The
+       system remains fully functional while the screen is
+       off; a red LED will blink once every 10 seconds to
+       indicate "Standby" status.
+
+
+
+
+Premier Pump & Power, LLC                               8                         Quick Start Manual / March 2026
+Operational Test Procedure
+To verify the Auto Start logic is functioning correctly, perform the following test:
+   1. Set the control panel Start/Stop Input to “Float(s)”.
+   2. Rotate key to AUTO. Red standby LED illuminates.
+   3. Simulate LOW.
+          a. Use a jumper wire to short Pins 2 & 3 of the LOW-LEVEL FLOAT receptacle.
+   4. Simulate HIGH.
+          a. Use a jumper wire to short Pins 1 & 4 of the HIGH-LEVEL FLOAT receptacle.
+
+
+
+
+   5. The display will wake up and show: “Engine Start in X:XX”.
+
+
+
+
+   6. The engine will start after the programmed delay (default is 10 seconds).
+To stop the engine: Remove the float plugs or rotate the ignition key to OFF.
+
+Premier Pump & Power, LLC                                9                         Quick Start Manual / March 2026
+

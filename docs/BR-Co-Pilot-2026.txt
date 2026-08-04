@@ -1,0 +1,255 @@
+SOURCE: Cornell Co-Pilot — IoT pump monitoring/telematics accessory device (mounts on a pump, not tied to one specific pump model).
+
+CORNELL PUMP COMPANY
+
+CO-PILOT™
+INDUSTRIAL INTERNET OF THINGS PUMP MONITOR
+CO-PILOT™ SPECIFICATIONS
+
+
+
+                  Connect via Cell
+                  Network
+
+
+
+
+                           5 Sensor Inputs
+
+
+
+
+                                        Remote Control
+
+
+
+
+THE POWER OF IOT                                                 MONITORING AT YOUR FINGER TIPS
+Cornell Co-Pilot is a telematics monitoring system that          Easily monitor your pump’s performance and get
+mounts on your pump and is externally powered by 12-24           remote control through your PC and mobile apps
+VDC via battery or wired connection. Co-Pilot harnesses          available for iOS and Android. Receive alerts for out-of-
+the power of IoT (Internet of Things) by delivering you          condition parameters and view the GPS location of the
+the control and data you need to maximize your pump’s            pump(s). Set up user accounts for employees and end
+efficiency, compare data across multiple pumps, and              users in one convenient platform.
+manage maintenance all from your phone, tablet, or PC. We
+at Cornell pride ourselves in providing quality, user-friendly   CORNELL CO-PILOT ALLOWS YOU TO:
+pump monitoring solutions that reflect our dedication to
+cutting-edge design and meeting customer needs.                     GPS location and history
+                                                                    Flow rate & accumulation with compatible flow
+USE THE CO-PILOT TO:                                                 meter
+                                                                    Suction & discharge pressure
+   Plan maintenance
+                                                                    Radial & axial vibration
+   Check operation with real-time pump data, and
+                                                                    Temperature
+    monitor performance degradation and critical
+                                                                    Remote start/stop and adjust RPM
+    conditions.
+                                                                    Engine/Motor data
+   Get alerts from out-of-condition operation
+                                                                    Operation hours
+   Reduce manual inspections
+                                                                    Fluid levels
+   Reduce warranty claims
+                                                                 *Requires external sensors; contact Cornell for details.
+   Improve efficiency
+   Compare data across multiple pumps
+   Better asset management                                        PART OF RPM2 ASSET
+   Cloud monitor single and multiple pumps                        MANAGEMENT SYSTEM
+                                       CO-PILOT™ SPECIFICATIONS
+                                               PAGE HEADING
+                                              TECHNICAL SPECIFICATIONS
+                                              COMMUNICATION
+                                                4G LTE cellular cloud connectivity
+                                                Monitor all connected pumps from a single app
+                                                GPS Location Information
+
+                                              ON –BOARD MONITORING
+                                                3-axis vibration monitoring [Inch/Sec]
+                                                Temperature ±5°F / ±2.7°C
+                                                Modbus (RS-48S)
+                                                Up to 5 additional inputs to connect external sensors
+
+                                              NOTIFICATIONS
+                                                Parameter threshold cross
+                                                Basic and Dynamic Geo-Fence Location
+                                                Service Hours reached
+Screenshots from the mobile Co-Pilot app.
+                                                Pump Start/ stop
+                                                Operational Engine/Motor alerts
+                                                And more
+
+                                              DIMENSIONS/ OPERATIONS/STANDARDS
+                                                3.4” x 3.4” x 1.9” (86mm x 86mm X 48mm)
+                                                Robust insulated enclosure
+                                                IP65 compliant (dust tight and protected against
+                                                 water from a nozzle)
+                                                FCC Part 15 and RoHS compliant
+                                                Temperatures from -22°F/ -30°C to 158°F/70°C
+
+                                              POWER
+                                                External DC power: 12-24 VDC
+                                                500mA MAX
+                                                Avg. 70mA @VDC
+Co-Pilot desktop version screenshot.
+
+
+
+
+                                              Get started at
+                                              CO-PILOT.CORNELLPUMP.COM
+CORNELL PUMP COMPANY
+
+MARKET & PRODUCT LINE
+
+
+                                                                CORNELL PUMP COMPANY                                        CORNELL PUMP LLC                                                             CORNELL PUMP COMPANY                                                      CORNELL PUMP COMPANY                                              CORNELL PUMP COMPANY                                                        CORNELL PUMP COMPANY             CORNELL PUMP COMPANY
+ CORNELL PUMP COMPANY
+
+ AGRICULTURE                                                    FOOD INDUSTRY
+                                                                PUMPS FOR TRANSPORT AND PROCESSING
+                                                                                                                            INDUSTRIAL PAGEPAGE
+                                                                                                                                             HEADING
+                                                                                                                                                HEADING
+                                                                                                                                                                                                         MINING                           PAGE
+                                                                                                                                                                                                                                             PAGE
+                                                                                                                                                                                                                                               HEADING
+                                                                                                                                                                                                                                                  HEADING
+                                                                                                                                                                                                                                                                                   MUNICIPALITIES
+                                                                                                                                                                                                                                                                                             MUNICIPAL
+                                                                                                                                                                                                                                                                                             PAGE HEADING
+                                                                                                                                                                                                                                                                                                       PUMPS
+                                                                                                                                                                                                                                                                                                                                                     WATER TRANSFER
+                                                                                                                                                                                                                                                                                                                                                     HYDRAULIC FRACTURING / FOR OIL & GAS APPLICATIONS
+                                                                                                                                                                                                                                                                                                                                                                                                                                 REFRIGERATION
+                                                                                                                                                                                                                                                                                                                                                                                                                                 HT & CB SERIES
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  DURAPRIME PUMPS
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  FOR GENERAL APPLICATIONS
+ IRRIGATION AND MANURE PUMPS
+
+
+
+
+                                                                                                                                                                                                                                           EFFICIENT BY DESIGN
+
+
+                                                                                                                                                                                 Cornell Pump LLC | #                                                   Cornell Pump Company | #                                             Cornell Pump LLC | #
+
+
+
+
+AGRICULTURE                                                    FOOD PROCESS                                                 INDUSTRIAL                                                                              MINING                                                           MUNICIPAL                                                             WATER                                                                REFRIGERATION                    CONSTRUCTION
+                                                                                                                                                                                                                                                                                                                                                          TRANSFER
+                                                                CORNELL PUMP COMPANY
+
+                                                                SLURRY SM
+                                                                       PUMPS
+ CORNELL PUMP COMPANY
+                                                                          SERIES
+                                                                             PAGESLURRY
+                                                                                   HEADING
+                                                                                        PUMPS                                                                                                                                                                                                                                                                                    CLEAR
+                                                                                                                                                                                                                                                                                                                                                                                   PAGELIQUID
+                                                                                                                                                                                                                                                                                                                                                                                         HEADING
+                                                                                                                                                                                                                                                                                                                                                                                              PUMPS
+                                                                                                                             CORNELL PUMP LLC
+
+ SLURRY PUMPS                                                                                                                MANURE PUMPS                                                                CUTTER PUMPS
+                                                                                                                                                                                                                                                                                   CORNELL PUMP COMPANY                                              CORNELL PUMP COMPANY                                                        CORNELL PUMP COMPANY
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                 MX SERIES
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  CORNELL PUMP COMPANY
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  N SERIES
+                                                                HEAVY DUTY SM SERIES
+                                                                                                                                                                                                         SOLUTIONS TO PLUGGING PROBLEMS
+                                                                                                                                                                                                                                                                                   SELF-PRIMING PUMPS
+                                                                                                                                                                                                                                                                                   STX, STL & STH SERIES
+                                                                                                                                                                                                                                                                                                                                                     CLEAR LIQUID PUMPS
+                                                                                                                                                                                                                                                                                                                                                                                                                                 HIGH HEAD PUMPS                 MX SERIESPUMPS
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                  FOR SOLIDS HANDLING
+                                                                                                                             IMAGE COURTESY OF PUCK ENTERPRISES
+
+
+
+
+                                                                                                                                                                                                                                                                                                                           FIVE YEAR
+                                                                                                                                                                                                                                                                                                                           WARRANTY
+
+
+
+
+                                                                                                     Cornell Pump LLC | #                                                                                                                                                                                                                                                                                Cornell Pump LLC | #
+
+
+
+
+             SLURRY                                               SLURRY SM                                                                 MANURE                                                               CUTTERS                                                           SELF PRIMING                                                     CLEAR LIQUIDS                                                                     MX SERIES                            N SERIES
+
+ CORNELL PUMP LLC                                               CORNELL PUMP COMPANY                                        CORNELL PUMP COMPANY                  HYDRAULIC
+                                                                                                                                                                        PAGE HEADING
+                                                                                                                                                                            SUBMERSIBLES                 CORNELL PUMP COMPANY                                                                                                                        CORNELL PUMP COMPANY                                                                                         CORNELL PUMP COMPANY
+
+ Z-SERIES                      PAGE
+                                  PAGE
+                                    HEADING
+                                       HEADING
+                                                                END GUN                                                     HYDRAULIC SUBS                                                               IMMERSIBLE                                                                CORNELL PUMP COMPANY            PAGE HEADING
+                                                                                                                                                                                                                                                                                                                                                     RUN-DRY™                                                                                                     CYCLOSEAL®
+                                                                BOOSTER PUMP                                                                                                                                                                                                       CD4MCU                                                                                                                                        CORNELL PUMP COMPANY             PATENTED, LONG LASTING, FLUSHLESS SEALING SYSTEM
+
+                                                                FOR CENTER PIVOT IRRIGATION
+                                                                                                                                                                                                                                                                                   FOR CORROSIVE & ABRASIVE APPLICATIONS
+                                                                                                                                                                                                                                                                                                                                                                                                                                 PRIMING SYSTEMS
+                                                                                                                                                                                                                                                                                                                                                                                                                                 REDI-PRIME® AND VENTURI PRIME
+
+
+
+
+                                                                                                                                                                                                                                                                                                                              CD4MCu PUMPS
+                                                                                                                                                                                                                                                                                                                               IN STOCK
+                                                                                                                                                                                                                                                                                                                             AND READY TO SHIP
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       30
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                        YEARS
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       CYCLOSEAL®
+
+
+
+
+                                        Cornell Pump LLC | #                                                                                                                      Cornell Pump LLC | #
+
+
+
+
+          Z-SERIES                                                           EDGE™                                           HYDRAULIC                                                                   IMMERSIBLE                                                                         CD4MCU                                                      RUN-DRY™                                                                          PRIMING                 CYCLOSEAL®
+                                                                                                                               SUBS                                                                                                                                                                                                                                                                                                       SYSTEMS
+
+
+
+
+                                                                                                                                                                                                          Cycloseal® and Redi-Prime® are Registered Trademarks of Cornell Pump Company.
+
+                                                                                                                                                                                                                      Cornell pumps and products are the subject of one or more of the following U.S.
+                                                                                                                                                                                                                                                                               and foreign patents:
+
+                                                                                                                                                                                                                                                                                     6,074,554; 6,036,434; 6,079,958; 6,309,169; 6,104,949; 12,270,421 B2
+
+
+                                                                                                                                                                                                         SEE ALL LITERATURE AT CORNELLPUMP.COM/DOCUMENT-LIBRARY
+                                                                                                                                                                                                                                                   25 - IO - BR - 001
+
+
+
+
+ CORNELLPUMP.COM                                                                                                                                                                                                                                                                                                           AUTHORIZED CORNELL PUMP DISTRIBUTOR
+ ©2025 CORNELL PUMP COMPANY
+
+                                                                                                                                                                         Cornell Pump Company
+                                                                                                                                                                         Clackamas, Oregon, USA
+                                                                                                                                                                         P: +1 (503) 653-0330
+                                                                                                                                                                         F: +1 (503) 653-0338
+

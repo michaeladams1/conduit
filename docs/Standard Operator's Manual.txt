@@ -1,0 +1,1557 @@
+SOURCE: Premier Pump & Power — Standard Operator's Manual (general operation, maintenance, and troubleshooting).
+
+OPERATOR’S
+ MANUAL
+                    REV: 2.00
+                   March 2026
+
+
+
+
+      Premier Pump & Power, LLC
+
+  7600 NE 47th Ave. Vancouver, Washington 98661
+     Website: www.premierpumpandpower.com
+               Phone: 360.574.4519
+                Fax: 772.679.5989
+          E-mail: info@premier-pump.net
+                            Legal Disclaimer and Terms of Use
+   YOUR WARRANTY MAY BE VOID IF INSTRUCTIONS ARE NOT FOLLOWED PROPERLY
+
+Document Control and Revisions
+This document is subject to change. Premier Pump & Power (PPP) reserves the right to revise, replace, or
+render this manual obsolete at any time without prior notice.
+   •   Before operating any equipment, it is the sole responsibility of the owner and user to ensure they possess
+       the most current version of this manual.
+   •   If there is any uncertainty regarding the document's status, contact PPP for written confirmation.
+   •   Unless governed by a separate express written agreement, PPP is under no obligation to proactively
+       furnish revisions or modifications to the owner or user.
+
+Equipment Modifications
+Premier Pump & Power reserves the right to modify, change, or improve its equipment, including hardware and
+integrated software, at any time without notice. The information provided herein is believed to be accurate but
+serves as a guide only; it is not a substitute for professional judgment or site-specific expertise.
+
+Operational Requirements & Training
+This equipment must be operated, serviced, and upgraded only by trained professionals. Unauthorized handling
+or maintenance may result in equipment failure, injury, or death. Premier Pump & Power’s liability regarding
+the equipment and its use is strictly limited to the terms stated in the Limited Warranty provided in this manual.
+
+Fluid Compatibility & Prohibited Use
+Premier Pump & Power packages are engineered exclusively for aqueous solutions and aqueous waste.
+Pumping any substance other than those specified, or any fluid containing hazardous materials in any
+concentration, is strictly prohibited.
+   •   Any such use is at the user’s sole risk.
+   •   Use with unauthorized substances will void the warranty and absolve Premier Pump & Power of all
+       liability for damages or losses, whether direct or indirect.
+
+Limitations of Liability
+Premier Pump & Power shall not be held liable for any loss, cost, expense, or damage arising from:
+   •   Misuse: Operation of the equipment outside of its intended design or safety parameters.
+   •   Aftermarket Parts: The use of non-OEM or unauthorized replacement parts.
+   •   Tampering: Any instance where serial numbers have been amended, defaced, or removed.
+
+
+
+
+Premier Pump & Power, LLC                               2                          Operator’s Manual / March 2026
+                                                               Table of Contents
+Legal Disclaimer and Terms of Use ....................................................................................................................... 2
+Replacement Parts Request and VIN Tag Location ............................................................................................... 4
+Freezing Weather Effect on Pump Systems............................................................................................................ 5
+Operation of the Pump ............................................................................................................................................ 6
+Running the Unit ..................................................................................................................................................... 7
+General Maintenance Guidelines ............................................................................................................................ 8
+Maintenance Recommendations ........................................................................................................................... 10
+Maintenance Safety Instructions ........................................................................................................................... 11
+Eliminating Pump Problems ................................................................................................................................. 13
+Troubleshooting the Engine .................................................................................................................................. 15
+Troubleshooting the Pump .................................................................................................................................... 18
+Troubleshooting the Priming Systems .................................................................................................................. 19
+Lifting / Rigging ................................................................................................................................................... 20
+Check Valves ........................................................................................................................................................ 21
+   Troubleshooting ................................................................................................................................................ 22
+   Maintenance ...................................................................................................................................................... 22
+Appendix ............................................................................................................................................................... 23
+   Appendix 1: Diesel Engines .............................................................................................................................. 24
+   Appendix 2: Electric Motor............................................................................................................................... 25
+   Appendix 3: Priming Systems ........................................................................................................................... 26
+   Appendix 4: Control Panels .............................................................................................................................. 32
+   Appendix 5: Telematic Systems........................................................................................................................ 33
+   Appendix 6: Skid Units ..................................................................................................................................... 34
+   Appendix 7: Trailer Units ................................................................................................................................. 35
+   Appendix 8: Transmissions ............................................................................................................................... 36
+   Appendix 9: Tire Safety .................................................................................................................................... 37
+   Appendix 10: Wiring Specifications ................................................................................................................. 50
+   Appendix 11: NHTSA Notification Statement ................................................................................................. 51
+Warranty Procedure .............................................................................................................................................. 52
+   Limited Warranty .............................................................................................................................................. 52
+   Conditions and Terms of Sale ........................................................................................................................... 53
+
+
+
+
+Premier Pump & Power, LLC                                                           3                                        Operator’s Manual / March 2026
+               Replacement Parts Request and VIN Tag Location
+Ordering Parts and Support
+Direct all requests for replacement parts or technical inquiries to the manufacturer’s Sales Department.
+
+Design Improvements and Identification
+Because we continuously improve our equipment's form and function, design revisions are frequent. To ensure
+you receive the correct information or replacement components, you must provide the following information
+when contacting us:
+   •   Unit Manufacturing (Mfg.) Serial Number
+   •   Engine Serial Number
+   •   Pump Serial Number
+
+Locating Serial Numbers
+This information is located on the VIN Tag, which is affixed to the driver’s side of the trailer near the tongue
+(refer to the photo below for the exact location).
+
+
+
+
+Premier Pump & Power, LLC                               4                           Operator’s Manual / March 2026
+                      Freezing Weather Effect on Pump Systems
+During freezing conditions, strict precautions must be taken to prevent catastrophic pump failure and equipment
+damage. Follow these guidelines whenever ambient temperatures are at or below 32°F (0°C).
+
+Fluid Dynamics & Freezing
+It is a dangerous misconception that flowing fluid will not freeze. At subzero temperatures, pumpage is subject
+to freezing regardless of the following conditions:
+     • Flow State: Whether the flow is steady (constant velocity) or unsteady (variable velocity).
+     • Viscosity: While viscosity measures internal fluid friction, even highly viscous "thick" fluids can freeze
+         and hamper flow.
+     • Motion Type: Fluids will freeze regardless of whether the flow is rotational (turbulent/spinning),
+         irrotational (non-spinning), or shear (uneven velocities in the same direction).
+
+Draining the System (During Downtime)
+To prevent ice expansion from cracking internal components, the system must be completely void of liquid
+when not in use:
+   • Pump Volute & Suction Line: Remove the drain plug or open the fittings (typically a ball valve) at the
+       bottom of the volute to drain all fluid.
+   • Priming Chamber: Ensure the chamber is fully drained. Residual fluid can freeze, rendering the float
+       or linkage inoperable.
+   • Vacuum Priming Systems: Units equipped with vacuum primers must have the diaphragm housing
+       drained to prevent damage to the elastomer membrane.
+   • Discharge Lines: Provide drainage for any "low spots" in the discharge piping where liquid may collect.
+       If lines are disconnected for drainage, ensure they are properly re-plumbed before next use.
+
+Pre-Start Inspections
+   • Engine Exhaust: Verify that the engine exhaust rain cap opens and closes freely. Ice or debris
+       obstruction can cause exhaust restriction, leading to rapid soot accumulation within the engine and/or
+       enclosure.
+   • Freeze Check: If fluid has already frozen inside the volute, DO NOT START THE ENGINE. Starting
+       a frozen pump can shear shafts or destroy impellers.
+
+Thawing & Preventative Heating
+If the system is frozen, the volute must be thawed completely before operation.
+     • Do not use high-temperature heat sources to thaw the pump. Rapid temperature changes can cause the
+        volute to crack.
+   •   Use a high-watt heat lamp placed under the volute and discharge check valve or apply controlled heat
+       tracing with insulation.
+   •   When using heat tape on pipes, apply at least two tapes (one on each side) and wrap with insulation
+       secured by zip-ties. Always follow the heat tape manufacturer’s specific instructions.
+
+                    Protect your investment: If the temperature drops, drain the pump!
+
+Premier Pump & Power, LLC                               5                          Operator’s Manual / March 2026
+                                        Operation of the Pump
+Install the unit in accordance with company policy, job site requirements, and Environmental Protection Agency
+(EPA) guidelines. Ensure appropriate fluid containment measures are in place before operation.
+
+Flow Control
+The pump flow rate may be adjusted by installing an appropriate valve (butterfly, pinch, or knife) on the
+discharge side of the pump.
+CAUTION: NEVER throttle the pump on the suction side. Restricting the intake will cause cavitation,
+leading to catastrophic failure of the volute, impeller, seals, or bearings.
+
+
+
+
+       Figure 1A: Butterfly Valve                Figure 1B: Pinch Valve               Figure 1C: Knife Valve
+
+Piping and Support
+Once the pump is properly leveled (see Figure 2) and plumbed, ensure
+all suction and discharge piping is adequately supported (cribbed).
+Proper support prevents mechanical stress on the pump, piping, hose
+flanges, and clamping mechanisms.
+                                                                                     Figure 2: Pump Leveled
+Foundation and Load Distribution
+Cribbing material must be placed on a firm, level foundation to properly disperse the load weight (see Figure 3).
+   • Ensure the area is free of debris that could prevent the cribbing from resting firmly on the ground (see
+       Figure 4).
+   • For maximum stability, the height of the cribbing must not exceed two times the width of its base.
+
+
+
+
+                     Figure 3: Firm Foundation                                 Figure 4: Cribbing
+
+Inspection and Maintenance
+Regularly inspect all supports during unit operation. Monitor the cribbing for the following signs of failure or
+instability:
+    • Settling or slippage
+    • Cracking or bending
+    • Crushing or structural deformation
+
+
+Premier Pump & Power, LLC                                  6                        Operator’s Manual / March 2026
+                                              Running the Unit
+For instructions regarding running the unit, refer to the Quick Start Manual. The Quick Start Manual contains:
+    • Pre-start checklist
+    • Startup procedures
+    • AutoStart Controller information
+    • Normal operating parameters
+    • Shutdown procedures
+
+Scan the Quick Start Manual QR code on the unit or click the link below to view the Quick Start Manual.
+
+
+
+
+       Click Here to Access the
+         Quick Start Manual
+Premier Pump & Power, LLC                                   7                            Operator’s Manual / March 2026
+                              General Maintenance Guidelines
+General Maintenance Resources
+For detailed periodic maintenance, repairs, or troubleshooting, refer to the specific owner/operator manuals for
+the engine, pump, and control panel.
+    • These manuals are shipped with the unit and are stored inside the document holder.
+    • Contact the manufacturer to request replacement manuals.
+
+Routine Operational Checks
+Perform regular inspections to monitor the condition of the pump, coupling, stuffing box, and bearings.
+Immediately investigate any of the following:
+    • Noise: Any slight or sudden increase in operating volume.
+    • Heat: Any unusual temperature rise in mechanical components.
+Refer to the Troubleshooting section for diagnostic assistance.
+
+Mechanical Seal Maintenance
+The mechanical seal prevents air and abrasive particles from entering the stuffing box. It is designed for
+prolonged dry-running but requires continuous lubrication.
+    • The seal relies on a constant oil supply for cooling and lubrication. Never operate the pump without
+       verifying that the seal oil reserve is full.
+    • When servicing or replacing the seal, ensure the seal chamber remains entirely free of dirt and debris.
+
+
+
+
+Premier Pump & Power, LLC                               8                          Operator’s Manual / March 2026
+Bearing Lubrication
+The pump-end bearings are grease-lubricated. Proper grease volume is critical to prevent overheating.
+   •   Maintain the bearing housing at approximately one-third (1/3) full of high-quality ball bearing grease.
+   •   Do not overfill the housing; excess grease will cause the bearings to run hot.
+   •   Add a small amount of grease every 2 to 8 months. If necessary, remove old grease to ensure the
+       housing does not exceed the 1/3 capacity limit.
+   •   Use extreme care to prevent dirt or grit from contaminating the grease.
+
+Wear Ring Clearance and Efficiency
+The clearance between the suction cover and the impeller significantly impacts operating efficiency.
+Replaceable wear rings are installed to maintain this gap.
+   • Inspect wear rings regularly. Replace the rings when the clearance increases by approximately 0.020”
+       (0.5 mm) beyond the factory specification.
+
+
+
+
+Premier Pump & Power, LLC                              9                          Operator’s Manual / March 2026
+                            Maintenance Recommendations
+                            INTERVAL                      NOT
+       ITEM                 SCHEDULE           OK         OK               NOTES
+
+ Check Valves
+
+
+ Air Compressor
+
+
+ Vacuum Pump
+
+
+ Jack Maintenance
+
+
+ Brake
+ Maintenance
+
+
+ Axle
+ Maintenance
+
+
+
+
+                                 This section is under construction
+
+
+
+
+Premier Pump & Power, LLC                       10                    Operator’s Manual / March 2026
+                              Maintenance Safety Instructions
+READ AND UNDERSTAND ALL SAFETY PRECAUTIONS BEFORE PERFORMING REPAIRS.
+Failure to follow these instructions can result in serious injury or death. Specific precautions are included in
+individual procedures where applicable.
+
+
+
+
+Work Area Safety
+   •   Ensure the work area is dry, well-lit, ventilated, and free from clutter.
+   •   Account for all tools and parts.
+   •   Eliminate all ignition sources and hazardous substances.
+   •   Constantly monitor the area for developing hazardous conditions.
+
+Personal Protection
+   •   Always wear protective eyewear and safety shoes when operating or servicing the machine.
+   •   Rotating parts can cause cuts, mutilation, or strangulation.
+          o Do not wear loose-fitting clothing.
+          o Remove all jewelry before beginning work.
+   •   Never perform repairs while fatigued or under the influence of alcohol, drugs, or medication.
+
+Premier Pump & Power, LLC                                11                        Operator’s Manual / March 2026
+Electrical and Mechanical Isolation
+   •   Battery: Disconnect the negative (–) battery cable first and discharge all capacitors before starting repairs.
+   •   Lockout/Tagout: Place a “DO NOT OPERATE” tag on the controls.
+   •   Manual Rotation: Use only approved engine barring techniques to rotate the engine.
+          o NEVER attempt to rotate the crankshaft by pulling or prying on the fan. This can cause personal
+              injury or lead to catastrophic fan failure.
+
+Pressurized Systems and Fluids
+   •   Allow the engine to cool before slowly loosening the filler cap to relieve pressure.
+   •   Relieve all pressure in air, oil, fuel, and cooling systems before disconnecting any lines or fittings.
+   •   Never check for pressure leaks with your hands. High-pressure oil or fuel can penetrate the skin, causing
+       severe injury.
+   •   Be alert for hot components and fluids in lines, tubes, and compartments.
+
+Lifting and Support
+   •   Never work under a component supported only by a jack or hoist. Always use certified blocks or stands.
+   •   Use a hoist or seek assistance for components weighing more than 23 kg (50 lb).
+   •   Ensure all chains, hooks, and slings are in good condition and rated for the load. Position hooks correctly
+       to avoid side-loading; use a spreader bar when necessary.
+
+Materials and Environment
+   •   Review the Safety Data Sheets (SDS) for all hazardous materials.
+   •   Used engine oil may be carcinogenic and reprotoxic. Avoid inhalation, ingestion, or prolonged skin
+       contact.
+   •   Dispose of all hazardous waste in accordance with local and federal environmental regulations.
+   •   Always replace fasteners with the same grade or class. Never use a fastener of lesser quality.
+
+
+
+
+Premier Pump & Power, LLC                               12                           Operator’s Manual / March 2026
+                                 Eliminating Pump Problems
+Understanding Cavitation
+Cavitation is the formation and subsequent collapse of
+vapor bubbles within a liquid. This occurs in areas of
+relatively low pressure around an impeller. When
+these bubbles implode, they trigger intense
+shockwaves that cause significant erosion to the
+impeller and pump housing.
+Diagnostic Signs:
+    • A distinct "popping" sound.
+    • A noise like "pumping marbles" or gravel.
+    • Excessive vibration
+
+
+
+
+Suction Cavitation
+Suction cavitation occurs when the pump is "starved" of fluid due to low pressure or high vacuum conditions at
+the suction side.
+ How it happens: Bubbles form at the "eye" of the impeller. As they move toward the discharge side, they are
+ compressed back into liquid, causing them to implode against the impeller face.
+ Damage Profile: The impeller will show pitting or
+ missing material, eventually resembling a sponge.
+ Common Causes
+    • Clogged filters or strainers.
+    • Blockage in the suction piping.
+    • Operating the pump too far to the right on the
+        pump curve.
+    • Poor piping design or excessive suction lift.
+    • Failure to meet Net Positive Suction Head
+        (NPSH) requirements.
+
+Discharge Cavitation
+Discharge cavitation occurs when discharge pressure is extremely high, typically when the pump is operating at
+less than 10% of its Best Efficiency Point (BEP).
+How it happens: High pressure prevents fluid from exiting the pump, forcing it to recirculate internally. This
+high-velocity flow between the impeller and housing creates a vacuum at the housing wall, leading to bubble
+formation and implosion.
+Damage Profile: Premature wear of impeller tips and the pump housing. In extreme cases, the resulting
+shockwaves can break the impeller shaft.
+
+
+
+
+Premier Pump & Power, LLC                                13                       Operator’s Manual / March 2026
+Operating Procedures & Prevention
+Start-up and Valve Control
+To prevent shaft deflection and seal failure, follow these protocols:
+   •   Ensure suction valves are fully open during operation. Never use a suction valve to throttle flow.
+   •   Use a "soft start" protocol rather than jumping immediately to full capacity. This prevents the shaft from
+       deflecting and contacting the stuffing box or casing.
+   •   Avoid partially or completely closing the discharge valve for extended periods. While common for flow
+       control, it can cause high radial loads, shaft deflection, increased heat, and severe vibration.
+Efficiency and Wear Rings
+   • Wear rings separate high- and low-pressure
+       zones.
+   • As operating hours accumulate, the clearance
+       between the wear ring and impeller increases.
+       This allows high-pressure liquid to leak into
+       low-pressure areas, significantly reducing
+       pump efficiency.
+           o The figure to the right is an example of
+               excessive wear.
+
+
+Maintenance: Seals and Piping
+Mechanical seals are precision components. The elastomers (boots and O-rings) and mating surfaces are easily
+compromised.
+   • Prevent contact with dirt, grease, or skin oils. Contaminants from handling can cause seal misalignment
+      and premature failure.
+   • Do not scratch or mar the parallel mating surfaces during installation.
+
+
+
+
+       Damaged seal due to improper installation                        Seal with gas implosion pitting
+Piping Design
+   • Avoid inverted “U” fittings, which trap air.
+   • Avoid sharp elbows immediately preceding the pump suction, as they produce turbulence that leads to
+       cavitation.
+   • In vertical pumps, the stuffing box is often at the highest point, which traps vapor. This vapor must be
+       bled or vented to prevent the seal from running dry. Ensure the seal flush remains unobstructed and
+       active.
+Premier Pump & Power, LLC                               14                           Operator’s Manual / March 2026
+                                Troubleshooting the Engine
+   Problem                    Possible causes                               Possible solutions
+    Engine      Engine cranking speed is too low             Check the engine cranking speed with a
+ cranks, will                                                handheld tachometer. If the cranking speed
+  not start,                                                 is less than 150 rpm, refer to engine manual
+  producing     Air in the fuel system                       Bleed the fuel system and check for leaks
+   exhaust      Fuel supply is not adequate                  Check the downcomer, its filter and position
+    smoke                                                    within the fuel tank, and orientation of in-line
+                                                             fuel check valve
+              Loose or disconnected CAC pipes                Tighten CAC pipes
+              Fuel filter/water separator has excessive      Drain and/or remove contaminants
+              contaminants
+              Fuel transfer pump malfunctioning              Inspect the fuel transfer pump
+              Intake air restriction is high                 Remove restriction
+              Fuel contaminated                              Replace with clean fuel
+              Throttle linkage adjustment incorrect          Check the throttle linkage
+              Exhaust is restricted                          Clear
+              Valves or injectors misadjusted                Adjust
+              Injector is malfunctioning                     Inspect and replace
+   Engine     No fuel                                        Fill
+cranks slowly Engine starting under load                     Remove load first, then start
+  or will not Air in the fuel system                         Bleed the fuel system
+ start and is
+     not      Fuel transfer pump malfunctioning              Inspect fuel system and replace defective
+  producing                                                  components
+   exhaust    Crank case oil viscosity is too heavy          Use correct viscosity
+    smoke     Sensors giving false readings: oil pressure,   Check for continuity and proper operation
+              coolant temperature, liquid level, etc.
+   Engine     Low engine oil                                 Add oil
+   knocks     Engine Overheating                             Remove load first, then start
+              Engine cold or low coolant temperature         Check thermostat
+   Lack of    Engine overloaded                              Reduce loading
+    power     Clogged air or fuel filters                    Clean and replace
+              Engine ECU programming                         Check for proper software
+              Turbocharger malfunction                       Check for proper operation
+              Fuel injector pump timing is not correct       Adjust injector timing.
+
+
+
+
+Premier Pump & Power, LLC                            15                      Operator’s Manual / March 2026
+                              Troubleshooting the Engine Continued
+
+  Problem                      Possible Causes                                 Possible Solutions
+  Coolant      Coolant level is low                              Inspect for leaks and repair, then replace lost
+temperature                                                      coolant
+  is above     Radiator fins are damaged or obstructed with      Inspect, clean and repair
+   normal      debris
+               Cooling system hose is collapsed, restricted or   Inspect the radiator hoses
+               leaking
+               Lubricating oil level is low                      Bring to correct level
+               Fan shroud is damaged or missing or the air       Inspect shroud and recirculation baffles,
+               recirculation baffles are damaged or missing      repair as necessary
+
+               Fan drive belt is loose, tight or not in          Tension and align
+               alignment
+               Radiator cap is not correct, is malfunctioning,   Check the radiator pressure cap
+               or has low-pressure rating
+               Temperature gauge is malfunctioning               Check and/or replace the temperature gauge
+               Thermostat is not correct or is malfunctioning    Check thermostat for correct operation
+
+               Engine's water pump is malfunctioning           Check the water pump and replace if
+                                                               necessary
+               Air in the cooling system                       Inspect and/or bleed the cooling system
+               Cooling system is contaminated with dirt, scale Clean the cooling system
+               or sludge
+  Low oil      Lubricating oil level is low                    Check and replenish lubricating oil
+  pressure     Lubricating oil pressure sensor or gauge is     Check the oil pressure switch or gauge for
+               malfunctioning                                  correct operation
+               Lubricating oil is diluted with contaminants    Change
+               Lubricating oil leak                            Inspect the engine for external oil leaks.
+                                                               Tighten the cap screws, pipe plugs and
+                                                               fittings. Replace gaskets if necessary.
+               Lubricating oil high-pressure relief valve is   Inspect the high-pressure relief valve
+               malfunctioning
+               Lubricating oil filter is plugged               Change the oil and filters
+High oil       Viscosity is too light (thin)                   Change to heavier viscosity (thicker)
+consumption    Oil leaks                                       Check gaskets, lines and drain plugs
+               Defective turbocharger                          See authorized engine dealer
+
+
+
+
+Premier Pump & Power, LLC                             16                         Operator’s Manual / March 2026
+                                 Troubleshooting the Engine Continued
+
+ Problem                     Possible Causes                                Possible Solutions
+Engine runs    Fuel contaminated                            Verify operation of engine with clean fuel in
+ rough or                                                   a temporary tank
+ misfires      Air in the fuel                              Bleed the fuel system and check for leaks
+               Fuel leak                                    Check the fuel lines, fuel connections and
+                                                            fuel filters for leaks
+               Fuel pump overflow valve is malfunctioning   Check and replace if necessary
+               Fuel lift pump is malfunctioning             Check pump output pressure and replace if
+                                                            necessary
+               Valve lash excessive                         Adjust valves. Make sure the push rods are
+                                                            not bent and/or rocker levers are not severely
+                                                            worn.
+               Fuel injector pump timing is not correct     Inspect injectors and replace if necessary
+               Fuel injector pump malfunctioning            With engine at TDC check and adjust the fuel
+                                                            timing
+ Engine runs   Low oil pressure                             Verify fluid level and continuity of wiring
+for a moment   Broken belt switch                           Replace & retention belt
+  and then     Loss of fuel system prime                    Manually prime
+   shuts off
+    Under-     Excessive engine idling                      Reduce idling time
+   charged     Defective battery or alternator              Test and replace
+    battery    Poor electrical connections                  Check B- connections esp. battery and engine
+                                                            ground strap
+  Starter      Low battery voltage                          Charge or boost (most ECU's and engine
+ motor will                                                 control panels require min. of 9-vdc)
+  not turn     Broken belt switch                           Replace & retention belt
+ motor or      Loss of fuel system prime                    Manually prime
+  does so
+   slowly
+
+
+
+
+Premier Pump & Power, LLC                            17                    Operator’s Manual / March 2026
+                                     Troubleshooting the Pump
+  Problem                        Possible causes                                   Possible solutions
+  No liquid     Pump is not primed                                  Check the priming system
+  delivered     Speed too low                                       Run engine at required power/speed
+                Sum of suction and discharge head greater than      Check the total head requirements against
+                rated head of pump                                  pump performance curve
+                Impeller rotation impeded                           Clean debris
+                Coupling failure between motor and pump             Inspect drive coupling and replace if warranted
+                Suction piping/strainer is plugged or leaking air   Clean debris and repair
+
+                Worn impeller and/or wear rings                     Inspect and replace as necessary
+                Worn mechanical seal                                Inspect and replace as necessary
+Not enough      Air leaks in suction or stuffing boxes.             Inspect and repair
+   liquid       Speed too low                                       Run engine at required power/speed
+delivered or    Sum of suction and discharge head greater than      Check the total head requirements against
+not enough      rated head of pump                                  pump performance curve
+ pressure
+                Impeller, suction hose, and/or strainer plugged     Clean debris
+
+                Mechanical defects                                  Inspect for replacement: shaft, bearings, wear
+                                                                    rings, impeller
+                End of suction hose not immersed deep enough        Add more hose or weight to the suction line
+                Air entering suction pipe                           Ensure suction hose is submerged to avoid
+                                                                    formation of vortex
+Pump works      Leak in the suction hose                            Repair
+ for a while    Sum of suction and discharge head greater than      Check the total head requirements against
+ then quits     rated head of pump                                  pump performance curve
+                Air or gases in liquid                              Check that the priming system is functioning
+                                                                    and for pump cavitation
+Pump takes      Speed too high                                      Reduce engine speed/power
+ too much       Head lower than rating; pumps too much liquid       Throttle the discharge of pump with a butterfly
+   power                                                            valve
+                Rotating element binds                              Inspect for replacement: shaft, bearings, wear
+                                                                    rings, impeller
+                Wearing rings worn                                  Inspect and replace wear rings as necessary
+ Pump noise     Misalignment between engine & pump end              Check coupling
+and vibration
+                Engine and/or pump end are loose                    Check engine and pump end mountings,
+                                                                    tighten mounting bolts if necessary
+                Impeller partially plugged                          Clean debris
+                Mechanical defects                                  Inspect for replacement: shaft, bearings, wear
+                                                                    rings, impeller
+                Suction or discharge pipe not anchored              Secure the suction and discharge piping
+
+                Pump is cavitating                                  Suction lift may exceed design
+ Premier Pump & Power, LLC                               18                        Operator’s Manual / March 2026
+                       Troubleshooting the Priming Systems
+Problem                        Possible causes                              Possible solutions
+No prime     Suction hose leak or clog                        Clean suction hose strainer, repair hose leaks
+             Vacuum pump drive belt or pulley keys broken     Replace key/belt
+ Low/no      Float stuck closed                               Clean
+ vacuum      Float linkage damaged                            Replace
+             Valve between vacuum pump and float box          Open
+             cover closed
+             Leak in air line between vacuum pump and float   Tighten fittings and/or replace
+             box cover
+             NRV on pump discharge not sealing                Inspect flapper and seating surface -
+                                                              clean/repair
+             Volute drain components leaking                  Close valve and/or replace defective
+                                                              components
+             Vacuum pump draw has insufficient CFM            Measure input to determine course of action
+             Air lock on discharge side                       Relieve pressure by venting
+             RPM of vacuum pump too low                       Increase
+             Vacuum pump diaphragm drain valve is open        Close valve
+
+
+
+
+Premier Pump & Power, LLC                         19                         Operator’s Manual / March 2026
+                              Lifting / Rigging
+
+
+
+
+                            This section is under construction
+
+
+
+
+Premier Pump & Power, LLC                  20                    Operator’s Manual / March 2026
+                            Check Valves
+
+
+
+
+Premier Pump & Power, LLC        21        Operator’s Manual / March 2026
+Troubleshooting
+
+
+
+
+                            This section is under construction
+
+
+
+
+Maintenance
+
+
+
+
+                            This section is under construction
+
+
+
+
+Premier Pump & Power, LLC                  22                    Operator’s Manual / March 2026
+                                            Appendix
+Refer to the appendices below for detailed technical information regarding your pump package.
+
+Appendix 1: Diesel Engines
+Appendix 2: Electric Motor
+Appendix 3: Priming Systems
+Appendix 4: Control Panels
+Appendix 5: Telematic Systems
+Appendix 6: Skid Units
+Appendix 7: Trailer Units
+Appendix 8: Transmissions
+Appendix 9: Tire Safety
+Appendix 10: Wiring Specifications
+Appendix 11: NHTSA Notification Statement
+
+
+
+
+   Scan the pump manual QR code on the unit
+   for all other pump-specific information not
+              covered in this section.
+
+
+
+
+Premier Pump & Power, LLC                         23                      Operator’s Manual / March 2026
+                                  Appendix 1: Diesel Engines
+                      If you have engine like the one below, you have a diesel engine.
+                        Refer to the Engine Manual QR code for more information.
+
+
+
+
+Premier Pump & Power, LLC                           24                         Operator’s Manual / March 2026
+                                  Appendix 2: Electric Motor
+                      If you have engine like the one below, you have a diesel engine.
+                        Refer to the Engine Manual QR code for more information.
+
+
+
+
+Premier Pump & Power, LLC                           25                         Operator’s Manual / March 2026
+                                Appendix 3: Priming Systems
+The following priming systems are used by Premier Pump and Power:
+   •   Vacuum Pump
+           o Redi-Prime® (RP) Automatic Priming System
+           o Premier-Prime (PP) Automatic Priming System
+   •   Air Compressor
+           o Venturi-Prime (VP) Automatic Priming System
+           o Float-Prime (FP)
+   •   Hand Prime
+           o Hand Diaphragm Pump (HDP) – HP900
+
+
+
+
+Premier Pump & Power, LLC                         26                Operator’s Manual / March 2026
+3.1: Vacuum Pump
+3.1.1: Redi-Prime® (RP) Automatic Priming System
+The Redi-Prime® (RP) system is designed for high-speed, automatic priming with low maintenance
+requirements.
+System Operation
+   • The belt-driven vacuum pump (A) draws air from the suction spool (231) and separator assembly (B)
+      through the hose (421).
+   • As air is removed, the water column rises until the pump is fully flooded.
+   • The priming system remains active as long as the engine is running to ensure the pump stays primed
+      during operation.
+   • A discharge check valve (414) prevents the liquid from draining after shut-off, maintaining the prime for
+      the next start-up.
+
+
+
+
+Maintenance and Inspection
+If water accidentally enters the vacuum pump, use the drainage petcock located at the bottom of the diaphragm
+housing to remove the liquid.
+Flooded Suction Conditions
+In applications where the water level is above the pump centerline (Flooded Suction), the separator assembly is
+designed to prevent water from entering the vacuum pump. For added protection in flooded suction
+environments, a manually operated ball valve can be installed and closed once the pump is primed.
+    • Closed Valve: Protects the vacuum pump; has no adverse effect on operation.
+    • Open Valve: Required for re-priming. The unit will not prime if this valve is closed.
+
+System Advantages:
+   • Lower initial and long-term maintenance costs.
+   • Increased priming speeds, ideal for most dewatering applications.
+   • The separator mechanism isolates the vacuum pump during operation, preventing fluid spillage.
+
+
+
+
+Premier Pump & Power, LLC                             27                          Operator’s Manual / March 2026
+3.1.2: Premier-Prime (PP) Automatic Priming System
+Premier-Prime (PP) is a fully automatic priming/repriming system.
+System Operation
+   • A belt-driven diaphragm vacuum pump (18) evacuates air from the pump casing and suction hose.
+   • As air is removed, the water column rises to flood the pump.
+   • The system operates continuously whenever the engine is running to ensure the pump remains primed
+      during fluctuations in flow.
+   • A discharge check valve (3) prevents fluid from draining after the unit is shut off, maintaining the prime
+      for the next start-up.
+
+
+
+
+Maintenance and Inspection
+  • The float valve housing (4) is mounted using a Victaulic™ clamp (5) and a Viton™ O-ring. This design
+      allows for quick removal during routine cleaning and inspection.
+  • If fluid enters the vacuum pump, a drain plug is located on the underside of the vacuum pump
+      diaphragm housing to allow for easy drainage.
+Flooded Suction Conditions
+The system is designed to prevent "carry-over" (fluid entering the vacuum pump) via the mechanism inside the
+float valve housing (4). For maximum protection, an isolation ball valve (9) is provided.
+    • Once the pump is successfully primed, you may close the isolation ball valve (9). Operating with this
+        valve closed has no adverse effects on the unit.
+    • Keep the isolation valve open during start-up to allow the vacuum pump to evacuate air.
+    • If the water level is above the pump’s centerline (Flooded Suction), the pump does not require vacuum
+        assistance. Close the isolation ball valve (9) in this application.
+            o If the isolation ball valve (9) is closed, the system cannot automatically re-prime if the prime is
+                lost. Ensure the valve is open if automatic re-priming is required.
+
+
+Premier Pump & Power, LLC                               28                         Operator’s Manual / March 2026
+3.2: Air Compressor
+3.2.1: Venturi-Prime (VP)
+The Venturi-Prime (VP) is an automatic priming system that utilizes compressed air to evacuate the pump
+casing and suction line.
+System Operation
+   • The air compressor (14) is either belt-driven from the pump shaft or mounted directly to the engine's
+      auxiliary drive.
+   • Compressed air is forced through the air ejector (12), creating a vacuum. This vacuum draws air from
+      the suction hose, suction spool, and internal components via the vacuum hose (24). The evacuated air is
+      exhausted through the bottom of the air ejector.
+   • The system remains active as long as the engine is running, ensuring the pump maintains its prime
+      during operation.
+
+
+
+
+Maintenance and Inspection
+A check valve (3) is installed on the pump discharge. This component ensures the pump remains flooded after
+shutdown, provided the initial priming was successful. This allows for immediate flow upon the next start-up.
+Flooded Suction Conditions
+"Flooded suction" occurs when the liquid level is higher than the pump’s centerline. In these applications, the
+pump is naturally primed by gravity and does not require vacuum assistance.
+    • An isolation ball valve (22) is provided to prevent water from entering the vacuum hose (24) and leaking
+       out of the air ejector.
+    • Close the isolation ball valve (22) once the pump is primed. Operating with this valve closed has no
+       adverse effect on the unit in flooded suction scenarios.
+Premier Pump & Power, LLC                             29                         Operator’s Manual / March 2026
+3.2.2: Float-Prime (FP)
+The Float-Prime (FP) system uses compressed air to evacuate the pump casing and suction line. It is designed for
+high reliability and features excellent performance in freezing weather.
+System Operation
+    • The air compressor (17) is either belt-driven from the pump shaft or mounted directly to the engine's
+        auxiliary drive.
+    • Compress air is forced through the air ejector (23). This flow creates a vacuum that draws air out of the
+        pump and suction hose via the vacuum hose (25). The evacuated air is exhausted through the bottom of
+        the air ejector.
+    • The system continues to operate as long as the engine is running, ensuring the pump stays flooded during
+        operation.
+    • A discharge check valve (3) maintains the pump’s prime after shutdown, provided the initial priming was
+        successful.
+
+
+
+
+Maintenance and Inspection
+The system is designed for easy field service:
+   • A Victaulic™ clamp (5) with a Viton™ O-ring secures the float valve housing (4). This allows for quick
+       removal for cleaning and inspection.
+   • The internal mechanism of the float valve housing is designed to prevent "carry-over" (fluid being drawn
+       into the vacuum hose).
+Flooded Suction Conditions
+In applications where the water level is above the pump centerline (Flooded Suction), the pump is naturally primed
+by gravity and does not require vacuum assistance.
+    • In these scenarios, the isolation ball valve (14) must be closed.
+    • Closing the valve prevents water from entering the vacuum hose and draining out through the air ejector.
+    • Operating with this valve closed has no adverse effect on the unit during flooded suction, as the air ejector
+        is not needed for priming.
+Premier Pump & Power, LLC                               30                          Operator’s Manual / March 2026
+3.3: Hand Prime
+3.3.1: Hand Diaphragm Pump (HDP) – HP900
+The HDP-HP900 is a manually operated priming system. By pumping the handle, the operator creates a vacuum
+that draws air out of the main pump and suction hose, pulling water into the system.
+Pre-Priming Checklist
+Before operating the manual primer, confirm the following:
+   • Ensure there are no air leaks in the suction hose or at the pump attachment point. The system will not
+       prime if air is leaking into the suction side.
+   • Ensure the drain valve at the bottom of the water pump volute (connected via hose) is closed.
+   • Ensure the ball valve on the HDP suction flange is open.
+   • If a pipe plug is installed on the discharge flange, remove it to allow air to vent during priming.
+
+System Operation
+   • Vigorously move the fulcrum handle back and forth.
+   • The speed of priming is directly related to the frequency of the strokes and the volume of air to be
+      evacuated.
+   • Once the pump is successfully primed, Close the ball valve on the HDP suction flange immediately.
+         o The number of strokes required to achieve a prime depends on the suction hose diameter, total
+             hose length, and the static suction lift (the vertical distance between the water level and the pump
+             centerline).
+Maintenance and Inspection
+To prevent debris buildup and ensure longevity, flush the HDP with several gallons of clean water after each use.
+Flooded Suction Conditions
+If the water source is above the pump’s centerline (Flooded Suction), the pump is naturally primed by gravity. In
+this application, manual pumping is unnecessary.
+                                         PRIMER CAPACITY CHART
+                                                                       Max         Max
+                          PRIMER       Inlet   Outlet    Capacity     suction   discharge
+                                                                        lift       head
+
+                                        2"                    1
+                            HP900              2" NPT                 15 ft.     10 ft.
+                                       NPT               gal/stroke
+
+
+
+
+Premier Pump & Power, LLC                               31                           Operator’s Manual / March 2026
+                                    Appendix 4: Control Panels
+Engine control panels are highly configurable and provide real-time data to monitor pump performance and
+maintenance schedules.
+Key Display Parameters
+Depending on your specific model, the display typically includes:
+   • Engine RPM and Temperature: Use these to monitor and adjust the pump’s power settings.
+   • Hour Meter: Use this value to track and schedule routine maintenance intervals.
+
+Detailed Instructions
+Because control panels vary by model and software version, please consult the specific manual provided with
+your unit for full programming and operation details. Scan the "Control Panel" QR code located inside the
+control panel to access the manual.
+
+4.1: Lofa
+ For information on operation practices and more please refer
+ to the Control Panel QR code located within the manual holder.
+
+
+
+
+4.2: Murphy, Controls Inc
+For information on operation practices and more please refer to the Control Panel QR code located within the
+manual holder.
+
+
+
+
+Premier Pump & Power, LLC                             32                        Operator’s Manual / March 2026
+                                Appendix 5: Telematic Systems
+The Telematics system provides real-time data on pump performance and engine health. This system enables
+remote monitoring and fleet management through a suite of integrated tools.
+Key Features:
+   •   GPS Tracking: Monitor the precise location of the unit.
+   •   Data Logging: Record historical performance metrics for diagnostics and reporting.
+   •   Cellular Communication: Transmit data wirelessly for remote access.
+   •   Remote Control: Authorized users can manage pump operations from a remote location.
+
+
+
+
+Premier Pump & Power, LLC                            33                        Operator’s Manual / March 2026
+                                    Appendix 6: Skid Units
+                        If you have a unit like the one below, you have a skid unit.
+
+
+
+
+Premier Pump & Power, LLC                           34                          Operator’s Manual / March 2026
+                                   Appendix 7: Trailer Units
+                       If you have a unit like the one below, you have a trailer unit.
+
+
+
+
+Premier Pump & Power, LLC                            35                          Operator’s Manual / March 2026
+                                     Appendix 8: Transmissions
+  If you have a unit that has a component between the pump and the engine that looks like the one below, you
+                                             have a transmission.
+
+
+
+
+                     Check the data tag on top of the transmission for the model number.
+             Scan or click the correlating QR Code / link below to pull up the Operator’s Manual.
+                             ZF305                 ZF360                   ZF400
+
+
+
+
+Premier Pump & Power, LLC                            36                         Operator’s Manual / March 2026
+                                         Appendix 9: Tire Safety
+Tire safety is the single most critical factor in ensuring the stability and control of your vehicle while under
+load. As the only point of contact between your trailer and the road, tires are responsible for supporting the
+entire weight of the pump, managing braking forces, and absorbing road impact. This section contains tire
+safety information as required by 49 CFR 575.6.
+
+9.1: Determining Correct Load Limits
+Understanding weight ratings is the first step in preventing equipment failure.
+    • 9.1.1: Steps For Determining Correct Load Limit: Trailer
+    • 9.1.2: Steps For Determining Correct Load Limit: Tow Vehicle
+
+9.2: Tire Maintenance (NHTSA Guidelines)
+Properly maintained tires improve handling and fuel economy while preventing blowouts.
+
+9.3: Understanding Tire Labels
+Understanding tire labels is essential to properly caring for tires.
+    • 9.3.1: Passenger Vehicle
+    • 9.3.2: Light Truck
+
+9.4: Wheel Mounting and Torque Specification
+Wheel security is a critical safety item. Never use an impact wrench for final tightening.
+
+9.5: Tire Safety Quick-Check
+Perform this check before every trip.
+
+9.6: Glossary of Tire Terminology
+Understanding these terms is crucial to tire safety.
+
+
+
+
+Premier Pump & Power, LLC                                 37                         Operator’s Manual / March 2026
+                    9.1.1: Steps For Determining Correct Load Limit – Trailer
+
+1. Understanding Ratings (GVWR and GAWR)
+Every trailer is equipped with a Federal Certification/VIN Label, typically located on the forward half of the
+road-side (left side) of the unit. This label provides two critical values:
+    • Gross Vehicle Weight Rating (GVWR): The maximum allowable weight of the fully loaded trailer.
+       This includes the weight of the trailer itself, the pump, all fluids, and any additional cargo.
+    • Gross Axle Weight Rating (GAWR): The maximum weight a specific axle is designed to support. On
+       multi-axle units, a rating is provided for each individual axle.
+2. Cargo and Tire Placards
+For trailers with a GVWR of 10,000 lbs or less, a Tire and Loading Information Placard is located near the VIN
+label.
+    • This placard states the Maximum Cargo Capacity as a single weight value.
+    • Even if you have not reached the "Maximum Cargo" limit, the total weight of the unit must never
+        exceed the stated GVWR.
+3. Managing Onboard Fluids
+When calculating your load, you must account for all onboard liquids. Unlike fixed equipment, fluids are
+"disposable cargo" and their weight can be managed to stay within limits.
+    • Fixed Weight: Propane containers (filled) are generally considered part of the trailer's base weight
+       before cargo is added.
+    • Variable Weight: Water and fuel are significant weight factors.
+           o Example: A 100-gallon freshwater tank adds approximately 830 lbs to your load.
+
+4. Load Distribution and Balance
+How you place cargo is just as important as how much you carry.
+    • Distribute weight evenly from side-to-side and front-to-back to prevent overloading a single tire or axle.
+    • Place heavy items as low as possible and as close to the axle positions as reasonable.
+    • The only way to confirm your actual weight is at a public scale. Consult your dealer for the best methods
+       to capture weights for the hitch (tongue weight), individual axles, and the total unit.
+
+
+                                WARNING: Under-Inflation and Overloading
+It is the air pressure that enables a tire to support a load. Overloading or under-inflation causes abnormal tire
+flexing, generating excessive heat. This heat can lead to sudden, catastrophic tire failure. Always verify your
+PSI against the VIN label or Tire Placard—never exceed the maximum pressure stamped on the tire sidewall.
+
+
+
+
+Premier Pump & Power, LLC                               38                          Operator’s Manual / March 2026
+                9.1.2: Steps For Determining Correct Load Limit – Tow Vehicle
+
+1. Locate the Placard
+    • Find the statement on your vehicle’s tire and loading placard that reads: "The combined weight of
+       occupants and cargo should never exceed XXX kg or XXX lbs."
+2. Determine Occupant Weight
+    • Identify the combined weight of the driver and all passengers who will be riding in the vehicle.
+3. Calculate Remaining Capacity
+    • Subtract the combined weight of the driver and passengers from the total weight (XXX) found in Step 1.
+4. Identify Available Cargo Limit
+The resulting figure is the Available Amount of Cargo and Luggage Capacity.
+    • Example Calculation:
+           o Placard Limit: 1,400 lbs
+           o Occupant Weight: 5 passengers at 150 lbs each (750 lbs total)
+           o Available Capacity: 1,400 lbs - 750 lbs = 650 lbs
+5. Assess Cargo Load
+    • Determine the combined weight of all luggage, tools, and cargo being loaded. This weight must not
+       exceed the available capacity calculated in Step 4.
+6. Account for Towing (Tongue Weight)
+    • If you are towing a trailer, the weight of the trailer tongue is transferred to the tow vehicle. This "hitch
+       weight" reduces the available cargo capacity calculated in Step 4. Consult your tow vehicle’s manual to
+       determine the specific impact of this weight transfer.
+
+
+
+
+Premier Pump & Power, LLC                               39                          Operator’s Manual / March 2026
+                      9.2: Tire Maintenance and Safety (NHTSA Guidelines)
+
+According to the National Highway Traffic Safety Administration (NHTSA), maintaining properly inflated and
+high-quality tires is the most effective way to prevent tire failure, improve vehicle handling, and increase fuel
+economy. The following is a brief overview of NHTSA’s tire safety standards. For more information, please visit
+the NHSTA vehicle safety website.
+Tire Pressure Management
+   •   Check the pressure of all tires (including the spare) at least once a month and before any long-distance
+       trip.
+   •   For an accurate reading, always measure pressure when the tires are "cold"—meaning the vehicle has been
+       stationary for at least three hours or has been driven less than one mile.
+   •   Recommended PSI: Use the value found on the vehicle’s tire information placard or in the owner’s
+       manual.
+   •   Maximum PSI: Do not inflate tires to the pressure listed on the tire sidewall; that number is the maximum
+       pressure the tire can hold, not the recommended operating pressure for the vehicle.
+   •   Tire pressure drops in cold weather and rises in hot weather. Re-check pressure whenever there is a
+       significant change in outside temperature.
+
+
+
+
+Tread Depth and Inspection
+Tread provides the traction necessary to prevent slipping, especially on wet or icy roads.
+   • Tires are considered unsafe and must be replaced when the tread is worn down to 2/32 of an inch.
+   • Most tires have built-in raised sections in the bottom of the tread grooves called wear bars. When the
+       tread is flush with these bars, the tire must be replaced.
+   • The Penny Test: Place a penny into a tread groove with Lincoln’s head upside down. If you can see the
+       top of Lincoln’s head, the tread is too thin and the tire should be replaced.
+   • Regularly check sidewalls and treads for:
+           o Punctures, cuts, or scrapes.
+           o Bulges or "bubbles" (indicating internal structural damage).
+           o Cracks due to aging or sun exposure.
+
+
+
+
+Premier Pump & Power, LLC                              40                         Operator’s Manual / March 2026
+Tire Aging and Service Life
+   •   The 6-Year Rule: Regardless of tread depth, many vehicle manufacturers recommend replacing tires
+       every six years. Rubber degrades over time due to environmental factors, even if the vehicle is not driven
+       frequently.
+   •   Remember that spare tires age even when not in use. Inspect them for "dry rot" (cracking) annually.
+Rotation, Alignment, and Balance
+   •   Rotate tires every 5,000 to 8,000 miles (or as specified in the maintenance schedule) to ensure even wear
+       and maximize tire life.
+   •   If the vehicle "pulls" to one side or the steering wheel vibrates, have a professional check the wheel
+       alignment. Improper alignment causes rapid, uneven tire wear.
+   •   Every time a tire is replaced or moved on the rim, it must be professionally balanced to prevent vibration
+       and premature wear on suspension components.
+
+
+
+
+Load Limits and Overloading
+   •   Overloading a vehicle creates excessive heat within the tire, which can lead to a sudden "blowout" or tread
+       separation.
+   •   Never exceed the Gross Vehicle Weight Rating (GVWR) or the Gross Axle Weight Rating (GAWR) listed
+       on the vehicle's safety certification label.
+
+
+
+
+Premier Pump & Power, LLC                              41                          Operator’s Manual / March 2026
+                        9.3.1: Understanding Tire Labels: Passenger Vehicle
+
+
+
+
+P: Can be P or LT. The "P" indicates the tire is for passenger vehicles. "LT" indicates the tire is for light trucks.
+215, Nominal Width: This three-digit number gives the width of the tire in millimeters from sidewall edge to
+sidewall edge. The larger the number, the wider the tire.
+65, Aspect Ratio: This two-digit number gives the tire’s ratio of height to width. A number of 50 or lower
+indicates a short sidewall for improved steering response and better overall handling.
+R, Radial: Radial tires have been the industry standard for the past 20 years.
+15,Rim Diameter Code: This two-digit number is the wheel or rim diameter in inches.
+89, Load Index: This two- or three-digit number is the tire’s load index. It is an indicator of how much weight
+each tire can support. Note: You may not find this information on all tires because it is not required by law.
+
+
+
+Premier Pump & Power, LLC                                42                           Operator’s Manual / March 2026
+H, Speed Rating: The speed rating tells you the maximum speed capability of a tire. The speed ratings include
+speeds from 99 mph to above 186 mph. Note: You may not find this information on all tires because it is not
+required by law.
+                                         Letter Rating        Speed Rating
+                                               Q                99 mph
+                                               R                106 mph
+                                               S                112 mph
+                                               T                118 mph
+                                               U                124 mph
+                                               H                130 mph
+                                               V                149 mph
+                                               W               168* mph
+                                               Y               186* mph
+
+
+M + S: This indicates that the tire has some mud and snow capability.
+TREADWATER 022: The treadwear rating indicates how long the tire should last. The higher the number, the
+longer it should take for the tires to wear down.
+TRACTION A: The traction rating indicates the tire’s ability to allow a car to stop on wet pavement in a
+shorter distance.
+TEMPERATURE A: The temperature rating indicates how well the tire resists heat.
+MAX LOAD 1300 LBS, Maximum Load Rating: This number indicates the maximum load the tire can carry.
+MAX PRESS 35 PSI, Maximum Permissible Inflation Pressure: This number is the greatest amount of air
+pressure that should ever be put in the tire. This is NOT the same as the vehicle manufacturer’s recommended
+tire pressure.
+DOT FDBJ L31202, US DOT Tire Identification Number: This number begins with the letters "DOT" and
+indicates that the tire meets all Federal standards. The next two or three numbers or letters are the plant code
+where the tire was manufactured. The last four numbers represent the week and year the tire was built. For
+example, the numbers 3107 means the 31st week of 2007. The other numbers are marketing codes used at the
+manufacturer’s discretion. This information is for contacting consumers if a tire defect requires a recall.
+
+
+
+
+Premier Pump & Power, LLC                                43                        Operator’s Manual / March 2026
+                            9.3.2: Understanding Tire Labels: Light Truck
+
+
+
+
+LT: The "LT" indicates the tire is for light trucks or trailers.
+MAX LOAD DUAL 1080 KG (2380 LBS.), Max. Load Dual kg(lbs) at kPa(psi) Cold: This information
+indicates the maximum load and tire pressure when the tire is used as a dual, that is, when four tires are put on
+each rear axle (a total of six or more tires on the vehicle)
+MAX LOAD SINGLE, Max. Load Single kg(lbs) at kPa(psi) Cold: This information indicates the maximum
+load and tire pressure when the tire is used as a single.
+D, Load Range: This information identifies the tire’s load-carrying capabilities and its inflation limits.
+
+
+
+
+Premier Pump & Power, LLC                                 44                        Operator’s Manual / March 2026
+                            9.4: Wheel Mounting & Torque Specification
+
+Proper wheel mounting torque is critical for the safe operation of your trailer. Failure to maintain correct torque
+can lead to wheel separation, resulting in severe injury or catastrophic equipment damage. Always use a
+calibrated torque wrench to tighten wheel fasteners. Impact wrenches or manual lug wrenches do not
+provide the precision necessary to ensure a safe, consistent load.
+Installation & Maintenance Requirements:
+   • A torque wrench is the only approved method for verifying that the correct amount of force is applied to
+        a fastener.
+   • Use only fasteners that are specifically matched to the cone angle of your wheel.
+   • Strictly follow the torque values and installation instructions provided by the wheel manufacturer.
+   • Wheel nuts should be re-torqued after the first 10, 25, and 50 miles of travel, and during every routine
+        maintenance inspection thereafter.
+                        [½-20 torque to 85±5 ft-lb.] [9/16-18 torque to 140±10 ft-lb.]
+
+
+
+
+Premier Pump & Power, LLC                               45                          Operator’s Manual / March 2026
+                                     9.5: Tire Safety Quick Check
+
+To be performed during every pre-operation walk-around.
+   •   Check Inflation Pressure (Cold): Ensure all tires match the PSI listed on the vehicle placard. Do not
+       exceed the "Max PSI" on the sidewall.
+   •   Inspect Tread Depth: Verify that tread is at least 2/32" deep. Look for the "wear bars" in the grooves;
+       if they are flush with the tread, replace the tire immediately.
+   •   Identify Physical Damage: Check sidewalls and tread for:
+          o   Bulges, knots, or "bubbles."
+          o   Deep cuts or exposed ply/cord.
+          o   Embedded objects (nails, glass, or rocks).
+   •   Check for Aging (Dry Rot): Look for fine cracks in the sidewall or between tread blocks, especially if
+       the unit has been stationary for more than six months.
+   •   Verify Load Compliance: Ensure the total weight of the pump, fuel, and extra gear does not exceed the
+       GVWR (Gross Vehicle Weight Rating) on the VIN tag.
+   •   Inspect Wheel Hardware: Ensure all lug nuts are present and appear tight (look for "rust streaks"
+       which may indicate a loose nut).
+
+
+
+
+Premier Pump & Power, LLC                             46                         Operator’s Manual / March 2026
+                                9.6: Glossary of Tire Terminology
+ Accessory         The combined weight (in excess of those standard items which may be replaced) of
+ weight            automatic transmission, power steering, power brakes, power windows, power seats,
+                   radio and heater, to the extent that these items are available as factory-installed
+                   equipment (whether installed or not).
+ Bead              The part of the tire that is made of steel wires, wrapped or reinforced by ply cords and
+                   that is shaped to fit the rim.
+ Bead separation   This is the breakdown of the bond between components in the bead.
+ Bias ply tire     A pneumatic tire in which the ply cords that extend to the beads are laid at alternate
+                   angles substantially less than 90 degrees to the centerline of the tread.
+ Carcass           The tire structure, except tread and sidewall rubber which, when inflated, bears the load.
+ Chunking          The breaking away of pieces of the tread or sidewall.
+ Cold inflation    The pressure in the tire before you drive.
+ pressure
+ Cord              The strands forming the plies in the tire.
+ Cord separation   The parting of cords from adjacent rubber compounds.
+ Cracking          Any parting within the tread, sidewall, or inner liner of the tire extending to cord
+                   material.
+ CT                A pneumatic tire with an inverted flange tire and rim system in which the rim is designed
+                   with rim flanges pointed radially inward and the tire is designed to fit on the underside of
+                   the rim in a manner that encloses the rim flanges inside the air cavity of the tire.
+ Curb weight       The weight of a motor vehicle with standard equipment including the maximum capacity
+                   of fuel, oil, and coolant, and, if so equipped, air conditioning and additional weight
+                   optional engine.
+ Extra load tire   A tire designed to operate at higher loads and at higher inflation pressures than the
+                   corresponding standard tire.
+ Groove            The space between two adjacent tread ribs.
+ Gross Axle        The maximum weight that any axle can support, as published on the Certification / VIN
+ Weight Rating     label on the front left side of the trailer. Actual weight determined by weighing each
+                   axle on a public scale, with the trailer attached to the towing vehicle.
+ Gross Vehicle     The maximum weight of the fully loaded trailer, as published on the Certification / VIN
+ Weight Rating     label. Actual weight determined by weighing trailer on a public scale, without being
+                   attached to the towing vehicle.
+ Hitch weight      The downward force exerted on the hitch ball by the trailer coupler.
+ Inner liner       The layer(s) forming the inside surface of a tubeless tire that contains the inflating
+                   medium within the tire
+ Inner liner       The parting of the inner liner from cord material in the carcass.
+ separation
+ Intended          The sidewall that contains a white-wall, bears white lettering or bears manufacturer,
+ outboard          brand, and/or model name molding that is higher or deeper than the same molding on the
+ sidewall          other sidewall of the tire or the outward facing sidewall of an asymmetrical tire that has a
+                   particular side that must always face outward when mounted on a vehicle.
+Premier Pump & Power, LLC                            47                           Operator’s Manual / March 2026
+ Light truck (LT)   A tire designated by its manufacturer as primarily intended for use on lightweight trucks
+ tire               or multipurpose passenger vehicles
+ Load rating        The maximum load that a tire is rated to carry for a given inflation pressure.
+ Maximum load       The load rating for a tire at the maximum permissible inflation pressure for that tire
+ rating
+ Maximum            The maximum cold inflation pressure to which a tire may be inflated.
+ permissible
+ inflation
+ pressure
+ Measuring rim      The rim on which a tire is fitted for physical dimension requirements.
+ Pin weight         The downward force applied to the 5th wheel or gooseneck ball, by the trailer kingpin or
+                    gooseneck coupler.
+ Non-pneumatic      A mechanical device which, when a non-pneumatic tire assembly incorporates a wheel,
+ rim                supports the tire, and attaches, either integrally or separably, to the wheel center member
+                    and upon which the tire is attached.
+ Non-pneumatic      A non-pneumatic tire assembly intended for temporary use in place of one of the
+ spare tire         pneumatic tires and rims that are fitted to a passenger car in compliance with the
+ assembly           requirements of this standard
+ Non-pneumatic      A mechanical device which transmits, either directly or through a wheel or wheel center
+ tire               member, the vertical load and tractive forces from the roadway to the vehicle, generates
+                    the tractive forces that provide the directional control of the vehicle and does not rely on
+                    the containment of any gas or fluid for providing those functions.
+ Normal             This means 68 kilograms (150 lbs.) times the number of occupants specified in the
+ occupant weight    second column of Table I of 49 CFR 571.110.
+ Occupant           The distribution of occupants in a vehicle as specified in the third column of Table I of 49
+ distribution       CFR 571.110.
+ Open splice        Any parting at any junction of tread, sidewall, or inner liner that extends to cord material.
+ Outer diameter     The overall diameter of an inflated new tire.
+ Overall width      The linear distance between the exteriors of the sidewalls of an inflated tire, including
+                    elevations due to labeling, decorations, or protective bands or ribs.
+ Ply                A layer of rubber-coated parallel cords
+ Ply separation     A parting of rubber compound between adjacent plies.
+ Pneumatic tire     A mechanical device made of rubber, chemicals, fabric and steel or other materials, that,
+                    when mounted on an automotive wheel, provides the traction and contains the gas or
+                    fluid that sustains the load.
+ Production         The combined weight of those installed regular production options weighing over 2.3
+ options weight     kilograms (5 lbs.) more than those standard items which they replace, not previously
+                    considered in curb weight or accessory weight, including heavy duty brakes, ride
+                    levelers, roof rack, heavy duty battery, and special trim.
+ Radial ply tire    A pneumatic tire in which the ply cords that extend to the beads are laid at substantially
+                    90 degrees to the centerline of the tread.
+ Recommended        This is the inflation pressure provided by the vehicle manufacturer on the Tire
+ inflation          Information label and on the Certification / VIN tag
+ pressure
+Premier Pump & Power, LLC                             48                          Operator’s Manual / March 2026
+ Reinforced tire     A tire designed to operate at higher loads and at higher inflation pressures than the
+                     corresponding standard tire.
+ Rim                 A metal support for a tire or a tire and tube assembly upon which the tire beads are
+                     seated.
+ Rim diameter        This means the nominal diameter of the bead seat.
+ Rim size            This means the rim diameter and width.
+ designation
+ Rim type            This means the industry of manufacturer’s designation for a rim by style or code
+ designation
+ Rim width           This means the nominal distance between rim flanges.
+ Section width       The linear distance between the exteriors of the sidewalls of an inflated tire, excluding
+                     elevations due to labeling, decoration, or protective bands.
+ Sidewall            That portion of a tire between the tread and bead.
+ Sidewall            The parting of the rubber compound from the cord material in the sidewall.
+ separation
+ Special Trailer     The "ST" is an indication the tire is for trailer use only.
+ (ST) tire
+ Test rim            The rim on which a tire is fitted for testing and may be any rim listed as appropriate for
+                     use with that tire.
+ Tread               The portion of a tire that comes into contact with the road
+ Tread rib           A tread section running circumferentially around a tire.
+ Tread               Pulling away of the tread from the tire carcass.
+ separation
+ Treadwear        The projections within the principal grooves designed to give a visual indication of the
+ indicators (TWI) degrees of wear of the tread.
+ Vehicle capacity    The rated cargo and luggage load plus 68 kilograms (150 lbs.) times the vehicle’s
+ weight              designated seating capacity.
+ Vehicle             The load on an individual tire that is determined by distributing to each axle its share of
+ maximum load        the maximum loaded vehicle weight and dividing by two.
+ on the tire
+ Vehicle normal      The load on an individual tire that is determined by distributing to each axle its share of
+ load on the tire    the curb weight, accessory weight, and normal occupant weight (distributed in
+                     accordance with Table I of CRF 49 571.110) and dividing by 2.
+ Weather side        The surface area of the rim not covered by the inflated tire.
+ Wheel center        In the case of a non-pneumatic tire assembly incorporating a wheel, a mechanical device
+ member              which attaches, either integrally or separably, to the non-pneumatic rim and provides the
+                     connection between the nonpneumatic rim and the vehicle; or, in the case of a non-
+                     pneumatic tire assembly not incorporating a wheel, a mechanical device which attaches,
+                     either integrally or separably, to the non-pneumatic tire and provides the connection
+                     between tire and the vehicle.
+ Wheel-holding       The fixture used to hold the wheel and tire assembly securely during testing.
+ fixture
+
+Premier Pump & Power, LLC                               49                           Operator’s Manual / March 2026
+                         Appendix 10: Wiring Specifications
+
+
+
+
+                  Colors are the same for all the following situations: 6 pin, 7 blade and 4 wire.
+
+
+Color Codes Below:
+   ➢   Tail/Marker Lights (TM): Brown Wire
+   ➢   Ground (GD): White Wire
+   ➢   Left Turn (LT): Yellow Wire
+   ➢   Right Turn (RT): Green Wire
+   ➢   Electric Brakes (S): Blue Wire
+   ➢   Auxiliary (A): Red Wire, although this wire is rarely used. It is only used for battery positive & a
+       breakaway switch.
+
+
+
+
+Premier Pump & Power, LLC                                50                          Operator’s Manual / March 2026
+                Appendix 11: NHTSA Notification Statement
+If you believe that your vehicle has a defect that could cause a crash or could cause injury or death, you
+should immediately inform the National Highway Traffic Safety Administration (NHTSA) in addition to
+notifying Premier Pump & Power, LLC.
+If NHTSA receives similar complaints, it may open an investigation, and if it finds that a safety defect exists
+in a group of vehicles, it may order a recall and remedy campaign. However, NHTSA cannot become
+involved in individual problems between you, your dealer, or Premier Pump & Power, LLC.
+To contact NHTSA, you may either call the Vehicle Safety Hotline toll-free at 1-888-327-4236 (TTY: 1-800-
+424-9153), go to http://www.safercar.gov; or write to:
+Administrator
+NHTSA
+1200 New Jersey Avenue SE
+Washington, DC 20590
+
+
+You can also obtain other information about motor vehicle safety from http://www.safercar.gov
+
+
+
+
+Premier Pump & Power, LLC                              51                         Operator’s Manual / March 2026
+                                                           Warranty Procedure
+STEP 1                                                                                     STEP 4
+Customer initiates contact with Premier sales representative                               Once the product has been received by Premier, it will be
+explaining the issues they are having with the product.                                    evaluated to determine if warranty is approved or denied.
+STEP 2                                                                                          •     If warranty is denied, the customer has the option of
+Premier representative will evaluate if the situation can be                                          receiving the parts back in the condition they were
+resolved with the information provided. In some cases,                                                received; Premier can offer a quote for repair; or
+Premier may offer to send parts to the customer as a means of                                         Premier can scrap the part for the customer.
+quickly resolving the issue. If more information is required, a                                 •     If warranty is approved, the part will be repaired by
+warranty evaluation form will be sent out that needs to be                                            Premier and sent back to the customer; a new part
+completed by the customer and returned to Premier.                                                    will be sent back to the customer; or, if approved by
+                                                                                                      Premier, a credit will be given for the replacement
+STEP 3                                                                                                part that has already been purchased previously.
+If it is determined that the customer needs to send the product
+back to Premier for evaluation, the Premier representative will                            OTHER NOTES
+complete the RGA paperwork and submit it to the Service                                      • At no time will part costs, labor charges, or travel
+Manager. The Service Manager will then issue an RGA                                             charges be paid to the customer, without previous
+Number and send the customer shipping instructions on how                                       written agreement by Premier Pump.
+to send the product back to Premier for evaluation. Unless                                   • At no time will spare parts purchased by the customer
+otherwise agreed by Premier, the freight charges to ship the                                    be billed back to Premier, without written agreement
+product to Premier will be the responsibility of the customer.                                  by Premier Pump.
+If the goods are not received within 30 days of the RGA                                      • Premier's Standard Terms and Conditions Apply
+Number being issued, the RGA will be closed and considered
+invalid. Note that goods received without an RGA Number
+will not be accepted.
+
+                                                                 LIMITED WARRANTY
+Premier warrants, to Buyer only, that Products manufactured by                       Premier may opt to send replacement parts in lieu of repair at
+Premier are free from defects in material and workmanship for a                      Premier's facility. Premier may also opt to perform repairs at Buyer's
+period of 1 year for most products. If a failure to conform to                       facility or site. If such repairs are performed for the convenience of
+specifications or a defect in materials or workmanship is                            Buyer, Buyer shall pay for all costs of labor and materials. If such
+discovered within the applicable period, Premier must be                             repairs are performed for the convenience of Premier, Buyer shall,
+promptly notified in writing within thirty (30) days of such                         in Premier's sole discretion, pay a portion of the costs of labor and
+discovery. Within a reasonable time after such notification,                         materials. Premier shall have no obligation to pay or reimburse
+Premier shall correct any failure to conform to specifications or                    Buyer or any third party for any expense incurred as a result of any
+any defect in materials or workmanship, or in lieu of such repair,                   Products, or any repair or attempted repair of any Products. The
+and at Premier's sole option, shall replace the Products or the                      warranty provided herein shall not apply in the event of any (a)
+applicable portion thereof. Any such repair shall be performed at                    defects caused by a failure to provide a suitable installation
+Premier's facility, unless otherwise designated by Premier.                          environment for the Products, (b) damage caused by the use of the
+Buyer shall pay any cost incurred as a result of shipping the                        Products for purposes other than those for which the Products were
+Products, or any portion thereof, to Premier. Premier shall pay                      designed or intended, (c) damage caused by disasters such as fire,
+any cost incurred in returning the Products, or any portion                          flood, wind, or lightning, (d) damage caused by unauthorized
+thereof, to Buyer. For repairs done at Premier's facility, Premier                   attachments or modifications, (e) other abuse or misuse, including
+will pay for any costs of labor and materials, and any expenses                      improper installation, (f) reasonable wear and tear, and (g) defects in
+incurred by Premier in making such repairs.                                          equipment or components not manufactured by Premier. Premier
+                                                                                     shall pass on any warranties for equipment and components not
+                                                                                     manufactured by Premier to the extent that such warranties may be
+                                                                                     passed on.
+Proration periods are based on months after shipment (unless otherwise agreed upon).
+Wear Parts: This limited warranty does not cover parts that by nature of their function require replacement as the result of normal wear and tear (seals, wear rings, wear
+plates, or other parts subjected to abrasion, cavitation, or corrosion) unless a defect in materials or workmanship can be determined by Cornell.
+Premier Pump & Power Vancouver, WA 98661 USA www.premierpumpandpower.com P: 360.574.4519 F: 772.679.5989
+
+Premier Pump & Power, LLC                                                          52                                       Operator’s Manual / March 2026
+                                        Conditions and Terms of Sale
+Controlling provisions: These terms and conditions shall             their respective makers. Where engineering design or
+control with respect to any purchase order or sale of                fabrication work is supplied, buyer’s acceptance of
+sellers’ products. No waiver, alteration or modification             seller’s design or of delivery of work shall relieve seller
+of these terms and conditions whether on buyers purchase             of all further obligation other than as expressed in seller’s
+order or otherwise shall be valid unless the waiver,                 product warranty.          THIS IS SELLERS SOLE
+alteration or modification is specifically accepted in               WARRANTY.               NO OTHER WARRANTIES,
+writing and signed by an authorized representative of                WRITTEN OR ORAL, EXPRESS OR IMPLIED,
+seller.                                                              INCLUDING THE WARRANTIES OF FITNESS FOR
+                                                                     A          PARTICULAR               PURPOSE            AND
+Delivery: Seller will make every effort to complete
+                                                                     MERCHANTABILITY,                 ARE         MADE        OR
+delivery of products as indicated on seller’s acceptance of
+                                                                     AUTHORIZED. NO AFFIRMATION OF FACT,
+an order, but seller assumes no responsibility or liability,
+                                                                     PROMISE, DESCRIPTION OF PRODUCT OF USE OR
+and will accept no back charge for loss or damage due to
+                                                                     SAMPLE OR MODEL SHALL CREATE ANY
+delay or inability to deliver caused by God, war, labor
+                                                                     WARRANTY FROM MANUFACTURER, UNLESS
+difficulties, accident, delays of carriers, by contractors or
+                                                                     SIGNED BY THE PRESIDENT OF THE
+suppliers inability to obtain materials, shortages of fuel
+                                                                     MANUFACTURER.               Seller neither assumes, nor
+and energy, or any other causes of any kind whatsoever
+                                                                     authorizes any person to assume for it, any other
+beyond the control of the seller. Seller may terminate any
+                                                                     obligation in connection with the sale of its engineering
+contract of sale of its products without liability of any
+                                                                     designs or products. This warranty shall not apply to any
+nature, by written notice to buyer, in the event that the
+                                                                     products or parts of products which (a) have been repaired
+delay in delivery or performance resulting from the
+                                                                     or altered outside of seller’s facility, in any manner or (b)
+aforementioned causes shall continue for a period of sixty
+                                                                     have been subjected to misuse, negligence, or accidents;
+(60) days. Under no circumstances shall seller be liable
+                                                                     or (c) have been used in a manner contrary to seller’s
+for any special or consequential damages or for loss,
+                                                                     instruction or recommendations. Seller shall not be
+damage or expense (whether or not based on negligence)
+                                                                     responsible for design errors due to inaccurate or
+directly or indirectly arising from delays or failure to give
+                                                                     incomplete information supplied by buyer or its
+notice of delay.
+                                                                     representative.
+Limited warranty: Seller warrants for one year from the
+                                                                     Seller’s liability: Seller will not be liable for any loss,
+date of shipment seller’s manufactured products to the
+                                                                     damage, cost of repairs, incidental or consequential
+extent that seller will replace those having defects in
+                                                                     damages of any kind, whether based upon warranty
+materials or workmanship when used for the purpose and
+                                                                     (except for the obligation accepted by seller under
+in the manner which seller recommends. If seller’s
+                                                                     “warranty” above), contract or negligence arising in
+examination shall disclose to its satisfaction that the
+                                                                     connection with the design, manufacture, sale, use or
+products are defective, and an adjustment is required, the
+                                                                     repair of the products or of the engineering designs
+amount of such adjustment shall not exceed the net sales
+                                                                     supplied to buyer.
+price of the defective products and no allowance will be
+made for labor or expense of repairing or replacing                  Returns: Seller cannot accept the return of any products
+defective products or workmanship or damage resulting                unless its written permission has been first obtained, in
+from the same. Seller warrants the products which it sells           which case same will be credited subject to the following:
+of other manufacturers to the extent of the warranties of            (a) All material must on its arrival at seller’s facility, be
+Premier Pump & Power, LLC                                       53                            Operator’s Manual / March 2026
+found in first class condition; if not, cost of putting in         Taxes: The amount of any sales, excise, or other taxes, if
+saleable condition will be deducted from credit                    any, applicable to the products covered by this order, shall
+memoranda. (b) A handling charge deduction of (20%)                be added to the purchase price and shall be paid by buyer
+will be made for all credit memoranda issued for material          unless buyer provides seller with an exemption certificate
+returned. (c) Transportation charges, if not prepaid, will         acceptable to the taxing authorities.
+be deducted from credit memoranda.
+                                                                   Terms of sale: For value received, buyer agrees to honor
+Cancellation or alteration: Cancellation or alteration of          all terms of the sale, as outlined on the reverse hereof,
+an order by buyer may not be made without advance                  including, but not limited to the following:
+written consent of seller and shall be subject to a
+cancellation charge. The cancellation charge shall be a                •   Net 30 days unless specified in writing.
+minimum of fifteen (15%) or actual cost incurred by seller             •   Buyer agrees and understands that payments will
+at the time of cancellation or alteration, whichever is                    be considered past due if payment is not received
+greater.                                                                   within thirty (30) days of the invoice date.
+                                                                       •   Buyer agrees that all past due payments shall bear
+Shipments: All products sent out shall be carefully                        interest at the rate or 1.5% per month (18% per
+examined, counted, and packed. The cost of any special                     annum) until paid in full.
+packing or special handling caused by buyer’s                          •   Buyer agrees that it is the intention of buyer and
+requirements or requests shall be added to the amount of                   seller to conform strictly to all usury laws now in
+the order. No claim for shortages will be allowed unless                   forces and effect in the state of purchase.
+made in writing within ten (10) days of receipt of a                   •   Buyer further agrees not to suffer or permit any
+shipment. Claims for products damaged or lost in transit                   charge, lien, security interest, adverse claim or
+should made on the carrier, as seller’s responsibility                     encumbrance of any and every nature whatsoever
+ceases, and title passes, on delivery to the carrier.                      against the equipment until the indebtedness
+Special products: Orders covering special or non-                          secured thereby is satisfied in full.
+standard products are not subject to cancellation or return            •   Minimum invoice amount will be no less than
+except on such terms as seller may specify on application.                 $25.00 plus transportation.
+
+Quotations: All quotations are subject to approval,                Use of equipment: Buyer agrees to maintain and use the
+acceptance, and correction at the home office. Any errors          equipment solely in the conduct of its own business, in a
+in quotations resulting in orders will be corrected and re-        careful and proper manner, and in conformity with all
+submitted to the customer for their acceptance or refusal.         applicable permits, licenses, statutes, ordinances,
+All quotations are valid for 30 days from the date on the          regulations and laws.
+quotation.                                                         Insurance: Buyer shall have and maintain at all times
+Prices and designs: Prices and designs are subject to              with respect to all equipment insuring against risk of fire,
+change without notice. All prices are FOB point of                 theft and other risks as seller may require, until the
+shipment, unless otherwise stated.                                 indebtedness secured thereby is satisfied in full.
+
+
+
+
+Premier Pump & Power Vancouver, WA 98661 USA www.premierpumpandpower.com P: 360.574.4519 F: 772.679.5989
+
+Premier Pump & Power, LLC                                     54                            Operator’s Manual / March 2026
+

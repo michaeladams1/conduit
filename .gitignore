@@ -1,3 +1,5 @@
 node_modules/
 .env
 *.log
+docs/.ocr_tmp/
+docs/*.pdf

@@ -1,0 +1,1619 @@
+SOURCE: Controls Incorporated Engine Control System, Part Number C3M-G10163 — engine/generator control panel manual.
+
+                                   PRODUCT MANUAL
+                                       ENGINE CONTROL SYSTEM
+
+
+
+
+Part Number: C3M-G10163
+Revision: 2.0
+
+______________________________________________________________________________________________________________________________________
+                          TABLE OF CONTENTS
+PANEL INSTALLATION…….…………………………………………………………………………………….………………………………….4
+     MOUNITNG LOCATION
+     PANEL DIMENSIONS
+     CONTROL PANEL ACCESS
+
+PANEL OPERATION…………………………………………………………………………………………………….…………………………….7
+     POWER UP
+     PREHEAT
+     MANUAL START
+     SAFETY BYPASS
+     ENGINE RUNNING
+     SCROLL LOCK
+     SPEED CONTROL
+     TSC VERNIER THROTTLE
+     TSC MULTISTATE THROTTLE
+     TSC HI-LO THROTTLE
+     COOPERATIVE THROTTLE
+     FLEX ANALOG DISPLAY
+     SAFETY SHUTDOWNS
+     LOW POWER MODE
+
+AUTO START OPERATION……………………………………………………………………………………………………………………….16
+     POWER UP
+     AUTO START ARMED
+     LEVEL TRANSDUCER AUTO START
+     PRESSURE TRANSDUCER AUTO START
+     SCHEDULER AUTO START
+     GENERAL TRANSDUCER AUTO START
+
+FLOAT INSTALLATION……………………………………………………………………………………………………….…………………….22
+     SINGLE FLOAT
+     DUAL FLOAT
+     FAILSAFE FLOAT WITH TRANSDUCER
+     DUAL FLOAT BACK UP WITH TRANSDUCER
+
+
+
+
+1
+TRANSDUCER INSTALLATION……………………………………………………………………………………………….…………….24
+     GENERAL INFORMATION
+     LEVEL CONTROL
+     PRESSURE CONTROL
+
+PANEL PROGRAMMING……...………………………………………………...……………………………………………….……………….26
+     PC BASED
+     MODULE BASED
+     MENU NAVIGATION
+     CONTROLLER SETUP
+
+PANEL FUNCTIONALITY………………………………………………………………………………........…………………………………...31
+     CUSTOM SPLASH SCREEN
+     SENDER FAILURE
+     OPERATION LOG
+     ALARM LOG
+     AUDIBLE HORN
+     SHUTDOWN OVERRIDE
+     RETURN TO IDLE
+     RETURN TO OP SPEED
+     ENGISH METRIC
+     PERFORMANCE DISPLAY
+     NUMBER OF STARTS
+     MAINTENANCE SCHEDULES
+     REAL TIME CLOCK
+
+PANEL ENGINE SAFETY PROTECTIONS…………………………………………………………………………………….………36
+     PREALARMS AND ALARMS
+     SAFETY SWTICHES
+     FLEX ANALOG SAFETIES
+
+CONTROLLER SETUP MENU SYSTEM……………………….…...……………………………………………………………. ….…39
+     QUICK SETUP
+     ENGINE PARAMETER CONFIGURATION
+     FLEX ANALOG CONFIGURATION
+     SCHEDULER CONFIGURATION
+     INPUT CONFIGURATION
+     OUTPUT CONFIGURATION
+     THROTTLE CONFIGURATION
+
+
+2
+       ENGINE SAFETY CONFIGRUATION
+       FLEX ANALOG SAFETIES
+       MODULE CONFIGURATION
+       DISPLAY CONFIGURATION
+       CAN CONFIGURATION
+       AUTO OPERATION SETTINGS
+       AUTO START CONFIGURATION
+       BATTERY RECHARGE CONFIGURATION
+       MODBUS CONFIGURATION
+       MAINTENANCE SCHEDULES
+       EMISSIONS CONFIGURATION
+       CLUTCH CONFIGURATION
+       CLOCK SET UP
+
+
+
+
+PANEL CONNECTORS …………………………………………………………………….….…………………......................................….55
+
+
+
+MODULE CONNECTORS….…………….……………………………………………………………….…………………………………….56
+
+
+
+WARRANTY………………………………………….…………………………………………………………………………………………...….…....57
+
+
+
+
+3
+PANEL INSTALLATION
+MOUNTING LOCATION
+To ensure a long life from your control panel, please review the following installation guidelines.
+
+
+       HEAT: Be sure to take into account excessive heat areas when mounting your control panel.
+        Stay away from turbo chargers, exhaust manifolds, diesel particulate filters or any other location
+        that would put the control panel in the vicinity of excessive heat
+
+
+       SHOCK AND VIBRATION: Mount the control panel using vibration isolators designed to
+        handle the weight and load of the control panel. When designing a bracket, be sure to take
+        into consideration the arm of the bracket to reduce or eliminate the spring board effect of
+        engine vibrations.
+
+
+       CONVIENCE OF USE: Study the final assembly of the piece of equipment and how it will be
+        used. Take into account the operator when locating the panel. Ease of access to the hinges of
+        the cover, key switch and display are all critical in allowing the operator to successfully and
+        safely operate the control panel. Extension harnesses are available from Controls Inc. if the
+        engine harness being used does not allow for proper location selection.
+
+
+       WEATHER AND WASHDOWN: The control panel is designed to be weather tight and can be
+        used in open outdoor conditions. The enclosure has a Gore vent, located on the rear of the
+        enclosure, which will allow for breathing between the interior of the control enclosure and the
+        outside environment. Be sure to keep the clear lid closed during wash down and not directly
+        spray the Gore vent area.
+
+
+       HARNESS ROUTING: The use of commons sense with respect to harness routing and drip
+        loops can go a long way in the prevention of unintended water intrusion. Also take into
+        account the stresses put on the harnessing and the proximity to heat sources as well. For spark
+        ignited engine, be sure to keep the panel wiring at least 12 inches from the ignition wires.
+
+
+
+
+4
+    MOUNTING DIMENSIONS
+    Use the dimensions below to mount the control panel or design a bracket for your equipment.
+
+
+
+
+5
+CONTROL PANEL ACCESS
+If required, the control panel internals can be accessed by removing the four Philips screws located in
+the corners of the enclosure. The front panel can then be removed by pulling the module toward you.
+
+
+
+
+6
+                           PANEL OPERATION
+POWER UP
+Rotate the key to the Run positon. The control panel display will illuminate and show the module part
+number and illuminate all of the panel mounted lamps for one second to verify operation.
+
+
+
+
+PREHEAT CYCLE
+If a preheat cycle has been programmed in the control, the panel will energize the glow plug or air
+intake grid heater for the programmed length of time. A countdown will be on the display to indicate
+the length of time left in the preheat timer. A pre heat lamp will also be illuminated during this
+sequence. Once the time has expired, the standard six up display will be shown and starting may
+continue.
+
+
+
+
+7
+If the engine’s ECU has a preheat strategy, the display will illuminate the pre heat lamp and indicate a
+message on the screen to wait to start. Once the ECU has completed the preheat cycle, the message
+and lamp will disappear indicating to the operator that it is now time to start the engine.
+
+
+
+
+MANUAL STARTING
+If no preheat cycle is called for, or the preheat cycle has run, the display will ready the standard six up
+engine parameters. Rotate the key to the right to the Crank position and hold while the engine
+starting circuit is energized and rotates the engine. Once the engine fires, release the key and a spring
+will rotate the key back to the Run position where it will stay until you desire to turn the engine off.
+
+
+
+               TEMPERATURE                     ENGINE RPM                    OIL PRESSURE
+
+
+
+
+                BATTERY VOLTS                   FUEL LEVEL                  ENGINE HOURS
+
+
+
+
+8
+SAFETY BYPASS
+Immediately after the engine begins to run, the control panel will enter the “Safety Bypass” period.
+This time period is typically set to 10 seconds and is programmable in the module. During this period,
+any engine parameter set to be monitored in the control panel during engine run, will be ignored until
+the bypass period is passed at which point the safeties will become active. If any engine or system
+safeties are set to be monitored always, they will be active as soon as the control panel is powered up
+regardless of the engine’s run state. This bypass does not apply to the engine’s ECU safeties.
+
+
+
+
+ENGINE RUNNING
+Once the engine has been running for a time that exceeds the safety bypass period, all controller
+programmed engine safeties that are set to be monitored during engine run will become active. The
+control will display engine oil pressure, engine coolant temperature, engine speed, battery voltage,
+engine hours and fuel level if a fuel level sender is installed. Additional informational screens may be
+rotated on the display if needed. Screen rotation time is approximately five seconds.
+
+
+
+
+9
+DISPLAY SCROLL LOCK [ENTER] KEY
+While the engine is running, there may be various display screens that will automatically rotate in five
+second intervals. If at any time, the operator would like to stop the rotation of the screens and
+monitor a single screen of information, pressing the ENTER key will stop the rotation. Pressing the
+ENTER key a second time will allow normal screen rotation to resume.
+
+
+
+
+ENGINE SPEED CONTROL
+The control panel can control the engine’s speed using J1939 Torque Speed Control (TSC1). When the
+engine is started manually, the control panel will request the minimum programmed speed. Pressing
+the Up arrow key will cause the panel to increase the requested speed. The display will place and up
+or down arrow to the right of the RPM displayed to indicate that a change in speed is being
+requested.
+
+
+Please note that if the low idle speed on the engine’s ECU is higher than the minimum speed
+programmed in the controller, the actual engine RPM will be the low ECU setting until the controllers
+speed request command (TSC1) exceeds the ECU low idle speed. This holds true for the high idle
+speed set in the ECU as well.
+
+
+The control panels TSC address and the engine’s ECU address must match. Most of the major engine
+manufactures TSC addresses are loaded into the control panel when the engine manufacture is
+selected in the Quick Setup, however ECU programming may vary. The control does have the ability
+to change the TSC address manually in the CAN Configuration menu. If speed control continues to be
+elusive, verify that the engine’s ECU does have J1939 throttling enabled.
+
+
+
+10
+The requested speed by the control panel cannot exceed the maximum programmed speed of the
+engine ECU. Once the speed is being controlled by the module, the acceleration will be based on the
+ramp rate in the controller. If precise speed control is desired, be sure to have the ECU governing
+mode set to Isochronous or Zero Droop. Otherwise the actual engine speed will be somewhat below
+the requested TSC. To verify the speed being requested by the control module, access the Engine
+Parameters menu and navigate to the Requested TSC display. This indicates the actual RPM request
+being sent to the ECU from the controller.
+
+
+
+
+Speed control through an analog channel can also be accomplished using an analog throttle control
+device. The control panel will convert the signal (4-20 ma, 0-5 VDC, or 0.5-4.5 VDC) into a TSC1
+command. The speed requested will depend on the minimum and maximum speeds programmed in
+the control panel. The relationship between the analog signal and the requested speed will be linear.
+
+
+
+TSC VERNIER THROTTLE
+The most popular throttle selection when operating in the manual start mode. The operator can
+control the engine speed anywhere within the programmed speed range. This throttle type allows
+you to set the minimum engine speed, maximum engine speed, ramp rate, curve type and bump
+speed increments without the use of a computer. At engine start, the controller will request the
+minimum engine speed. When the operator presses the up arrow key, the engine speed will ramp up
+at the programmed rate until the up arrow key is released. The display will indicate an up arrow to the
+right of the RPM. If the maximum speed is reached, the up arrow on the display will be replaced by an
+X indicating the maximum speed has been reached. This same operation applies to slowing the
+engine speed down using the down arrow key. A single press of the up or down arrow key will cause
+the RPM of the engine to change in that direction by the bump increment, typically set to 20 RPM.
+
+
+
+
+11
+TSC MULTISTATE THROTTLE
+Another widely used throttle type in manual mode allows the operator to increment the engine speed
+between predetermined speed settings by pressing the up or down arrow keys. The number of
+discreet speeds set is up to four ascending speeds. After the operator starts the engine, the controller
+will run the engine at Speed 1 setting, the lowest speed. Pressing the up arrow key momentarily will
+ramp the engine speed up to the Speed 2 setting. Another press would accelerate to speed three and
+so on. Pressing the down key will increment the speed to the next lower speed. You cannot operate
+the engine between the speed settings.
+
+
+
+
+TSC HIGH-LOW THROTTLE
+This throttle option can be used if only two speeds are desired, a low idle and a high operating speed.
+The engine starts at the low speed and only accelerates when the up arrow key is pressed and held.
+Once the up arrow key is released, the speed automatically drops back to the low idle speed. With this
+option, it is fairly typical to assign a digital input to the Throttle Up function to allow a remote switch
+to be installed elsewhere on the equipment.
+
+
+
+COOPERATIVE THROTTLE
+Multiple C Series modules can be installed on the same engine to provide additional display and
+throttle control from multiple locations. The main control should be configured as the Primary, while
+the remaining modules should be set to remote. For starting and stopping the engine from multiple
+locations, use the Controls, Inc. Multiplex modules. Contact a Controls Inc. sales engineer for more
+details.
+
+
+
+
+12
+SUPER PUMP 3 DISPLAY
+If the control panel has been configured to monitor the inlet pressure, outlet pressure, flow rate or
+liquid level using the four flex analog channels, the display will rotate every five seconds to show the
+current values of the analog channels.
+
+
+
+
+FLEX ANALOG DISPLAY
+If the control panel has been configured to monitor any or all of the four flex analog channels, the
+display will rotate every five seconds to show the current values of the analog channels.
+
+
+
+
+13
+SAFETY SHUTDOWNS
+Once the engine is started, the engine’s ECU has primary control over the operation of the engine
+under safe conditions. If the ECU detects that any of its critical parameters are out of tolerance, the
+ECU can take a variety of actions including derating of the engine horsepower or complete engine
+shut down. The display will illuminate the red or yellow LED as instructed by the ECU and display any
+trouble code as presented from the ECU. Some engine manufacturers have unique codes that the
+control panel will show in lieu of the J1939 DM1 messaging. Otherwise codes will be displayed as
+J1939 SPN (Suspect Parameter Number) and FMI (Failure Mode Identifier).
+
+
+
+
+The control panel also has the ability to monitor the engine vitals if configured. The ability to set
+prealarms and alarms in the panel is supported to back up the ECUs safeties in the event the ECU
+shutdowns were not enabled for some reason or a more conservative setting is desired. If the
+parameter falls outside of the normal operating range, the control panel will stop the engine by
+removing power to the fuel solenoid or ignition circuit. The display will indicate the reason for the
+shutdown and a red alarm lamp will be illuminated in the upper left corner of the module.
+
+
+
+
+14
+LOW POWER (SLEEP) MODE
+A low power mode is available to allow the control panel to minimize power consumption during
+times when the panel is on, but the engine is not running. This may occur simply because an operator
+has left the key on without starting the engine or the engine had been running, but was shut down to
+a fault condition such as high engine temperature, low oil pressure, low fuel level, over speed or any
+other monitored switch input such as a low coolant level switch.
+To minimize current draw, the panel goes into a sleep mode two minutes after being powered on
+without the engine starting or two minutes after a protection shutdown occurs. While in sleep mode,
+the display goes blank and the red lamp blinks once every ten seconds. The engine’s ECU circuit is de-
+energized as to not allow a continuous power drain.
+The panel will wake up and resume normal operation if any menu key is pressed or the power is cycled
+off and then back on. If any of the keys are pressed, the display will resume and show the last
+message displayed prior to entering the low power mode. This would include the shutdown message
+if the panel had performed a safety shutdown thus enabling the operator to see what condition
+occurred. However, if the operator turned the key off and then back on, the display would not
+indicate the safety shutdown message, but the alarm would be recorded in the Alarm Log menu
+section for reference.
+
+
+
+
+                           Constant Red LED Lamp when fault condition existed
+                                  when module entered low power mode
+
+
+
+15
+                     AUTO START OPERATION
+GENERAL INFORMATION
+The C Series control panels have a high degree of configurability when it comes to auto start
+applications. The information herein is designed to be a general guide to the different methods of
+auto start operation. An auto start signal can come from a digital input, analog input, MOD Bus, CAN
+Bus or from the real time clock scheduler. For application specific questions, you may want to review
+your installation with one of our application engineers to assist in determining the best method to
+solve your application challenge.
+Once an auto start event occurs, the control panel will start the engine and control the engine speed
+based on option selected. The control panel will monitor all parameters as it would do in manual
+operation. Once the auto start signal is no longer present, the control panel will initiate the cooldown
+programmed configuration. This may include a warm up sequence, normal operating method and a
+cooldown sequence prior to shutting down the engine. The panel will then resume the previous auto
+armed condition awaiting a new auto start signal. If the Low Power Mode is selected, the module will
+enter a sleep mode approximately two minutes after the module has been on and the engine has not
+started. See the Low Power Mode section for more details.
+
+
+
+POWER UP
+The control panel key switch can be rotated to the left one position from Off. This is the Auto position
+and will power up the display. The LEDs will be illuminated and the firmware will be displayed.
+
+
+
+
+16
+AUTO START ARMED
+After the initial startup screens are finished, the display will indicate that the auto start mode has now
+been armed. The ARMED text will flash and the display may rotate to show other information
+depending on the configuration and options of the panel. This screen would be typical if using a
+digital input, MOD Bus or CAN Bus as an auto start signal.
+
+
+
+
+LEVEL TRANSDUCER AUTO START
+If an analog channel is configured to start and stop the engine based on a level, the display will rotate
+through the set point screen displaying the start and stop settings as well as the current measured
+value.
+
+
+
+
+17
+PRESSURE TRANSDUCER AUTO START
+If an analog channel is configured to start and stop the engine based on a pressure, the display will
+rotate through the set point screen displaying the start and stop settings as well as the current
+measured value.
+
+
+
+
+SCHEDULER AUTO START
+If the Scheduler is set up to provide starting and stopping based on the time of day and day of week,
+the lower line will rotate to show the next start event. Once running under the scheduler, the Stop
+time will be displayed. The scheduler can accommodate up to thirty-two (32) start and stop events.
+
+
+
+
+18
+GENERAL TRANSDUCER AUTO START
+If an analog channel is configured to start and stop the engine based on a non-defined parameter, the
+display will rotate through the analog set point screen displaying the start and stop percentages as
+well as the current measured value.
+
+
+
+
+19
+AUTOMATIC SPEED CONTROL MODES
+When operating in Auto, the controller will start the engine at the Warmup Speed and maintain that
+speed until the warm up time delay expires. After that, the control will ramp the speed up to the Prime
+Speed setting and maintain that through the time period. Once the Prime time has expired, the
+control will begin operating in the program speed control mode selected. There are three operating
+control modes available. Single Speed, Target and Linear. Once the controller is in the operating
+speed control mode, it will remain there until the auto start signal calls for the engine to be shut down.
+When it is time to shut the engine down under normal circumstances, the control panel will reduce the
+engine speed to the Cooldown Speed where it will run until the cooldown timer expires. At this point,
+the controller will stop the engine by removing power to the ECU. If any of the Warmup, Prime or
+Cooldowns speeds are not desired, you can set the time period for that parameter to zero and the
+control will skip that routine.
+
+
+
+
+SINGLE SPEED
+Single speed control refers to a single operating speed. This is the speed at which the engine will run
+at for the duration of the automatic engine operation with the exception of warm up speed, prime
+speed and cooldown speed. During the operating speed, the user may use the up or down arrows to
+change the engine speed manually. Once an operator input occurs, the engine will remain at the new
+speed until the cooldown cycle begins.
+
+
+
+
+TARGET SPEED CONTROL
+Target speed control refers to the controller’s ability to throttle the engine to maintain a desired set
+point. If using a level transducer, this would be a desired depth. For example, if the measured depth
+rises above the target value, the engine speed will increase. If the depth drops below the desired
+value, the engine speed will decrease. This logic can be used to maintain a pressure as well. The
+control will run the warm up, prime and cooldown routine as well during this selection.
+
+
+
+
+20
+LINEAR SPEED CONTROL
+Linear speed control refers to the controller’s ability to throttle the engine based on an analog signal.
+The minimum engine speed will be maintained while at the minimum analog signal and the maximum
+engine speed will be obtained when at the maximum analog signal level. For example, if you were
+using a 4-20 mA signal from a PLC or other device, you can vary the engine speed in direct relationship
+to the signal. This also the ability to invert the slope if desired. For more details, contact a Controls Inc.
+sales engineer.
+
+
+
+
+21
+                          FLOAT INSTALLATION
+
+SINGLE FLOAT SYSTEM
+Basic level control can be accomplished using a float device that contains a contact closure internally.
+For applications that do not have critical start and stop points and do not contain turbulence, such as a
+pond or lagoon, a single float can provide adequate control over water levels. These floats are typically
+configured as normally open, meaning the internal float contact will be open when you want the pump
+to stop, and closed when you want the pump to start. One wire from the float contact must connect to
+the assigned pin in the float connector and the other must be connected to the common ground pin.
+
+
+
+
+DUAL FLOAT SYSTEM
+A more precise level control can be accomplished using two floats. One float is installed at the low
+level limit and the other float is installed at the high level limit. This dual float system is desirable when
+there are more stringent requirements on level control, particularly in narrow tanks or turbulent fluids.
+The float plug has one pin assigned to High Float and another for the Low Float. Typically, these are
+configured as normally open. See above. As the level rises, the low float contact will close. Once the
+level rises high enough for the high float to close, the pump will start. As the liquid is pumped down,
+the high float will open, and the pump will continue to run until the liquid is low enough for the low
+float to drop open. Once this occurs, the pump will begin to shut down. Like the single float, each
+float must have one wire connected to the assigned pin in the float connector and the other to the
+common ground pin.
+
+
+
+
+22
+FAILSAFE FLOAT SYSTEM
+If operating the auto start system using a transducer, you can install a single float positioned at a
+critical high level that will start and run the pump at a programmable speed and for a programmable
+length of time. This is an available option for backing up a level transducer installation. The float must
+be attached to the High Float connection in the float plug and the Failsafe logic must be enabled.
+When the engine is running under the failsafe mode, the yellow LED will be illuminated and the display
+will indicate the mode.
+
+
+
+
+23
+                  TRANSDUCER INSTALLATION
+
+GENERAL
+Transducer have become more popular in recent year as a way to precisely control or maintain liquid
+levels in tanks, canals, sewer systems and other critical sites. They are available in a wide range of
+options from types of scale, materials used to make, cable lengths and signal types. Controls Inc. has
+developed general guidelines when using a transducer in your application.
+        Signal Type – We recommend specifying a 4-20mA output in your transducer. The current
+         signal is less susceptible to noise and can be used over longer distances than the voltage
+         output types.
+        Appropriate Range – Use a transducer that matches your needs. For example, if you need to
+         start as stop the pump between 10 and 40 inches, use a 0 to 10’ transducer. The closer the
+         working range is to the actual range, the better performance and control you will achieve.
+        Material – Know the type of liquid you will be subjecting your transducer to. Typical materials
+         range from stainless steel to titanium. The costs can be considerably different, so talk to a
+         specialist.
+Controls Inc. does stock transducers and can assist in selection. Contact a sales engineer for more
+help.
+
+
+When using a transducer for start, stop and possible speed control, you first need to tell the control
+panel what type of transducer you are connecting. This is done in the Pump Parameter Configuration
+menu. See Controller Setup Menu for more details.
+
+
+
+
+24
+LEVEL CONTROL
+Highly accurate level control can be obtained by using a level transducer to monitor the depth of fluid
+at your site. You can use a level transducer to pump a tank down or fill a tank up. These settings are
+found in the Auto Operation menu. See Controller setup for more details. The controller will monitor
+the level and start the pump at the programmed times. Additionally, the control panel throttling can
+be controlled by the transducer as well. Two options are available in addition to the standard Single
+Speed option, Target and Linear. See the Automatic Speed Control Modes section in the Auto Start
+Operation section of this manual.
+
+
+
+
+PRESSURE CONTROL
+Highly accurate pressure control can be obtained by using a pressure transducer to monitor the
+pressure of fluid in the system. You would typically use this option to monitor a system pressure and
+start the pump if it drops below a certain setting. Once the pump is started, the system would monitor
+the pressure and stop the pump once it was re-pressurized. These settings are found in the Auto
+Operation menu. See Controller setup for more details. If the control panel does not detect a
+transducer connected, a warning will appear on the display.
+
+
+If the control panel does not detect a transducer connected, a warning will appear on the display.
+
+
+
+
+25
+                      PANEL PROGRAMMING
+
+PROGRAMMING OPTIONS
+There are two methods for programming your control panel. One is by using the modules built in
+menu system and the other is done using a PC based application called CI Station.
+
+
+PC BASED
+The CI Station is available in a kit form that includes the PC application, USB programming adapter,
+power supply and interconnect harnessing. The CI Station allows the user to save configurations and
+reuse them over and over for production line programming or to configure replacement panels to
+match the original OEM programming. Contact Controls Inc. for more details.
+
+
+
+
+26
+MODULE BASED
+The control panel will come with a factory configuration unless otherwise specified. Consult with your
+sales channel for modifications to the factory configurations.
+A Quick Setup menu is located under the Controller Setup area that will provide the basic selections
+you may want to review and or change to meet your needs. These parameters will vary based on the
+model selected. For mechanical engines, you would select the flywheel tooth count and preheat time
+is required. For electronic engines, you would be able to select the engine manufacturer, minimum
+engine speed and maximum engine speed.
+For further in depth programming, you can access seventeen other menu topics. The ability to change
+the controller behavior though these menu systems is equivalent to the capabilities of the PC based CI
+Station, but can be more difficult due to the number of options available. However, because of this
+flexibility, complete field configuration is possible without the use of a laptop.
+
+
+
+
+27
+MENU NAVIGATION
+To access the control panel menu system, place the key in the Run position and press the Menu key.
+While pressing the Menu key, a message will appear to also press the Enter key.
+
+
+
+
+Once you have accessed the menu system, the four key pad will be used for menu navigation and
+therefore not available for engine speed control if the engine is running. The menu system is broken
+into two main sections, the operator menu and the controller setup menu. The operator menu
+contains information about the engine and control panel. The topics will vary based on the engine
+type and control panel model. Pressing the Menu key will index the menu topic to the next item in the
+list. The index is circular so you will eventually wrap around to the beginning of the operator menu
+structure. Pressing the Enter key will index the topics backward. Once you have arrived at a menu
+topic that you would like to explore more, press the Up arrow key. The Up arrow key will index the
+screen each time it is pressed. Pressing the Down arrow key will index in the reverse order. Pressing
+the Menu key at any time while in a menu will step you out to the main menu topic heading. To exit
+the menu, simple press the Menu and Enter keys simultaneously.
+
+
+
+
+28
+CONTROLLER SETUP
+When navigating through the Operator menu you will arrive at the Controller Setup screen. To
+configure the module to new settings, you can enter into this area by pressing the Up arrow key.
+
+
+
+
+The next screen will ask for a password. If no password, or an incorrect password is used, navigation
+into the menu is still possible and permitted, however, the ability to make changes will be restricted.
+To enter the password, press the Enter key and brackets will appear. Use the Up and Down arrow keys
+to set each digit individually, pressing the Enter key to index to the next digit from left to right.
+
+
+
+
+Once the last digit is entered, the brackets will disappear and the digits will be represented with
+asterisks. Pressing the Up arrow will index you to the Quick Setup menu and programming can
+continue.
+
+
+
+
+29
+Navigating the Controller Setup menu structure is done in the same manner as the Operator menu
+system. Menu will index to the next topic, the Up arrow will access the topic, etc. To make changes to
+the settings, you will need to locate the item you are looking to modify under the appropriate topic
+and then press the Enter key and the editing brackets will appear allowing you to make changes to the
+value or change the selection. Once you have made your selection or changed the value, simply press
+Enter again to accept it and the editing brackets will be removed.
+
+
+
+
+30
+                        PANEL FUNCTIONALITY
+STANDARD FEATURES
+The control panel has many options that can be configured, enabled or selected that will enhance the
+operation of the equipment. A list of items is below with descriptions on the selection and use of
+each.
+
+
+CUSTOM SPLASH SCREEN
+The control panel can be programmed to customize the initial display screen when powered up. This
+must be done using the CI station where the two lines of sixteen characters can be used to insert the
+message desired. If no message is desired, simply leave the fields blank.
+
+
+
+
+SENDER FAILURE
+The control panel can detect when a local sender for a parameter such as oil pressure, coolant
+temperature or fuel level is not present. The display will indicate that a valid signal is not present by
+placing dashes in the area of the display that the value should be.
+
+
+
+
+31
+OPERATION LOG
+The operation log will record the engine start and stop events and tag them with the engine run time
+hours. The Alarm can be viewed in the Operator menu area and can be cleared in the Module
+Configuration section of the Controller Setup menu.
+
+
+
+
+ALARM LOG
+Any monitored prealarm or alarm will be recorded in the Operator menu section. The event will be
+tagged with the actual engine run time hours at which the event occurred. The log stores the last 32
+events and can be cleared in the Module Configuration section on the Controller Setup menu.
+
+
+
+
+32
+AUDIBLE HORN
+A pulsing piezo buzzer is standard equipment on the auto start panels and preconfigured to operate
+prior to an auto start occurring. Additionally, it will be audible in the event of a prealarm or alarm
+condition. When a relay is assigned to any Horn function, the Enter key will be used the silence the horn.
+
+
+
+
+SHUTDOWN OVERRIDE
+The module contains logic that can be enabled to provide a safety shutdown override. The override
+applies to any controller monitored and activated alarm. It does not apply to engine ECU safety
+shutdowns. For ECU overrides, consult with your engine supplier. To use this feature, an available
+digital input must be assigned to the Shutdown Override action on have a switch connected to it.
+When the override is active, the yellow LED will be illuminated and a message will appear on the
+display approximately every five seconds.
+
+
+
+
+33
+RETURN TO IDLE
+The module contains logic that can be enabled to reduce the engine speed back to the low idle if a
+condition exists. In order for this logic to work, an available input must be assigned with a switch
+connected.
+
+
+
+RETURN TO OP SPEED
+The module contains logic that can be enabled to increase the engine speed back to the last operating
+speed if a condition exists. In order for this logic to work, an available input must be assigned with a
+switch connected.
+
+
+
+ENGLISH / METRIC
+The display module can be configured to show the monitored values in either English units or Metric
+units. The selection is found in the Controller Setup menu under the Display Configuration Menu.
+
+
+
+PERFORMANCE DISPLAY
+The display module can be configured to show a custom performance display based on either
+preselected or user selected values. If enabled, the display will be rotated with the standard six up
+display every five seconds. To lock the display from changing, use the Scroll Lock feature by pressing
+the Enter key. This will allow continuous monitoring of that particular screen until the Enter key is
+pressed again.
+
+
+
+
+34
+NUMBER OF STARTS
+The control panel will keep track of the number of times the engine has been started. A start event is
+considered successful and recorded once the engine has been running long enough to exceed the
+safety bypass period. Resetting the number of starts to zero is available in the Controller Setup menu
+under the Module Configuration area.
+
+
+
+
+REAL TIME CLOCK
+The control panel has a real time clock that is used to control the Auto Shutdown feature. The clock
+has a storage capacitor the will maintain the time for a period of three months when not connected to
+a battery. The clock can be set in the Controller Setup menu under the Clock Setup menu.
+Additionally, if using the CI Station to configure your unit, the clock will automatically be set to you
+PCs date and time.
+
+
+
+
+35
+PANEL ENGINE SAFETY PROTECTIONS
+PREALARMS AND ALARM
+The primary engine protection in an engine equipped with an ECU is managed by the engine’s ECU.
+The display will show lamp status and trouble code information based on the ECUs messaging to the
+display. The control panel does not create a trouble code; however, it will display the code. In
+addition, the control panel will monitor the critical engine parameters of speed, coolant temperature
+and oil pressure. Prealarms are considered to be warnings that a parameter is nearing a point where
+engine damage may occur if not corrected. Alarms are considered to be the limit of the engine
+operating without causing damage. Therefore, alarm conditions will shut the engine down, or invoke
+other behavior as selected, while the prealarms will allow the engine to continue to run, but the control
+will log the condition and attempt to bring attention to it by illuminating a yellow LED lamp and
+flashing the affected parameter. The alarm condition will also be accompanied by a red LED lamp and
+a specific message of what parameter caused the engine to shut down.
+
+
+
+
+Once a safety shutdown has occurred, the module may enter into the low power sleep mode if the
+feature is activated. See Low Power Mode under Panel Operation.
+
+
+
+
+36
+SAFTETY SWITCHES
+The control panel has eight switch inputs that can be used to monitor items such as low coolant level,
+low oil level, high pump temp, low vacuum, etc. These switch can be assigned to the digital inputs
+located in the control module. Options for configuring switches include selecting whether the switch is
+normally open or normally closed, a time delay in seconds that the switch must be active for before
+latching the condition, the action of the switch and the message to be displayed when the switch is
+active. Custom messages can also be created if the preloaded messages are not representative. The
+use of the CI Station for custom messaging is highly suggested. If a switch is attached to a digital
+input, set as an alarm with the Low Water Level message selected and it becomes active, the control
+panel will shut the engine down, illuminate the red LED and display the message below on the screen.
+
+
+
+
+37
+FLEX ANALOG SAFETIES
+The control panel has four analog channels that can be used to monitor external signals. These can be
+configured to provide prealarm and alarms when set to be monitored and the appropriate action is
+associated with them. The default analog signal is set to 4-20mA and the panel associates 0 to 100%
+to the signal.
+
+
+
+
+38
+                  CONTROLLER SETUP MENU
+The tables below represent the typical options found in the Controller Setup menu system. These may
+vary based on firmware levels and versions, but consistency thought the product line is of the utmost
+importance.
+
+
+
+QUICK SETUP
+
+The Quick Setup menu is available to allow a user to quickly set up the basic configuration of the
+control panel to match the engine. Selections in the Quick Setup will propagate into other areas of
+the control panel programming. For more detailed options, you can use the main menu structures
+that follow.
+
+
+
+      Heading                         Default                          Range
+
+      Engine Type                    Mechanical                  Mechanical/Electronic
+      Flywheel Teeth                    30                              1 - 200
+      Pre Heat Time                    0:15                          0:00 – 30:00
+      Warmup Speed                     800                            650-4000
+      Prime Speed                      800                            650-4000
+      Operate Speed                    800                            650-4000
+      Cooldown Speed                   800                            650-4000
+      Performance Display               Off                             On/Off
+
+
+
+
+39
+ENGINE PARAMETER CONFIGURATION
+
+The Engine Parameters Configuration menu allow you to configure each critical engine parameter to
+the source of the information. Sender type, scale and input channel to the module can be selected
+here. You will first select the parameter, then the properties associated with each one.
+      Heading                              Default                         Range
+
+      Engine Type                         Mechanical                Mechanical/Electronic
+      Parameter                              Speed
+                                         Coolant Temp
+                                          Oil Pressure
+                                           Fuel Level
+                                            Voltage
+                                          Hour meter
+
+      Speed Source                        Mag Pickup                 Mag Pick Up / J1939
+      Flywheel Teeth                         30
+      Auto set Teeth?                        No                            No/Yes
+
+      Temperature Source                    Analog                   Analog / J1939
+                                                                S-W/VDO/EST/VDO 323 100/
+      Temperature Sender                     S-W
+                                                                      VDO 323 420B
+      Temperature Channel               Secondary Pin 10                Various
+
+      Oil Pressure Source                   Analog                      Analog / J1939
+      Oil Pressure Sender                    S-W                          S-W/VDO
+      Oil Pressure Channel              Secondary Pin 2                    Various
+      Oil Pressure Minimum                   0 psi.                      0 – 400 psi.
+      Oil Pressure Maximum                  100 psi                      0 – 400 psi
+
+      Fuel Level Source                      Analog                    Analog/J1939
+      Fuel Level Sender                       VDO                    SW/VDO/0-90ohm
+      Fuel Channel                       Primary Pin 13                  Various
+      Fuel Tank Volume                      100 Gal.                     0-10000
+
+      Voltage Source                        Internal       Batt-J1939/Alt-J1939/Elect-J1939/Internal
+      Batt Volt Trim (100mV)                   4
+
+      Hour meter                            Internal                 Internal/Engine ECU
+      Hour meter (Internal Only)            0 Hours
+
+
+40
+PUMP PARAMETER CONFIGURATION
+
+The Pump Parameter Configuration menu allow you to configure the three transducer inputs to accept
+4-20mA, 0-5 VDC or 0.5-4.5 VDC signals. If using a voltage rather than the current signal, you will
+need to reconfigure the channel by moving jumpers located on the PC board in addition to the menu
+selection.
+
+
+
+      Heading                                  Default                          Range
+
+                                                                  App/Inlet Pressure/Outlet
+      Parameter                          Application Transducer
+                                                                          Pressure
+      Transducer Type                            Level                         Level/Pressure
+      Interface                                4-20mA                  4-20mA/0-5VDC/Ratiometric
+      Channel                               Secondary Pin 3        Varies with Parameter
+      Minimum Reading                              0                       0-1200
+      Max Reading                                 200                      0-1200
+      Current Reading                        Actual Value
+      Zero Trim Calibration                      400*
+      *Zero Trim Cal is used to modify
+      the 4mA reading to equal zero
+      when in free air.
+
+
+
+
+41
+SCHEDULER CONFIGURATION
+
+The Scheduler Configuration menu is available to start and stop the engine based on the day and time
+of the week. Each scheduled event will require a start time, stop time and when it will run. If you set
+more than one event, the panel will run them concurrently. One event can be defined as a single start
+and stop, every day of the week for seven individual engine run commands. All events can be cleared
+as well by selecting Yes in the first field.
+
+
+
+
+      Heading            Default                                  Range
+
+      Clear All Events     No                                      Yes/No
+      Scheduled
+                            1                           1-8
+      Event
+
+      Start Time         12:00 PM                                 0:00-23:59
+      Stop Time          12:00 PM                               Off/Always/Run
+      Day of Week           Off     All/Alternate/Monday/Tuesday/Wednesday/ThursdayFriday/Saturday/Sunday
+
+
+
+
+42
+INPUT CONFIGURATION
+
+The Input Configuration menu allow you to set up eight discreet switch inputs that can be treated as
+engine safety switches, remote throttle commands, or other desired behaviors. Common text
+messages for power unit applications are preloaded. Up to four custom messages can be assigned to
+inputs. It is highly suggested to use the CI Station PC application for loading custom messages.
+
+
+
+
+      Heading                              Default                           Range
+      Configure                            Channels                Channels/Custom Message
+      Digital Input                           1                        1-9
+                                                             Prealarm/Alarm/Auto Start/Throttle Up/
+                                                             Throttle Down/Return to Idle/Return to
+      Action                                 Alarm              Operating Speed/High Float/Low
+                                                                Float/Auto Start Inhibit/Shutdown
+                                                             Override/Regen Request/Regen Inhibit
+      Check                                   Off                        Off/Always/Run
+      Message                              Low Water                         *See List
+      Delay                                  0:00                            0-5 Min
+      Normally                               Open                         Open/Closed
+
+      Default Assignments                      1                     High Float
+                                               2                     Low Float
+                                               4                    Low Water
+                                               5                Inlet Pressure Loss
+
+      Configure                         Custom Message
+      Custom Message                          1                               1-4
+      Top Line Message                             Alpha Numeric 14 Characters Max
+      Bottom Line Message                          Alpha Numeric 14 Characters Max
+
+
+
+
+43
+OUTPUT CONFIGURATION
+
+The Output Configuration menu allows you to select relay operations. Many predefined events can be
+associated with a relay closure for either engine operation, SCADA system integration, clutch control
+or driving an audible alarm.
+
+
+
+
+      Heading                              Default                         Range
+      Output                                 Relay 1                         Relay 1-8
+                                                             Prealarm/Alarm/Pre+Alarm Horn/Alarm
+                                                                Horn/Engine Run/Low Oil Pressure
+                                                                    Alarm/High Coolant Temp
+                                                               Alarm/Overspeed Alarm/Over Crank
+                                                                 Alarm/Low Fuel Alarm/Low Fuel
+                                                                 Prealarm/Fuel-Run/High Water
+      Function                               None
+                                                                    Level/Preheat/Crank/Start
+                                                               Warning/Start+Alarm Horn/Unit in
+                                                              Auto/Unit in Manual/Clutch 1/Clutch
+                                                                 2/Pull In/Throttle Hi-Lo/Throttle
+                                                            Up/Throttle Down/Regen Active/DEF Low
+                                                                   Level/Throttle B0/Throttle B1
+      Polarity                               Positive           Positive/Negative
+      Initial State                            On                     On/Off
+      Allow Power Down                         On                     On/Off
+      Pull Release Delay                    1 Second                   1-10
+
+      Default Assignments                    Relay 1               Pre Alarm
+                                             Relay 2               Fuel/Run
+                                             Relay3                Pre Heat
+                                             Relay 4                 Crank
+                                             Relay 5                 None
+                                             Relay 6              Unit in Auto
+                                             Relay 7                 None
+                                             Relay 8                 None
+
+
+
+
+44
+THROTTLE CONFIGURATION
+
+The Throttle Configuration menu allows you to design the appropriate speed control for your
+application. The most common throttle control is TSC Vernier. This option allows you to start the
+engine at the minimum speed and control the throttle up to the maximum speed with the ability to
+stop anywhere in between. The TSC Multistate throttle allows you to set up to four ascending discrete
+speeds. If you do not wish to use all four speeds, simply program the number of speeds you like and
+set the remaining speeds to a lesser value than your last desired speed. This will cause the control
+panel to ignore the undesired speeds.
+
+If you choose TSC Analog, you can add a hand throttle or other analog device to control the engine’s
+speed. You have to configure the analog channel that the throttle device is connected to. The control
+panel will then convert the analog signal to a TSC message.
+
+
+
+      Heading                               Default                        Range
+                                                              Momentary/TSC Multistate/Hi-Lo/TSC
+      Throttle Type                           Off                  Vernier/3-State/TSC Hi-Lo
+                                                                   Momentary/MODBUS/Off
+      TSC Mode                              Primary             Primary/Remote
+      TSC Min Speed                           800                650-4000 RPM
+      TSC Max Speed                           2400               650-4000 RPM
+      TSC Bump Speed                           20                  1-100 RPM
+      TSC Ramp Rate                           100              10-2000 RPM/SEC
+      Throttle Curve                         Linear            Linear/Exponential
+
+      Multistate Speed 1-4                    800                650-4000 RPM
+
+      Actuator Coarse Tolerance             140 RPM               0-4000 RPM
+      Actuator Fine Adjust Tolerance          0 RPM               0-4000 RPM
+      Actuator Fine Adjust Delay           500 mSec.            100-6000 mSec.
+      Actuator Pulse Off                   2000 mSec.           100-6000 mSec.
+      Actuator Pulse On                     50 mSec.             10-5000 mSec.
+      Maintain Interval                       5 Sec.               1-60 Sec.
+      Analog Throttle Tolerance              20 RPM               0-2000 RPM
+
+
+
+
+45
+ENGINE SAFETY CONFIGURATION
+
+The Engine Safety Configuration menu enables the user to set warning and shutdowns for the critical
+engine parameters. Care should be taken when configuring to match the engine manufacturers
+recommended guidelines.
+      Heading                              Default                          Range
+      Sender Check Bypass                 0:10 Seconds             0:05 -1:00
+
+      Parameter                            Fuel Level
+                                          Oil Pressure
+                                          Temperature
+                                         Battery Voltage
+                                           Overspeed
+                                          Speed Limit
+
+      Fuel Level Check                        Run                Off/Always/Run
+      Low Fuel Prealarm @                     20%                    0-100%
+      Low Fuel Alarm @                        1%                     0-100%
+                                                                Shutdown/Force to
+      Fuel Level Alarm Action              Shutdown
+                                                            Idle/Speed Limit/Disabled
+      Fuel Alarm Delay                    0:05 Seconds              0:00-1:40
+
+      Oil Pressure Check                      Run               Off/Always/Run
+      Low Oil Pressure Prealarm @            15 psi                0-100 psi
+      Low Oil Pressure Alarm @               10 psi                0-100 psi
+      Fuel Level Alarm Action              Shutdown               See Above
+      Oil Pressure Alarm Delay                0:05                 0:00-1:40
+
+      Temperature Check                      Run                Off/Always/Run
+      High Temperature Prealarm @           220 ° F               150-300 ° F
+      High Temperature Alarm @              230 ° F               150-300 ° F
+      Coolant Temperature Alarm Action     Shutdown               See Above
+      Temp Alarm Delay                       0:05
+
+      Battery Volts Check                     Off               Off/Always/Run
+      Low Battery Prealarm @               12.0 VDC              0.0-40.0 VDC
+      High Battery Voltage Prealarm @      15.0 VDC              0.0-40.0 VDC
+
+      Overspeed Alarm                         Run               Run/Off/Always
+      Overspeed Alarm @                    2550 RPM             650-5000 RPM
+      Overspeed Alarm Delay                  0:01                 0:00-1:40
+
+      Speed Limit                          1600 RPM               0-3000 RPM
+
+
+
+46
+PUMP SAFETY CONFIGURATION
+
+The Pump Safety Configuration menu enables the user to set warning and shutdowns for inlet and
+outlet pressures. Pre alarms will create a visual message and illuminate the yellow LED on the display.
+Alarms will shut the engine down, illuminate a red LED and provide a message on the screen as to
+which analog sender identified the safety.
+      Heading                                Default                         Range
+
+      Inlet Pressure Check                      Off               Off/Run/Always
+      Low Inlet Pressure Pre Alarm           -14.7 psi            -14.7 – 400 psi
+      Low Inlet Pressure Alarm               -14.7 psi            -14.7 – 400 psi
+      High Inlet Pressure Pre Alarm           25.0 psi            -14.7 – 400 psi
+      High Inlet Pressure Alarm               25.0 psi            -14.7 – 400 psi
+      Inlet Pressure Alarm Delay               0:05                  0:00-5:00
+      Inlet Pressure Hysteresis               5.0 psi             -14.7 – 400 psi
+
+      Outlet Pressure Check                     Off               Off/Run/Always
+      Low Outlet Pressure Pre Alarm            0 psi               0 – 4000 psi
+      Low Outlet Pressure Alarm                0 psi               0 – 4000 psi
+      High Outlet Pressure Pre Alarm          300 psi              0 – 4000 psi
+      High Outlet Pressure Alarm              300 psi              0 – 4000 psi
+      Outlet Pressure Alarm Delay              0:05                  0:00-5:00
+      Outlet Pressure Hysteresis              5.0 psi              0 – 4000 psi
+
+
+
+MODULE CONFIGURATION
+
+The Module Configuration menu is available to change the behavior of the control and clear several of
+the log files.
+      Heading                                Default                         Range
+
+                                                                      Off/Auto
+      Low Power Mode                         Auto Only
+                                                                 Only/Auto+Manual
+      Prealarms Displayed                       3                       0-3
+      Clear Operation Log                      No                     Yes/No
+      Clear Alarm Log                          No                     Yes/No
+      Clear Number of Starts                   No                     Yes/No
+      Engine Running >                       400 RPM                 400-2000
+      Engine Stopped <                       50 RPM                    1-400
+
+
+
+47
+DISPLAY CONFIGURATION
+
+The Display Configuration menu can be used to change how some information is presented to the
+operator.
+      Heading                                   Default                       Range
+
+      Press & Temp Units                        English           English/Metric
+      Performance Display                         Off             Off/Opt 1/Opt2
+
+
+
+CAN CONFIGURATION
+
+The CAN Configuration menu allows the user to set the engine manufacturer, individual CAN address
+as well as the ability to turn on or off individual parameters to be transmitted over the J1939 CAN Bus
+for tie into the InControl Technologies telemetry devices. Also, for John Deere engines using a JD Link
+telemetry system, the ability to allow payload updates without operator input is available by enabling
+the JD Link Auto Accept feature.
+      Heading                          Default                            Range
+
+      Engine Manufacturer             John Deere              See Quick Setup List
+      TSC1 Address                         3                        0-255
+      Source Address                      44                        0-255
+      Engine Address                       0                        0-255
+
+      Speed Transmit                                               On/Off
+      Temperature Transmit                                         On/Off
+      Oil Pressure Transmit                                        On/Off
+      Fuel Level Transmit                                          On/Off
+      Voltage Transmit                                             On/Off
+      Hours Transmit                                               On/Off
+      Pump Parameters Transmit                                     On/Off
+      Flex Analog 1 -4 Transmit                                    On/Off
+      Engine Status Transmit                                       On/Off
+      Panel Status Transmit                                        On/Off
+      Panel Information Transmit                                   On/Off
+      Faults Transmit                     All                   Active Only/All
+      Engine IS Auto Requirement          No                        Yes/No
+      Text During Sleep Mode              Off                      On/Off
+      JDLink Auto Accept                  Off                       On/Off
+
+
+48
+AUTO OPERATION SETTINGS
+
+The table below represents the typical options found in the Controller Setup menu system. These may
+vary based on firmware levels and versions, but consistency thought the product line is of the utmost
+importance.
+      Heading                         Default                           Range
+
+      Control Transducer             Application          Application/Outlet Pressure
+      Start/Stop Input                 Floats        Floats/Transducer/Transducer+Floats
+
+      Throttle Mode                  Single Speed
+                                        Linear
+                                        Target
+
+      Operate Speed                      800                      Min-Max
+
+      Min Control Speed                 800                   Min-Max Speed
+      Max Control Speed                 2400                  Min-Max Speed
+      Min Speed @                        50”                 Transducer Range
+      Max Speed @                       100”                 Transducer Range
+      Current Level                 Measured Level           Transducer Range
+
+      Gain Trim                         50%                       0-100%
+      Min Control Speed                 800                   Min-Max Speed
+      Max Control Speed                 2400                  Min-Max Speed
+      Min Speed @                        50”                 Transducer Range
+      Max Speed @                       100”                 Transducer Range
+      Maintain Level                     75”                 Transducer Range
+      Maintain Level Tolerance           0”                        0-100”
+      Current Level                 Measured Level           Transducer Range
+      Maintain Course Tolerance          0”                       0-2000”
+      Maintain Fine Tolerance            0”                       0-2000”
+
+
+
+
+49
+AUTO START CONFIGURATION
+The Auto Start Configuration menu is used to determine the engine start sequence, initial operating
+speeds and cooldown sequencing.
+
+
+
+      Heading                         Default                           Range
+
+      Auto Start Delay                   0:10                 0:00-5:00 Minutes
+      Preheat Time                       0:15                 0:00-2:00 Minutes
+      Crank Time                         0:10                 0:03-1:00 Minute
+      Rest Time                          0:10                 0:03-1:00 Minute
+
+      Warm Up Speed                    800 RPM                 Min-Max Speed
+      Warm Up Time                       0:00                0:00-30:00 Minutes
+
+      Prime Speed                      800 RPM                 Min-Max Speed
+      Prime Time                         0:00                0:00-30:00 Minutes
+
+      Cooldown Speed                   800 RPM                 Min-Max Speed
+      Cooldown Time                      0:00                0:00-30:00 Minutes
+
+      Crank Cycles                        5                         1-10
+      Crank Release Speed              400 RPM               400 RPM – 700 RPM
+      Crank Hold Delay                    0                0-50 Tenths of a Second
+
+
+
+
+BATTERY RECHARGE CONFIGURATION
+The Battery Recharge Configuration can be enabled to provide a continuous monitoring of the
+engine’s battery condition. These settings can be modified to exercise the engine based on battery
+voltage for a programmable time period.
+      Heading                         Default                           Range
+
+      Recharge Monitor                    Off                      On/Off
+      Recharge @                         11.9                5.0-40.0 VDC (Vx10)
+      Recharge Delay                    60 Sec                  0-60 Seconds
+      Recharge Run For                  15 Min                  5-105 Minutes
+      Next Recharge in                  45 Min                  5-105 Minutes
+
+
+
+50
+MAINTENANCE CONFIGURATION
+The Maintenance Configuration menu is used to set up to four service intervals. The schedules can be
+reset once the service is complete. If any schedule is not desired to be used, simply set the hours to
+zero.
+
+
+
+      Heading                          Default                          Range
+
+      Service Messages                    No                       Yes/No
+      Schedule A-C                        A                        A, B, C
+      Schedule Reset                      No                       Yes/No
+      Schedule Interval               200 Hours
+      Schedule Warning                 10 Hours                0-1000 Hours
+      Schedule Trip                    0 Hours                 0-1000 Hours
+      Schedule Message                  Custom
+
+
+
+EMISSIONS CONFIGURATION
+The Emissions Configuration menu has settings for specific engine manufacturers. Changes to these
+should only be done after consulting with a CI Sales Engineer.
+
+
+
+      Heading                          Default                          Range
+
+      DEF Level Check                    Off                       On/Off
+      Low DEF Prealarm                  16%                        0-100%
+      Low DEF Alarm                      0%                        0-100%
+      DEF Alarm Delay                    0:05                 0:01-5:00 Minutes
+      Allow Service Regen                No                        No/Yes
+      Electric Interlock Required        No                        No/Yes
+      Regen Interlock                    Off                       Off/On
+      TSC Transmit                       On`                       On/Off
+      DPF Inhibit Lamp Source          Operator                 Operator/ECU
+
+
+
+
+51
+MODBUS CONFIGURATION
+The Mod Bus Configuration menu has parameters that can be programmed to set up proper
+communications between devices. A register map is available by contacting a sales engineer at
+Controls Inc.
+      Heading                         Default                         Range
+
+      MODBUS Mode                        Off                     On/Off
+      Baud Rate                         9600                9600-19200-38400
+      Parity                            Odd                  Odd/Even/None
+      Stop Bits                           1                        1/2
+      Slave Address                       1                       1-247
+      Communication Timeout             0:00                    0:00-5:00
+
+
+
+
+52
+CLUTCH CONFIGURATION
+The Clutch Configuration menu can be used to program two relays to open or close based on a variety
+of criteria. You can mix and match Engage and Disengage criteria. If you select to engage on Speed,
+you will need to set the actual speed you want it to close the relay upon reaching. Don’t forget to
+assign a relay to Clutch 1 for the logic to run.
+      Heading                        Default                          Range
+
+                                                         Engine Stopped/Engine Started/Speed
+                                                    Above/Speed Below/Speed Crosses Above/Speed
+                                                     Crosses Below/Load Above/Load Below/Coolant
+      #1 Engage Trip                   None             Temp Above/Coolant Temp Below/Begin
+                                                      Prime/Begin Warmup/Begin Ramp Up/Begin
+                                                    Operate/Begin Ramp Down/Begin Cooldown/End
+                                                                      of Cooldown
+      #1 Engage Speed                 800 RPM                 Min-Max Speeds
+      #1 Engage Load                     0%                       0-100%
+      #1 Engage Coolant Temp           150 ° F                   0-300 ° F
+      #1 Engage Delay                   0:00                 0:00-5:00 minutes
+      #1 Engage Interval                0:00                 0:00-5:00 minutes
+
+      #1 Release Trip                   None              Same as Engage Trip 1
+      #1 Release Speed                800 RPM               Min-Max Speeds
+      #1 Release Load                    0%                      0-100%
+      #1 Release Coolant Temp          150 ° F                  0-300 ° F
+      #1 Release Delay                  0:00                0:00-5:00 minutes
+      #1 Release Interval               0:00                0:00-5:00 minutes
+
+      #2 Engage Trip                    None              Same as Engage Trip 1
+      #2 Engage Speed                 800 RPM               Min-Max Speeds
+      #2 Engage Load                     0%                      0-100%
+      #2 Engage Coolant Temp           150 ° F                  0-300 ° F
+      #2 Engage Delay                   0:00                0:00-5:00 minutes
+      #2 Engage Interval                0:00                0:00-5:00 minutes
+
+      #2 Release Trip                   None              Same as Engage Trip 1
+      #2 Release Speed                800 RPM               Min-Max Speeds
+      #2 Release Load                    0%                      0-100%
+      #2 Release Coolant Temp          150 ° F                  0-300 ° F
+      #2 Release Delay                  0:00                0:00-5:00 minutes
+      #2 Release Interval               0:00                0:00-5:00 minutes
+
+
+53
+CLOCK SETUP
+The Clock Setup menu provide the ability to manually set the current date and time in your location. If
+using the CI Station PC application to program, the CI station will set the controllers clock to match
+you PC date and time.
+
+
+
+      Heading                          Default                          Range
+
+      Current Date and Time             Actual
+      Display Format                   12 Hour                  12 or 24 Hour
+      Time                             2:56 PM                    0:00-23:59
+      Month                            February              January - December
+      Day                                 29                         1-31
+      Year                               2016                     2000-2099
+      Day of Week                        Wed                   Sunday-Saturday
+
+
+
+
+54
+                              PANEL CONNECTORS
+                          1. Engine Harness Connector:        Deutsch HDP24-24-16PE
+                          2. Accessory Connector:             Deutsch HDP10-9-1939P
+                          3. Float Connector:                 Tyco 796095-2
+
+                                                    31 Pin
+                                                  Connector
+
+           Accessory
+           Connector
+                                                  31 Pin
+                                                Connector
+                                                                                    Engine Harness
+                                                                                      Connector
+
+
+
+
+            Low Float
+                                                                                 High Float
+            Connector
+                                                                                 Connector
+
+
+
+                                                                       Engine Harness Connector
+   Accessory Connector             Low Float Connector
+                                                                 Pin              Function
+Pin    Function             Pin   Function
+                                                                  S      Battery Positive
+ A    Fuel Level Sender      1    Low Float Common
+      Low Water Level                                             D      Crank Signal
+                             2    Low Float Normally Open
+ B    Switch                                                      F      Battery Negative
+      Loss of Inlet          3    Low Float Common
+ C    Pressure                                                    R      Key On Power (Fuel/Run)
+                             4    Low Float Normally Open
+      Transducer Signal                                          H       Engine Temperature Input
+ D    Input
+                                                                  C      Oil Pressure Input
+ E    Ground Return               High Float Connector
+                                                                  G      Alternator Excite
+ F    MODBUS A             Pin     Function
+                                                                  P      MPU + / Alt Tach
+ G    MODBUS B               1    High Float Common
+ H    Digital #3 Input                                            A      MPU -
+                             2    High Float Normally Open
+ J    Digital #6 Input                                            J      Pre Heat Signal
+                             3    High Float Common
+                                                                  K      +5V Sensor Supply
+                             4    High Float Normally Open
+                                                                  L      Sensor Return
+                                                                 M       Water Level Switch
+
+      55
+                        MODULE CONNECTORS
+  The module has two Ampseal keyed connectors located on the back of the display. The connectors
+  provide access through the weather tight display enclosure which houses the electronics. The module
+  is a serviceable item and can be
+
+
+
+
+Primary Connector           Secondary Connector
+     14 Pin                       23 Pin
+
+
+
+
+  56
+MODULE PRIMARY CONNECTOR
+
+
+
+             Pin            Function               Pin               Function
+              1    Relay Output 2 (ECU Power)       8               J1939 Low
+              2          Relay 1 Output             9        Relay 3 Common (B+)
+              3          Relay 3 Output            10              Auto Detect
+              4          Battery Positive          11            Battery Positive
+              5      Relay Output 4 (Crank)        12           Battery Negative
+              6       Relay 1 Common (B+)          13      Analog 1 Input (Fuel Level)
+              7            J1939 High              14      Digital 1 Input (High Float)
+
+
+                     CAUTION:
+                     Max Load for Relays 1 and 3 is 5 amps each
+                     Max Load for Fuel and Crank circuits is 10 amps each
+
+
+
+
+MODULE SECONDARY CONNECTOR
+
+
+Pin           Function            Pin            Function                Pin          Function
+ 1        Relay Output 5           9       Relays Common 5 & 6           16        Relay Output 6
+ 2      Oil Pressure Sender       10         Temperature Sender          17        DI 2 Low Float
+ 3    Application Xducer Input    11        Inlet Pressure Input         18        Digital Input 3
+ 4     Outlet Pressure Input      12          Flow Rate Input            19        DI 4 Low Water
+ 5      Speed (MPU) Input         13            MODBUS A                 20    DI 5 Low Inlet Pressure
+ 6         Digital Input 8        14            MODBUS B                 21        Digital Input 6
+ 7         Digital Input 9        15       Relays Common 7 & 8           22        Digital Input 7
+ 8        Relay Output 7                                                 23        Relay Output 8
+
+                   CAUTION:
+                   Max Load for Relays 5, 6, 7 and 8 circuits is 5 amps each
+
+
+
+
+57
+                                           WARRANTY
+     CONTROLS, INC. is herein called “Seller”. The person, firm or corporation to whom or which the sale is
+     made is herein called “Buyer”. Seller warrants to the Buyer that all products furnished under this order
+     will conform to Seller’s specification, drawings as described in its current catalog or quotation and will
+     be free from defects in materials and workmanship. Seller must approve other special requirements
+     asked for by the Buyer in its purchase order in writing. Parts replaced or repaired in the warranty
+     period shall carry the unexpired portion of the original warranty. The foregoing is subject to the
+     provisions that in no case will the total warranty period extend beyond twenty-four (24) months or two
+     thousand (2000) hours of use, whichever occurs first, from date seller ships equipment from point of
+     sale.
+
+     The Liability of Seller hereunder is limited to replacing or repairing at Seller’s factory any part or parts
+     which have been returned to the Seller and which are proved by buyer as defective or not conforming
+     to Seller’s specifications, drawings or other written descriptions, accepted by Seller, provided that such
+     part or parts are returned by the buyer within thirty (30) days after such defect is discovered. All items
+     returned to Seller for repair or replacement must be sent freight prepaid to its factory. Buyer must
+     obtain Seller’s Return Merchandise Authorization # prior to returning items. The above conditions
+     must be met if warranty is valid. Seller will not be liable for any damage done by unauthorized repair
+     work, or unauthorized misapplication in non-suitable environment.
+
+     In no event shall the Seller be liable for loss, damage, or expense directly or indirectly arising from the
+     use of the units, or from any other cause, except as expressly stated in the warranty. Seller makes no
+     warranties, express or implied, including any warranty as to merchantability of fitness for a particular
+     purpose or use. Seller is not liable for and buyer waives any right or action it has or may have against
+     seller for any consequential or special damages arising out of any breach of warranty, and for any
+     damages buyer may claim for damage to any property or injury or death to any person arising out of
+     its purchase or the use, operation or maintenance of the product. Seller will not be liable for any labor
+     subcontracted or performed by buyer for preparation of warranted item for return to Seller’s factory or
+     for preparation work for field repair or replacement. The Seller will not consider invoicing of Seller for
+     labor either performed or subcontracted by buyer as a liability. This warranty shall be exclusive of any
+     and all other warranties express or implied and may be modified only by a writing signed by an officer
+     of the Seller. With respect to accessories supplied by Seller, but manufactured by others, there is no
+     warranty of any kind, express or implied, and specifically there is no warranty of merchantability or
+     fitness, except as may be set forth in any warranty the manufactures have made to Seller and which
+     can be passed to the Buyer.
+
+
+
+
+58
+

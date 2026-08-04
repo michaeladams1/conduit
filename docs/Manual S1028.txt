@@ -1,0 +1,1703 @@
+SOURCE: Cornell Pump Manual S1028 — covers Models 4408T Grease Lubed EM5 with Cycloseal, Tapered Blind Bore, Keyed Impeller, No Sleeve, and Optional Redi Prime.
+
+                                       Manual S1028
+
+
+
+
+                       Covers Models
+                           4408T
+Grease Lubed EM5 with Cycloseal, Tapered Blind Bore, Keyed
+        Impeller, No Sleeve, and Optional Redi Prime
+                               Table of Contents
+Terms & Conditions                                                   5
+Warranty Coverage                                                    7
+Introduction                                                         8
+Safety                                                               9
+Assembly of Pumps to Engines                                         11
+Start-up Checklist                                                   14
+Pump End Parts Page                                                  16
+Pump Disassembly and Reassembly                                      17
+Frame End Parts Page                                                 21
+Frame Disassembly and Reassembly                                     22
+Grease Frame Lubrication Instructions                                23
+Pump Troubleshooting Guide                                           24
+Redi-Prime® Manual                                                   26
+  Warranty                                                           27
+  Torsional Vibration                                                28
+  Start-up and Operation Instructions                                29
+  Dismantling and Reassembling Cornell Redi-Prime® Pump Components   30
+  Vacuum Pump Servicing and Operation                                32
+  Separator Service and Operation                                    35
+  Discharge Check Valve Operation and Servicing                      37
+  Redi-Prime® and Venturi-Prime Troubleshooting Guide                38
+  Winterizing and Storage                                            40
+  Redi-Prime® Assembly Parts Page                                    41
+  Separator Assembly Page                                            42
+  Discharge Check Valve Parts Page                                   43
+  Check Valve Losses Page                                            44
+  Redi-Prime® Vacuum Pump Assembly Page                              45
+  Redi-Prime® Vacuum Pump Power Page                                 46
+                                            CORNELL PUMP COMPANY
+
+
+                                     Terms & Conditions
+LEGAL EFFECT: These Terms and Conditions of                 PAYMENTS: Standard terms for customers who
+Sale      (“Terms”)   and     the    associated     Order   qualify for credit are ½% 15 days, net 30. Unless
+Acknowledgment (collectively, the “Agreement”) are          otherwise agreed to in writing by Cornell, Buyer
+binding upon Cornell Pump Company (“Cornell”)               shall pay all amounts due within thirty (30) days of
+and the purchaser of products and services from             receipt of invoice. A monthly service charge of
+Cornell (“Buyer”). Except as otherwise agreed to in         1.5% may be charged on amounts owed by Buyer
+writing by Cornell, these Terms shall apply to, and         to Cornell that have not been paid on time, subject
+form a part of, all sales of products and services          to the maximum amount permitted by law.
+(collectively, “Products”). Additional or different terms
+shall have no effect unless agreed to in writing by         TITLE AND LIEN RIGHTS: The Products will
+Cornell.                                                    remain personal property, regardless of how the
+                                                            Products are installed or affixed to any realty or
+Cornell may suspend its performance of any order            structure. After delivery to Buyer, Cornell will have
+if Buyer defaults in the performance of its duties          all such rights, including security interests and liens,
+under any order or under any other agreement                in the Products as lawfully may be conferred upon
+between Cornell and Buyer.                                  Cornell under any applicable provision of law. Buyer
+                                                            agrees to cooperate fully with Cornell in the filing
+ACCEPTANCE: The sale of Products by Cornell to              of any financing statements, including Uniform
+Buyer   is   expressly  conditioned on Buyer’s              Commercial Code filings or other documents
+acceptance of these Terms.                                  necessary to perfect such interests and liens. If
+                                                            Buyer breaches this Agreement, or defaults on any
+CHANGES: Any changes proposed by Buyer after                obligations, before paying all amounts due for the
+formation of this Agreement that affect the delivery        Products, Cornell may take any and all actions
+schedule or requirements, or otherwise affect the           permitted by law to protect its interests, including,
+scope of this Agreement, shall be submitted in              where permissible, repossession of such Products.
+writing by Buyer to Cornell and shall become
+binding only if agreed to in writing by Cornell. Any        SHIPMENTS: All sales are ex-works factory. Risk of
+modifications to price or delivery as a result of           loss shall pass to Buyer upon shipment. Shipping
+such changes shall be determined by Cornell in its          contracts made by Cornell shall be to Buyer’s
+sole discretion.                                            account. All claims for loss or damage after
+                                                            shipment shall be filed by Buyer with the carrier.
+CANCELLATION AND REVISION: No order may                     Buyer shall be liable to Cornell for the full price of
+be cancelled or revised, in whole or in part, without       the goods, irrespective of loss or damage in transit.
+the written consent of Cornell. In the event that           Cornell shall not be required to provide freight cost
+Cornell consents to any cancellation or revision,           receipts to Buyer at the time of invoice.
+Buyer shall reimburse Cornell for all of Cornell’s
+losses, costs, and damages caused by such                   LIMITED WARRANTY: Cornell warrants, to Buyer
+cancellation or revision, including, but not limited to,    only, that Products manufactured by Cornell are
+any costs arising from changes in design or                 free from defects in material and workmanship for
+specifications.                                             the periods set forth in Exhibit 1. If a failure to
+                                                            conform to specifications or a defect in materials or
+CREDIT: The amount of credit offered by Cornell to          workmanship is discovered within the applicable
+Buyer is based on a number of factors, including,           period, Cornell must be promptly notified in writing
+but not limited to, Cornell’s opinion of Buyer’s            within thirty (30) days of such discovery. Within a
+capacity, ability, and willingness to promptly pay for      reasonable time after such notification, Cornell shall
+Products. Cornell reserves the right to revoke              correct any failure to conform to specifications or
+Buyer’s credit and/or suspend performance on any            any defect in materials or workmanship, or in lieu
+order in the event that, in Cornell’s opinion, there is     of such repair, and at Cornell’s sole option, shall
+a material adverse change in Buyer’s financial              replace the Products or the applicable portion
+condition, or Buyer has not, within the agreed upon         thereof.
+time, fully paid for Products previously supplied
+under any other agreement with Cornell.
+
+
+
+
+                                                   page 5 of 46
+                                         CORNELL PUMP COMPANY
+
+
+                           Terms & Conditions (cont'd)
+Any such repair shall be performed at Cornell’s          OR    WILL  FULFILL ANY   OF               BUYER’S
+facility, unless otherwise designated by Cornell.        PARTICULAR PURPOSES OR NEEDS.
+Buyer shall pay any cost incurred as a result of
+shipping the Products, or any portion thereof, to       COMPLIANCE WITH LAWS: Buyer shall comply
+Cornell. Cornell shall pay any cost incurred in         with all laws and regulations governing the
+returning the Products, or any portion thereof, to      purchase or license, installation or use of the
+Buyer. For repairs done at Cornell’s facility, Cornell  Products, including, without limitation, obtaining all
+will pay for any costs of labor and materials, and      licenses, permits and registrations and fulfilling all
+any expenses incurred by Cornell in making such         other requirements of governmental agencies, and
+repairs.                                                Cornell shall have no obligation or responsibility of
+                                                        any kind with respect thereto. Buyer shall only
+Cornell may opt to send replacement parts in lieu export or re-export the Products in compliance with
+of repair at Cornell’s facility. Cornell may also opt all applicable U.S. export control laws and
+to perform repairs at Buyer’s facility or site. If such regulations.
+repairs are performed for the convenience of Buyer,
+Buyer shall pay for all costs of labor and materials. LIMITATION OF LIABILITY: Cornell’s aggregate
+If such repairs are performed for the convenience liability for any claim, loss, cost, damage, or liability
+of Cornell, Buyer shall, in Cornell’s sole discretion, arising out of or related to this Agreement,
+pay a portion of the costs of labor and materials. including, but not limited to, any liability arising from
+Cornell shall have no obligation to pay or reimburse negligence, warranty, indemnity, contract, strict
+Buyer or any third party for any expense incurred liability, or operation of law, shall in no event
+as a result of any Products, or any repair or exceed the purchase price paid by Buyer for the
+attempted repair of any Products.                       affected Products. IN NO EVENT SHALL CORNELL
+                                                        BE LIABLE FOR, OR OBLIGATED IN ANY
+The warranty provided herein shall not apply in the MANNER           TO     PAY,    SPECIAL,      INDIRECT,
+event of any (a) defects caused by a failure to INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE
+provide a suitable installation environment for the DAMAGES OF ANY KIND.
+Products, (b) damage caused by the use of the
+Products for purposes other than those for which INDEMNIFICATION: Buyer shall indemnify, defend
+the Products were designed or intended, (c) and hold harmless Cornell, its affiliates, and their
+damage caused by disasters such as fire, flood, respective directors, officers, members, employees,
+wind, or lightning, (d) damage caused by agents, contractors, successors, and assigns from
+unauthorized attachments or modifications, (e) other and against all losses, damages, expenses, claims,
+abuse or misuse, including improper installation, (f) demands, suits, judgments, penalties, and costs of
+reasonable wear and tear, and (g) defects in any kind whatsoever, including attorneys’ fees and
+equipment or components not manufactured by expenses arising out of this Agreement or Buyer’s
+Cornell. Cornell shall pass on any warranties for use, acts, or omissions in connection with any
+equipment and components not manufactured by Products.
+Cornell to the extent that such warranties may be
+passed on.                                              GOVERNING LAW AND FORUM: This Agreement
+                                                        shall be governed in all respects by the laws of
+CORNELL        DISCLAIMS         ANY      AND       ALL the State of Oregon, U.S.A. (excluding any conflicts
+WARRANTIES AND REPRESENTATIONS WITH of laws principles that would lead to the application
+RESPECT TO THE PRODUCTS PROVIDED of another state’s laws). Buyer submits to the
+HEREUNDER, WHETHER EXPRESS OR IMPLIED, jurisdiction of the state and federal courts of
+ARISING BY LAW, CUSTOM, ORAL OR WRITTEN Oregon for the purposes of resolving any dispute
+STATEMENTS OR OTHERWISE, INCLUDING, BUT arising under or in connection with this Agreement.
+NOT       LIMITED      TO,       WARRANTIES          OF
+MERCHANTABILITY,           FITNESS         FOR        A
+PARTICULAR        PURPOSE,        OR     THAT      THE
+PRODUCTS         WILL       GENERATE         CERTAIN
+RESULTS, WORK IN COMBINATION WITH OTHER
+COMPONENTS OR AS AN INTEGRATED SYSTEM
+
+
+                                                page 6 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                                  Warranty Coverage
+                                               Exhibit 1
+
+                             0-12                13-18           19-24           25-36         37-60
+Product
+                            months              months          months          months        months
+Refrigeration
+                                                  100%
+Pumps
+Irrigation Pumps*                           100%
+Food & Hot Oil
+                                            100%
+Pumps
+Industrial Pumps*                           100%
+Municipal
+                                            100%
+Pumps*
+Vertical Turbine
+                                            100%
+Pumps*
+Submersible
+                                   100%                              50%                    25%
+Pumps*
+Portable Pumps**           100%                        50%                           25%
+DAF Pumps           100% (6 months)
+STX, STL and
+STH Self Primer                                           100%
+Pumps
+Other pumps not
+                                            100%
+listed
+Parts                      100%
+Warranty from motors, controls, and other accessories not manufactured by Cornell are provided by the
+manufacturer of those products.
+
+
+*For permanent installations
+
+**Pumps used for rental, dewatering, and other non-permanent applications
+
+Proration periods are based on months after shipment (unless otherwise agreed upon)
+
+Wear Parts: This limited warranty does not cover parts that, by nature of their function, require
+replacement as the result of normal wear and tear (seals, wear rings, wear plates, and other parts
+subjected to abrasion, cavitation, or corrosion) unless a defect in materials or workmanship can be
+determined by Cornell.
+
+                                                                        Effective Date: August 1st, 2014
+                                                                     Supersedes All Previous Warranties
+
+
+
+
+                                              page 7 of 46
+                                         CORNELL PUMP COMPANY
+
+
+                                          Introduction
+Thank you for purchasing a pump from Cornell Pump. Since 1946, it has been our privilege to provide
+robust, quality equipment to customers around the world.
+
+Please read this operations and maintenance manual before operating the pump, when you have
+questions about maintenance repairs, or if you have ever had any troubleshooting concerns. If you do not
+read the instructions, injury could result to personnel, as well as damage to the pump and other related
+equipment. The manual can also help you achieve the longest life and highest efficiency functionality of
+your pump as well.
+
+If you have any questions about the pump, please contact Cornell Pump at:
+Cornell Pump Company
+16261 SE 130th Ave
+Clackamas, OR 97015
+Phone: 1+ (503) 653-0330
+Fax: 1+ (503) 653-0338
+E-mail: info@cornellpump.com
+Website: www.cornellpump.com
+
+For information about any supplied motor, please see the motor manufacturer’s operation manual.
+
+This manual is meant as a guide for installation and troubleshooting, and covers the nominal/expected
+conditions an operator would encounter. As many situations and installations are unique, please contact
+Cornell Pump and/or your local distributor for further guidance if your installation is not readily apparent
+within the manual. While every effort has been made to cover expected uses, situations can vary greatly
+between installations. Cornell Pump cannot cover every potential possibility within the manual. If you
+have questions, please contact Cornell or the distributor.
+
+Pump owner/operator/installer assumes responsibility for safe operation of pump, within the duty
+conditions defined on the technical datasheet for the pump, in relation to engine or motor operation.
+
+Pumps and related equipment must be run in compliance with any and all applicable regulatory and legal
+parameters germane to local, state/province, national, and industry standards.
+
+
+
+
+                                                page 8 of 46
+                                         CORNELL PUMP COMPANY
+
+
+                                               Safety
+General Precautions
+
+Below is a list of general precautions that should be followed with centrifugal pumps and their operation.
+These precautions will ensure the longevity of the pump, as well as the safety of the operator and other
+staff.
+
+  1. Only pump approved fluids with this pump. If you are uncertain as to solids size, volatility, or any
+     other concern with the liquid, consult the factory.
+  2. Do not allow pump, piping or other components to freeze (except refrigeration pumps). Freezing
+     can damage pump components, as well as other parts of the system.
+  3. Wear proper safety gear (safety glasses, visibility vest, hearing protection, steel-toed footwear,
+     etc.) when operating the pump.
+  4. Wear proper safety gear when servicing the pump.
+  5. Periodically inspect the pump system, including the pump.
+  6. Conduct routine maintenance as required.
+  7. Remember that pumps are rotating equipment that can impart great force. Be sure to keep
+     clothing, hair, etc., away from rotating shafts. Guards and shields should be used wherever and
+     whenever practical.
+  8. Flush pump thoroughly with clean water, before opening the pump and after removing
+     components, flush them thoroughly with clean water.
+  9. Follow applicable health and safety protocols.
+ 10. Use lifting and moving equipment in good repair, with the proper capacity, to prevent injuries.
+
+Servicing Pump
+
+Before attempting to open or service the pump,
+  1. Power down and lock out drive
+  2. Check temperature of pump before opening
+  3. Allow pump to cool down if too hot to handle
+  4. Close suction and discharge valves/gates and isolate the pump
+  5. Drain pump
+
+Operation
+
+
+         Use for intended purpose: Ensure that the corrosiveness and abrasiveness of the
+         liquid, as well as the solids-handling size of the pump, match what you are pumping.
+         Pump shoulld not be used to pump volatile or flammable liquids unless explicitly
+         specified to do so on application and siting from the factory.
+
+
+
+         Before start-up: Follow the Start-up Checklist in this manual. After initial placement,
+         ensure that pump and all pipe/valve fittings/connections are tight, properly supported,
+         and secured.
+
+
+
+         Guards: Do not operate pump without proper guards in place over rotating parts.
+         Unguarded rotating parts can catch tools, clothing, and limbs, causing injury.
+
+
+
+                                               page 9 of 46
+                                         CORNELL PUMP COMPANY
+
+
+         Discharges: Ensure discharge valve is operable. Do not operate pump without an
+         open discharge valve, except in cases of proper dry priming.
+
+
+         Gauges and fittings: Do not remove gauges, fittings, plugs etc. from pump without a
+         proper replacement. Do not remove plugs, fittings, etc. in an instance where the pump
+         has overheated.
+
+
+
+         Cavitation: Avoid operating the pump at cavitation as it will shorten the life of the pump
+         and could cause a pump failure.
+
+
+
+         Internal Combustion Engines: Do not operate engines in enclosed space without
+         venting exhaust fumes to the outside. Do not operate engines in explosive
+         atmospheres. Be certain to secure fuel, as it can present an explosion hazard. Always
+         use the proper fuel for the engine. DO NOT refill/refuel with a hot or running engine.
+
+
+Receiving Pump
+Pump should be inspected as soon as it is received. Check pump thoroughly for shipping damage or
+missing components, ensuring that it is in good working order. If a shipping claim needs to be filed, it
+should be done as soon as possible.
+
+Storing pumps
+Pumps are packaged to arrive safely through normal shipping, and to be stored for up to three months
+before use. The pump should be stored in dry location, covered from elements (building or tarping), and
+flange protectors should be left on to discourage entrance by fluids or animals into the pump.
+
+If storing for a longer period, bearing oil should be winterized, and machined surfaces protected with a
+rust inhibitor. Shaft should be rotated every two months to decrease chance for oxidation and binding.
+Motors, couplings, and guards should be maintained per manufacturers' operation and maintenance
+handbooks. Long term storage should be in a dry, covered location.
+
+Handling
+Pumps are heavy. Every precaution should be taken for safe moving and deploying. Properly rated lifting
+devices should be used to move pumps—never use a worn, frayed, or under-capacity strap.
+
+
+
+
+                                               page 10 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                      Assembly of Pumps to Engines
+
+Cornell manufactures all engine-frames to fit the standard SAE-type flywheel and housing. For engines
+that do not have standard SAE flywheels and housings, some alterations may be required.
+
+
+
+
+Assembly Instructions
+
+  1. Set the drive ring in place in the flywheel and bolt securely in place (bolt requirements are shown
+     below).
+
+      Ring Gear Bolt Requirements:
+
+       Clutch Size        Bolt Size       Bolt Grade (SAE)             Bolt Torque         # of Bolts
+       6.5, 7.5           5/16 - 18       5                            17 Ft-lbs           6, 8
+       8, 10, 11.5        3/8 - 16        5                            30 Ft-lbs           6, 8, 8
+       14                 1/2- 13         5                            75 Ft-lbs           8
+
+  2. Place the rubber disc element on the pump shaft. Secure the rubber disc element to the pump
+     shaft. Most rubber disc elements use a taper lock bushing to secure them to the shaft. It is
+     important that the bolts are torqued to the recommendation supplied with the bushing.
+
+
+
+
+                                              page 11 of 46
+                                     CORNELL PUMP COMPANY
+
+   Taper Lock Bushing Instructions
+
+
+
+
+   To install: Insert the bushing in the hub so that the unthreaded holes in the bushing align with the
+   threaded holes in the hub. Put the screws in these holes and tighten them. See the instructions
+   packaged with the bushing for complete instructions and torque values.
+   To remove: Take the screws out and put one in the threaded hole in the bushing. Tighten the screw
+   to force the bushing and hub apart.
+
+3. With block and tackle or hoist, maneuver the pump into place on the engine, being careful to mesh
+   the rubber disc element in the drive ring properly.
+
+4. CAUTION
+   All engine-driven pumps MUST be supported, and alignment must be assured before bolting the
+   frame to the engine flywheel housing. Piping must be properly supported. The pump is not intended
+   to carry piping loads.
+
+
+
+
+   Customer can use the support plate provided with the pump or use one of his own. For pumps that
+   have mounting pads or ears, support should be provided at those locations.
+
+   FAILURE TO PROVIDE PROPER SUPPORT WILL VOID
+   THE WARRANTY.
+
+
+                                           page 12 of 46
+                                        CORNELL PUMP COMPANY
+
+  5. Bolt the pump and frame securely to engine bell-housing (bolt requirements are shown below) .
+     Double check the location of the rubber disc element in the drive ring and adjust if necessary.
+
+Engine Bell-Housing Bolt Requirments:
+
+ SAE#          Bolt Size        Bolt Grade (SAE)                  Bolt Torque           # of Bolts
+ 1             7/16 -14         5                                 50 Ft-lbs.            12
+ 2, 3, 4       3/8 - 16         5                                 30 Ft-lbs.            12
+ 5             3/8 - 16         5                                 30 Ft-lbs.            8
+
+
+Torsional Vibration
+A torsional vibration analysis is the responsibility of the packager. Engine manufacturers or specialized
+consulting offices can provide this service. Cornell does not assume responsibility of torsional vibration
+problems of pump-engine units assembled by others (ISO3046/V 1978(E) 4.1.1 and .2). Problems due to
+torsional vibration are not warrantable.
+
+
+
+
+                                              page 13 of 46
+                                      CORNELL PUMP COMPANY
+
+
+                                 Start-up Checklist
+
+BEFORE THE START-UP OF ANY PUMP, A CAREFUL CHECK MUST BE MADE TO ENSURE THAT ALL IS IN ORDER:
+
+1. Reread all instructions and check for compliance on each point.
+
+2. Make sure that
+     a. All fasteners and gasketed joints are properly tightened.
+     b. Belts and couplings are properly adjusted, shafts aligned, and guards are in place.
+     c. All thrust blocks and supports are adequate.
+     d. The pump and/or baseplate is bolted securely to a solid foundation.
+     e. There are no piping loads on the pump casing, support suction, or discharge piping.
+      f. Piping is clean and free of debris and obstructions.
+     g. Gaskets are in place and all joints are secure.
+     h. All electrical connections and electrical equipment are installed by a
+         qualified and licensed electrical contractor.
+      i. The pump rotates freely by hand; then check the pump rotational
+         direction with very short on/off power pulses on the starter switch.
+      j. Pump is not run dry unless it is equipped with RunDryTM option.
+     k. For self-priming (wet prime) pumps only; fill pump casing with liquid completely.
+
+
+             CAUTION: Pumps with mechanical seal must not run dry unless equipped with
+             run-dry feature.
+
+
+             Some pumps are equipped with threaded shafts (e.g. food, slurry, self-priming,
+             and some solid handling pumps). Improper rotation will cause failure and costly
+             repairs. If you are unsure if your pump has a threaded shaft, contact the factory.
+
+
+3. Valves
+   Check the valves for proper position. If the system has a discharge gate valve, start with the valve
+   closed. The speed of opening depends upon the size and length of your discharge pipe and
+   capacity of the pump. The valve should not be more than 1/4 open until the line is filled. The
+   purpose of this procedure is to reduce the possibility of a water hammer or shock if filling is too
+   rapid.
+
+4. For Stuffing Box with Packing
+   When first starting the pump, there should be leakage. If the packing is too loose, air will suck in
+   around the packing, and the pump will not prime. After the pump is primed, back off on packing
+   gland nuts to free leakage. Several minutes later, gradually and evenly tighten packing gland nuts
+   until leakage is reduced to a trickle. Do not attempt to shut off all the leakage - packing pumps must
+   leak to lubricate the packing.
+
+   For Stuffing Box with Mechanical Seal
+   Read and comply with all seal instructions within the manual. Occasionally, new installations will
+   leak very small amounts for a short time. These leaks must be inspected daily. If leakage doesn't
+   reduce to almost zero, then assembly should be inspected for proper mechanical seal installation.
+
+5. Instructions for Pumps with Balance Lines and Wear Rings (if present)
+   Wear rings and balance lines are vital for a successful pump operation. They perform two important
+   functions. First, they reduce the pressure at the stuffing box. Second, they reduce axial thrust
+
+                                            page 14 of 46
+                                        CORNELL PUMP COMPANY
+
+   loads. Wear rings should be replaced if the clearance has increased to about .030" per side.
+   Balance lines should be kept free of obstructions and they should be replaced if they are pinched,
+   bent, or corroded.
+
+6. Motors
+   Check the power supply voltage, amperage, temperature, and RPM with the motor nameplate.
+   Review item 2(i) with respect to rotation.
+
+
+              Large motors must not be started and stopped more than five times per hour.
+
+
+              CAUTION: Whether placed inside or outside, the motor should be mounted on a
+              base which is four to six inches higher than the surrounding floor level.
+
+
+7. Bearing Frames
+   In general, the considerations for a bearing frame are the same for that of electric motors.
+
+   NOTE: If a frame is oil lubed (denoted by ‘K’ on serial number plate and sight gauge on the side of
+   the frame), put appropriate oil in per lubrication instructions. Make sure support systems are in
+   place and working, such as special lubricants, seal water, etc.
+
+   If the pump is used in winter, provisions must be made for protection of the pump and piping from
+   freezing. Add a heater if necessary. If the pump is not used in the winter, the volute should be
+   drained to prevent damage.
+
+
+              Never operate electric motors or pump equipment without all protective covers,
+              screens and guards properly in place. Before disconnecting any electrical
+              wiring, shut off the main switch and lock it out.
+
+
+8. Check to make sure the suction screens are in place. A suction screen or strainer should have a
+   free opening at least three times the area of the suction pipe.
+
+9. Start the driver. If pump is primed or filled with liquid, the pumping will start immediately. For self-
+   priming (wet prime) pumps, be sure casing is full of liquid prior to start-up.
+
+   Centrifugal Pump Priming
+   A centrifugal pump is primed when all the internal passages of the pump are filled with the liquid to
+   be pumped. Do not operate any pump without being properly primed unless it has been specifically
+   designed for such operation (such as wet prime pumps). NOTE: for wet prime pumps only; the
+   discharge pipe must let air escape from the system while the pump is priming.
+
+   When the pump is primed and the unit is started, the pumpage will start to flow immediately. If it
+   does not, recheck the system for complete prime and possible air leaks. Correct the deficiencies
+   and restart.
+
+
+       CAUTION: If the pumpage does not start immediately, no amount of additional
+       pumping will solve the problem.
+
+       Do not allow compressed air to pressurize the pump or vent-off compressed air
+       through the pump as this may damage pump or cause serious personal injury.
+
+
+                                              page 15 of 46
+   CORNELL PUMP COMPANY
+
+
+Pump End Parts Page
+
+
+
+
+       page 16 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                 Pump Disassembly and Reassembly
+ Solids Handling with Cycloseal, Blind Bore, Keyed Impeller,
+                         No Sleeve
+Disassembly (Refer to the parts page for part names)
+
+  1. Volute Removal
+     If the pump is equipped with a run dry reservoir, drain the reservoir, disconnect the hoses from the
+     backplate, and remove the reservoir from the pump. Remove all capscrews holding the volute to
+     the backplate. Insert two of these capscrews into tapped holes in the backplate. Tighten the
+     capscrews to jack the volute free of the backplate, exposing the impeller. Remove the volute.
+
+               Make sure the volute is supported so that it doesn't fall onto the impeller.
+
+
+  2. Impeller Removal
+     Impeller lockscrews are always right hand socket head capscrews. Lockscrews are installed with
+     Loctite 262, which may inhibit removal. Remove the impeller lockscrew by breaker bar, not by
+     impact wrench. Make sure to apply steady and even torque to break lockscrew loose. Allen head
+     tooling to remove the lockscrew should be in excellent condition. If breaker bar will not loosen
+     impeller lockscrew, apply heat to the lockscrew for 2-4 minutes, loosening the Loctite. Discard the
+     lockscrew. Remove the impeller washer.
+               Serious burn injury is possible when applying heat. Do not exceed 400° F. Allow
+               the lockscrew to cool before removing it.
+
+
+     Space wedges in pairs 180° apart along the vanes between the impeller and backplate. Tap
+     opposed wedges at the same time to force off the impeller. Use extreme care to avoid damage to
+     impeller, shaft and bearings. Completely remove the impeller and impeller key.
+
+               Be sure the wedges are placed along the impeller vanes or impeller damage will
+               occur.
+
+
+     An alternate method is shown here. Install a
+     capscrew or bolt in the shaft thread to protect the
+     threads. Attach an impeller puller to the backplate
+     and snug up the nuts on the rods so that the
+     puller is against the impeller. Remove the
+     capscrews between bracket and backplate.
+     Tighten the center rod to jack the backplate and
+     impeller off the shaft. The seal will also come off.
+
+
+
+
+                                              page 17 of 46
+                                         CORNELL PUMP COMPANY
+
+  3. Seal Removal
+     Remove the mechanical seal spring.
+     Lubricate the sleeve and work off the
+     rotating portion of the seal, being careful to
+     avoid damage to the sealing face. The
+     rubber bellows will be firmly attached to the
+     sleeve and will require considerable
+     pressure to remove it. The stationary seat
+     will remain in the backplate.
+
+  4. Backplate Removal
+     Unbolt and remove the backplate from the pump bracket.
+
+               If the seal stationary seat is to be reused, be very careful removing the
+               backplate, so that the stationary seat does not hit the shaft and become
+               damaged.
+
+
+  5. Wear Ring Removal
+     For pumps that have a suction spool, the suction wear ring can be removed by removing the
+     suction spool from the volute and driving the wear ring out with a hammer and a piece of wood.
+     Otherwise, the suction wear ring can be removed by drilling the ring longitudinally in three places to
+     relieve compression and collapsing the three sections together. Use care not to drill into the volute.
+     Better control is obtained if small pilot holes are first drilled and then enlarged to "cut" the ring.
+
+Reassembly
+
+  1. Wear Ring Installation
+     The wear rings may be pressed in, or driven in using a mallet with a rubber or plastic head. If a
+     metal hammer is all you have, use a block of wood between the hammer and wear ring.
+
+               Do not use a metal hammer directly on the wear ring or you will damage it.
+
+
+  2. Backplate Installation
+     If this pump has a run dry reservoir, make sure a gasket is installed between the frame bracket and
+     backplate. Install the backplate.
+
+  3. Seal Installation
+     Clean the seal parts, the sleeve, and the bore for the stationary seat in the backplate. Wipe the
+     lapped seal faces perfectly clean with a lint-free cloth. Lightly oil the o-ring on the stationary seat
+     and press the seat into the backplate. A piece of plastic pipe makes a good tool to assist with
+     installation of the seat. Lubricate the sleeve and slide the rotating portion of the seal on the shaft
+     until it contacts the stationary seat. Add the seal spring. Add seal spring holder if applicable.
+
+               Use extreme care to avoid marking the seal faces.
+
+
+
+
+                                                page 18 of 46
+                                      CORNELL PUMP COMPANY
+
+4. Impeller and Lockscrew Installation
+   Replace the impeller key. Use a long capscrew and
+   several washers to press on the impeller as shown.
+   The threads must be long enough to enter the shaft
+   approximately eight threads or full turns by hand.
+   This is necessary to protect the threads in the shaft.
+   Adjust the quantity of washers as necessary until the
+   impeller is fully seated. See image below. Spin
+   impeller by hand while listening for any rubbing
+   inside the pump. After replacing impeller, remove the
+   long capscrew.
+
+
+
+
+             Do not use the impeller lockscrew to install the impeller. Using the lockscrew will
+             damage the shaft threads.
+
+
+   Determine the size of the lockscrew and note the required installation torque from the table
+   below. Apply Loctite 262 to both the lockscrew and shaft threads. Install the lockscrew thru the
+   impeller washer, impeller and into the shaft, with the appropriate torque from the table below. Verify
+   that the actual torque value matches the requirement from the table.
+
+             Use lockscrews available only from Cornell to ensure quality. Lockscrews
+             should always be new. Under emergency conditions using a new lockscrew
+             may not be possible.
+
+
+             Before installing lockscrew make sure that the impeller, impeller washer and
+             lockscrew are all clean, dry, and free of burrs.
+
+
+             Do not apply any lubricant to any surface in an attempt to facilitate
+             installation. Lubrication will cause the lockscrew to suffer damage or failure from
+             overstress.
+
+
+
+
+     Impeller Lockscrew Size         Required Torque
+    .38 – 16UNC                   20 Ft-lb
+    .50 – 13UNC                   40 Ft-lb
+    .62 – 11UNC                   90 Ft-lb
+    .75 – 10UNC                   135 Ft-lb
+    1.00 – 8UNC                   265 Ft-lb
+    1.12 – 7UNC                   360 Ft-lb
+    1.25 – 7UNC                   510 Ft-lb
+    1.50 – 6UNC                   875 Ft-lb
+
+
+
+                                              page 19 of 46
+                                     CORNELL PUMP COMPANY
+
+
+5. Volute Installation
+   Place a new gasket on the backplate. Slide the volute carefully over the impeller and backplate
+   register. Install the capscrews. Reattach the run dry reservoir and hoses, if appropriate.
+
+             For emergency use, the old gasket should be moist and flat if being reused.
+
+
+
+
+                                           page 20 of 46
+    CORNELL PUMP COMPANY
+
+
+Frame End Parts Page
+
+
+
+
+        page 21 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                Frame Disassembly and Reassembly
+                                    EM5 Grease Lubed
+
+Disassembly (Refer to the parts page for names and locations of parts)
+
+  1. Remove the deflectors (if any) from the shaft.
+  2. Remove the drive end shaft key.
+  3. Remove the capscrews from engine bracket.
+     NOTE: If the lip seals are to be saved, the shaft should be cleared of burrs or sharp protrusions that
+     would cut the seal. If the lip seals are removed from the brackets they should be replaced.
+  4. Slide the engine bracket off the shaft. Remove the capscrews from the pump bracket. Slide the
+     pump bracket off the shaft.
+  5. The shaft and bearings can now be removed by pressing on the drive end of the shaft.
+  6. Remove the bearings from the shaft with a bearing puller. If the bearings are to be saved, keep
+     them absolutely clean. If contaminated, wash only in clean fluid.
+     CAUTION: Never hammer the shaft or parts attached to the shaft or you will ruin both the shaft and
+     the bearings.
+
+Reassembly
+
+  1. Press the drive end and pump end bearings onto the shaft. Pressure should be applied to the inner
+     race only. The bearings must be up against the shaft shoulder.
+  2. Press the shaft into the frame through the drive end until the pump end bearing is approximately
+     flush with the pump end of the housing.
+  3. Install the pump end lip seal into the pump bracket as shown on the parts page. Slide the pump
+     bracket over the shaft, taking care not to damage or fold the lip seal. Install and tighten the
+     capscrews.
+  4. Install the lip seal in the engine bracket as shown on the parts page. Reinstall the shims in the drive
+     end of the frame (if present when disassembled). If new shaft, bearings, frame, or engine bracket
+     are being installed, insert shims to maintain 0.005" to 0.010" shaft end play. Slide the engine
+     bracket with gasket over the shaft, taking care not to damage or fold the lip seal. Install and tighten
+     the capscrews.
+  5. Replace the deflectors (if any) and lubricate per instructions following this section.
+
+
+
+
+                                              page 22 of 46
+                                         CORNELL PUMP COMPANY
+
+
+               Grease Frame Lubrication Instructions
+
+Bearings in all frames are greased at the factory before shipment.
+
+Lubrication requirements vary with speed, power, load, ambient temperatures, exposure to
+contamination and moisture, seasonal or continuous operation, and other factors. The brief
+recommendations which follow are general in nature and must be coupled with good judgment and
+consideration of the application conditions. For regreasing periods, refer to table below. When adding
+grease be sure the grease and fittings are absolutely clean.
+
+Grease used for these bearings should be equivalent to one of the following manufacturers’ products:
+      G.E. Long Life Grease No. D682C5
+      Mobil Mobilux No. EP2
+      Shell Gadus S2 V220 2 (formerly Alvania EP2)
+      Texaco Multifak AFB 2
+
+To lubricate frame bearings, remove plastic cover from zerk fittings and be sure the fitting and end of
+grease gun are clean. Use hand-operated grease gun only and pump a small amount of grease into each
+bearing cavity. The surplus grease will go through the bearing and into the center part of the frame.
+
+For regreasing periods and approximate quantity, refer to table below.
+
+First determine frame size (located on serial number plate).
+Examples: 4NNT-VF16 or 10YB-F18DB or 6NHTA-VC18 or 4RB-EM16
+
+RECOMMENDED REGREASING PERIODS FOR FRAMES
+
+                                                                     12; 13; 13D;
+        Frame Size                   5             16; 85; 45; 55                    20; 24       30
+                                                                     18; 18D; 65
+
+                                                                                     1,350      2,000
+    Total Running Time          2,000 hours        1,500 hours       1,000 hours
+                                                                                     hours      hours
+    8-Hour Day Service           36 weeks            27 weeks         18 weeks      24 weeks   36 weeks
+   24-Hour Day Service           12 weeks            9 weeks           6 weeks      8 weeks    12 weeks
+  Approximate Amount of                                                2 cubic       3 cubic    4 cubic
+                               .5 cubic inch      1.25 cubic inch
+  Grease per Line Fitting                                              inches        inches     inches
+ Approximately (grease gun
+                                 3 pumps             6 pumps          12 pumps      18 pumps   23 pumps
+      hand operated)
+
+
+
+
+                                               page 23 of 46
+                                          CORNELL PUMP COMPANY
+
+
+                      Pump Troubleshooting Guide
+  Symptoms                                Causes                              Corrections
+                  Pump not properly primed                         Prime pump correctly
+                  Pump running too slow or system too high         Consult Cornell factory
+                  Not enough head to open check valve              Consult Cornell factory
+                  Air leak in suction piping                       Check and rework suction line
+Failure to pump
+                  Plugged suction pipe or impeller vanes           Unplug suction
+                  Suction pipe high point above impeller eye       Rework suction piping
+                  Suction lift too high                            Consult Cornell factory
+
+                  Air pockets or small air leaks in suction line   Locate and correct
+                  Obstruction in suction line or impeller          Remove obstruction
+                  Insufficient submergence of suction pipe         Consult Cornell factory
+Reduced           Excessively worn impeller or wear ring           Replace impeller and/or wear ring
+performance
+                  Too high a suction lift                          Consult Cornell factory
+                  Wrong direction of rotation                      See start-up instructions
+                  Missing wear ring(s)                             Install wear ring(s)
+
+                  Speed higher than planned                        Reduce speed
+                  Pump runs out on curve/ system incorrect         Change system head
+                  Liquid specific gravity too high                 Consult Cornell factory
+                  Liquid handled of greater viscosity than water   Consult Cornell factory
+Driver overloaded Too large an impeller diameter                   Trim impeller
+                  Low voltage                                      Consult power company
+                  Piping stress at flanges/ pump in bind           Support piping properly
+                  Packing too tight                                Loosen packing gland nuts
+
+                  Misalignment                                     Align all rotating parts
+                  Cavitation (excessive suction lift)              Consult Cornell factory
+                  Cavitation (improper suction design)             Correct suction piping
+                  Material lodged in impeller                      Dislodge
+Excessive noise
+                  Worn bearings                                    Replace bearings
+                  Impeller screw loose or broken                   Replace
+                  Wrong direction of rotation                      See start-up instructions
+
+
+
+
+                                               page 24 of 46
+                                         CORNELL PUMP COMPANY
+
+
+  Symptoms                               Causes                            Corrections
+                   Misalignment                                 Align correctly
+                   Unbalanced components                        Re-balance components
+Excessive
+vibration          Bent shaft                                   Replace shaft
+                   Structural (rigidity/ soft foot)             Correct bolting/ shim properly
+
+                   Balance line plugged or pinched              Unplug or replace
+                   Worn wear rings                              Replace
+                   Misalignment                                 Align all rotating parts
+                   Suction or discharge pipe not properly
+                                                                Correct supports
+                   supported
+                   Bent shaft                                   Replace shaft
+Premature
+bearing failure    Water or contaminants entering bearings      Protect pump from environment
+                   Lubrication to bearings not adequate         See lubrication instructions (O&M
+                                                                manual)
+                   Wrong type of lubrication                    See lubrication instructions (O&M
+                                                                manual)
+                   Excessive belt loads                         Consult Cornell factory
+
+                   High or low voltage                          Check voltage with voltage meter
+                                                                and consult power co.
+                   High electric surge                          Monitor voltage and consult power
+                                                                co.
+                   Poor electric connection                     Turn power off, clean and check
+Electric motor                                                  connections
+failure            Overloads                                    Check amperage; do not exceed
+                                                                nameplate full load amperage
+                   Bearing failure                              Change bearings in motor
+                   Cooling vent plugged (leaves, dirt, etc.)    Clean vent/ install proper screens
+                   Water in motor                               Protect pump from environment
+
+                   Misalignment                                 Align all rotating parts
+Rapid wear on      Bent shaft                                   Replace shaft
+coupling cushion   Wrong elastomer                              Change elastomer/ Consult
+                                                                Cornell factory
+
+
+
+
+                                                page 25 of 46
+                        Redi-Prime® Manual
+Warranty                                                           27
+Torsional Vibration                                                28
+Start-up and Operation Instructions                                29
+Dismantling and Reassembling Cornell Redi-Prime® Pump Components   30
+Vacuum Pump Servicing and Operation                                32
+Separator Service and Operation                                    35
+Discharge Check Valve Operation and Servicing                      37
+Redi-Prime® and Venturi-Prime Troubleshooting Guide                38
+Winterizing and Storage                                            40
+Redi-Prime® Assembly Parts Page                                    41
+Separator Assembly Page                                            42
+Discharge Check Valve Parts Page                                   43
+Check Valve Losses Page                                            44
+Redi-Prime® Vacuum Pump Assembly Page                              45
+Redi-Prime® Vacuum Pump Power Page                                 46
+                                          CORNELL PUMP COMPANY
+
+
+                                              Warranty
+Cornell Pump Company (Cornell), subject to the receipt of notice specified below, warrants equipment of
+its manufacture to be free from defects in material and workmanship for a period of two (2) years from the
+date of shipment. This warranty is only applicable to equipment which has been installed and maintained
+in accordance with Cornell instructions for the use and service for which it was manufactured.
+
+Notice of any defect in material or workmanship must be given to Cornell within seven (7) days after the
+defect is found. Within a reasonable time after receipt of notice, Cornell’s obligation is limited to repair or
+replacement of defective parts at the Cornell factory or, at Cornell’s option, by a field service
+representative authorized by Cornell. Cornell shall not be obligated for repair or replacement of defective
+materials which are returned to the factory without prior written authorization or those not returned with
+transportation charges prepaid. Cornell shall not be liable for repair or replacement of parts which are
+made outside the factory without prior written approval.
+
+Equipment and accessories not manufactured by Cornell are warranted only to the extent of the warranty
+of the manufacturer of such equipment.
+
+NO OTHER WARRANTY WRITTEN, ORAL, ASSUME, OR IMPLIED, INCLUDING WARRANTY OF
+MERCHANTABILITY OR IMPLIED WARRANTY OF FITNESS FOR A PARTICULAR PURPOSE, IS
+PROVIDED OR AUTHORIZED WITH RESPECT TO CORNELL EQUIPMENT. IN NO EVENT SHALL
+CORNELL BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES.
+
+
+
+
+                                                page 27 of 46
+                                         CORNELL PUMP COMPANY
+
+
+                                   Torsional Vibration
+Torsional vibration is a periodic, reversing twist in a torque transmitting member such as a shaft. This
+twisting is superimposed upon the rotation of the shaft. Any rotational system has at least one torsional
+natural frequency, the frequency at which the shaft will twist back and forth if a torque is instantaneously
+applied then released. Internal combustion engines deliver torque in a periodic or pulsing manner and
+consequently are very effective exciters of torsional vibration. If an engine/pump set operates too near a
+critical speed, severe damage to the pump, engine, or related components can result. This is not
+indicative of a defect in any of the components, rather it is a characteristic of any rotational system.
+
+For pump/engine sets assembled by others, Cornell assumes no responsibility for torsional vibration
+problems. This policy is consistent with ISO standard 3046/V-1978(E), applicable sections excerpted
+verbatim below.
+
+                      The supplier of a set may be the engine manufacturer or the manufacturer of the
+                      driven machinery or a third contractor. If a purchaser buys an engine from one
+ 4.1.1:
+                      manufacturer and the driven machinery from another, the purchaser is regarded as
+                      the supplier of the set to himself.
+                      The supplier of the set shall be responsible for ensuring that the torsional vibration
+ 4.1.2:
+                      conditions of the set are satisfactory.
+
+Cornell Pump Company strongly urges that a torsional analysis be performed whenever prior experience
+with a particular engine/pump and coupling combination is absent. If the coupling is a Stromag Rubber
+Disk drive (Cornell standard), or if an existing drive is to be replaced by a Stromag, a torsional analysis
+can be performed by:
+
+Stromag, Inc., 85 Westpark Road, Dayton, Ohio 45459, Attn: Jim Albrecht (513) 433-3882.
+
+Where couplings other than Stromag are to be used, consult the coupling manufacturer. Analysis is also
+available through:
+
+Trescott S. White, P.E., consulting engineer, 136 Stanley Street, Redwood City, California 94062.
+
+Ronald L. Eshleman, PhD., P.E. engineering consultant, 333 Ridge Avenue, Clarendon Hills, Illinois
+60514, (312)654-2053.
+
+Oliver Engineering, Inc., 4900 SW Griffith Drive, Beaverton, Oregon 97005, (503)641-7819.
+
+Analysis will require complete inertia (“WR2") and stiffness (“K”) data for the specific engine used. This
+can be supplied by the engine manufacturer. Inertia and stiffness data will also be needed for the pump
+impeller, bearing frame shaft and coupling.
+
+Cornell will gladly supply this data. Contact your Cornell sales representative at:
+                                           Cornell Pump Company
+                                                P.O. Box 6334
+                                        Portland, Oregon 97228-6334
+                                               (503) 653-0330
+                                             FAX (503) 653-0338
+
+Please provide the pump model and serial number, operating RPM and horsepower at the design point
+(s).
+
+
+
+                                               page 28 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                  Start-up and Operation Instructions
+                                          Redi-Prime®
+
+Pre-start Checklist
+
+  1. Make certain that all belts and shaft couplings are properly adjusted and aligned and all guards are
+     in place.
+  2. Piping must be properly supported. Pump suction and discharge flanges must not carry pipe loads
+     as resulting deflection can cause premature wear and failure of bearings, shaft, impeller, and wear
+     rings.
+  3. All electrical connections and equipment should be installed by a qualified licensed electrical
+     contractor.
+  4. Check oil levels in vacuum pump crank case and seal oil reservoir and add oil as necessary.
+                 CAUTION: Damage will result if these oil levels are not properly maintained.
+
+
+  5. Drain all fluid from stop cock (196) at bottom of diaphragm on vacuum pump. Be sure to close stop
+     cock after all fluid is drained.
+  6. Trailer and skid mounted units must be set on firm, level ground and wheels chocked.
+  7. Ensure that hoses are correctly coupled and that the suction strainer is fully submerged.
+  8. Ensure that all drain valves or plugs are closed.
+  9. For indoor installations, make certain the air pump exhaust line to outside is in place and leak free.
+               WARNING: For pumpages emitting noxious gases, the vacuum pump must be
+               exhausted outside the pump house to avoid asphyxiation or explosion hazard.
+
+
+ 10. In freezing conditions, ensure that separator float movement is not impeded by any ice in the
+     separator float box.
+
+Operation
+
+  1. Priming time is a function of the volume of air in the suction line and the RPM of the vacuum pump.
+     High lifts and larger suction line diameter will require longer priming times.
+                  CAUTION: Do not operate at higher than recommended speed to shorten
+                   priming time or the service life of the vacuum pump will be shortened.
+
+
+  2. If pump will not prime or maintain prime, or if vacuum pump runs hot or passes water, refer to the
+     "Troubleshooting Guide" section in this manual.
+  3. When pumping in extremely cold conditions, ice may form on the prime valve seat or linkage,
+     preventing closure and allowing water into the vacuum pump. Close observation must be
+     maintained and the pump shut down at the first signs of excessive water coming from the vacuum
+     pump.
+  4. Should the discharge check valve become plugged, the pump must be shut down and the valve
+     cleaned out per the "Discharge Check Valve Operation and Servicing" section in this manual.
+  5. Clogging of the suction strainer or hose may result in loss of prime without recovery. A vacuum
+     gauge can be connected to the tap on the side of the separator float box to aid in diagnosing such
+     clogs.
+
+
+
+
+                                              page 29 of 46
+                                        CORNELL PUMP COMPANY
+
+
+  Dismantling and Reassembling Cornell Redi-Prime®
+                  Pump Components
+Dismantling (see pump manual for illustration and part numbers)
+
+  1. Loosen clamp and disconnect air hose from priming valve.
+
+  2. Drain the oil from the seal oil reservoir via the line on the lower reservoir connection. Disconnect
+     the lower oil line at the reservoir, hold the disconnected end over a container and move the line and
+     container down to below the connected end of the oil line. The is will drain the remaining oil from
+     the lines and gland.
+
+  3. Disconnect the oil lines from the gland and unbolt the gland only if further pump disassembly is
+     planned.
+
+  4. Remove the bolts and nuts holding the two halves of the vacuum pump belt guard together.
+     Remove the two bolts and nuts holding the guard halves to the vacuum pump support table.
+     Remove the belt guard halves.
+
+  5. Loosen (do not remove) the four bolts securing the vacuum pump to the support table. Current
+     design tensions belt by means of shims under the vacuum pump. Loosen support table bolts and
+     insert large screwdriver or pry bar between vacuum pump and support table. Lift vacuum pump
+     enough so that shims can be removed. Lower vacuum pump and there should now be sufficient
+     slack to remove belt. Once the belt is removed, the vacuum pump can be completely unbolted and
+     removed if desired.
+
+  6. For pumps not equipped with and SAE adapter bracket for direct mounting to engine belt housing:
+         l Remove the two Allen screws from the taper lock bushing on the main pump shaft pulley and
+
+           insert one of the screws into the jack screw hole. Tighten to jack the pulley free of the taper
+           lock bushing. The pulley and bushing can now be slipped off the shaft.
+         l If the bearing frame is equipped with an SAE engine mount adapter for direct coupling to an
+
+           engine belt housing, the engine drive coupling and SAE adapter will have to be removed
+           before the main pump shaft pulley can be removed. Once the SAE adapter has been
+           removed, the SAE adapter support bracket will be accessible. With the belt already removed
+           from the vacuum pump shaft pulley, free the belt from the main shaft pulley and remove it
+           from the support bracket. Now the pulley taper lock bushing can be loosened as per
+           instructions above for non-SAE pumps, and the pulley can be slipped off the pump shaft.
+
+  7. The vacuum pump support table and seal oil reservoir can now be unbolted and removed if
+     desired.
+
+Reassembly
+
+  1. If the main pump bearing frame is to be serviced, refer to pump manual.
+
+  2. For service of priming system components, refer to pump manual.
+
+  3. Reinstall vacuum pump support table and reservoir.
+
+  4. Orient oil reservoir so that inlet and outlet ports are on the same side of the pump as the inlet and
+     outlet ports of the gland.
+
+
+
+                                              page 30 of 46
+                                        CORNELL PUMP COMPANY
+
+ 5. Reinstall oil lines between gland and reservoir. The lower ports of the gland and reservoir connect
+    together, as do the upper ports of the gland and reservoir.
+
+ 6. Reinstall pulley on pump main shaft. If pump is equipped with an SAE adapter bracket, position the
+    toothed drive belt in the adapter support bracket and install the pulley. Alternatively, the pulley can
+    be installed into the SAE adapter support bracket before the belt is installed on the pulley. Reinstall
+    SAE adapter bracket to the adapter support bracket. Reinstall the engine drive coupling per
+    instructions in main pump manual.
+
+ 7. Place vacuum pump on support table and loosely replace bolts and nuts.
+
+ 8. Place belt over pulleys on main shaft and vacuum pump shaft. Place shims evenly under vacuum
+    pump mounting until proper belt tension is obtained and tighten bolts. A load of 3.0 lbs applied
+    across the belt at mid-span should give a deflection at that point of 1/8". Recheck belt tension after
+    tightening vacuum pump mounting bolts. The belt need only be tight enough to prevent "jumping"
+    from one tooth to another.
+
+ 9. Reconnect air hose between inlet on bottom side of vacuum pump housing and priming valve
+    nozzle. Make certain that clamps are properly tightened.
+
+               During operation, once the pump is fully primed, no air should be felt exiting the
+               vacuum pump exhaust. Close off the vacuum pump exhaust with the palm of the
+               hand. If air pressure builds, then check all separator to vacuum pump hose
+               connections for leakage.
+
+
+10. Make sure drain plugs are replaced and fill oil reservoir to within 1/2" of the upper level glass.
+
+11. Check the oil level in the vacuum pump bearing housing and add oil if necessary. Oil level should
+    be visible in the center of the level glass. Do not overfill.
+
+12. Once the pump assembly has been remounted to the trailer or baseplate and the couplings
+    between the pump shaft and driver have been reinstalled and aligned, replace the vacuum pump
+    belt guard halves. Rebolt the halves to each other and then to the support table. On some models it
+    will be necessary to loosen the two drive end vacuum pump mounting bolts to attach the belt guard
+    clips to the support table.
+
+13. Check all bolts for tightness.
+
+
+
+
+                                              page 31 of 46
+                                        CORNELL PUMP COMPANY
+
+
+               Vacuum Pump Servicing and Operation
+Refer to the previous "Dismantling and Reassembling Cornell Redi-Prime® Pump Components" section
+in this manual for removal of the vacuum pump from the pump support table.
+
+See appropriate appendix pages for illustrations and part numbers.
+
+Suction valve (424E) Removal and Replacement
+  1. Remove the hose (421) to the separator (424)
+  2. Remove the four 3/8" nuts
+  3. Remove the suction valve elbow (381) and the discard gasket (197)
+  4. Lift valve (424E) over the head of the valve stud (32); do not remove the bolt
+  5. Clean valve chamber and seat
+  6. Lubricate valve stud (32) and push new valve (424E) on over the head of the stud. Be sure to tuck
+     elastomeric shoulder of (424E) completely under head of (32).
+  7. Fit new gasket (197) and replace suction valve elbow (381) and 3/8" nuts
+  8. Replace separator hose (421) and tighten hose clamp
+
+Exhaust Valve (424E) Removal and Replacement
+  1. Remove four 3/8" nuts
+  2. Lift off elbow (381A)
+  3. Lift valve (424E) over the head of the valve stud (197); do not remove the bolt
+  4. Clean valve chamber and seat
+  5. Lubricate valve stud (32) and push new valve (424E) on over the head of the stud. Be sure to tuck
+     elastomeric shoulder of (424E) completely under head of (32).
+  6. Replace elbow (381A) and four 3/8" nuts
+
+Actuator Valve (424D) Removal and Replacement
+  1. Remove eight 3/8" nuts, plain washers and capscrews
+  2. Remove upper housing (424F) complete with discharge valve assembly
+  3. Pull actuator valve (424D) off the actuator washer (193); do not remove lockscrew (12)
+  4. Clean the valve seat
+  5. Lubricate the head of the lockscrew (12) and actuator washer (193) and push the new valve on
+     over the head of the lockscrew. Be certain that top of shoulder valve (424D0 is tucked completely
+     under top collar of washer (193).
+  6. Replace upper housing (424F), replace eight plain washer, nuts and capscrews
+  7. Tighten in alternating pattern to pull upper housing (424F) down evenly
+
+Actuator Seal (424B) Removal and Replacement
+  1. Remove upper housing (424F) as per “Actuator Valve Removal and Replacement” above
+  2. Remove actuator lockscrew (12), actuator valve (424D) and actuator washer (193)
+  3. Pull actuator seal (424B) away from lower housing (420G)
+  4. Remove actuator (424A complete with seal (424B) from the actuator shaft (14A)
+  5. Pry actuator seal (424B) away from actuator (424A)
+  6. Lubricate the inner surface of the actuator seal (424B) and fit to the actuator (424A) to match the
+     taper in the air pump lower housing (424G). Ensure that seal orientation is correct.
+  7. Lubricate outside surface of seal (424B) and position actuator/seal assembly on actuator shaft
+     (14A)
+  8. Position the actuator valve and actuator washer; secure into place with actuator lockscrew (12)
+     and torque to 60 ft-lbs
+  9. Replace upper housing (424F) and remaining vacuum pump components as per "Actuator Valve
+     Removal and Replacement" above
+
+
+
+                                              page 32 of 46
+                                       CORNELL PUMP COMPANY
+
+Actuator Neck Seal (424C) Removal and Replacement
+  1. Remove actuator assembly (424A), (424B) as per "Actuator Seal Removal and Replacement"
+     above
+  2. Remove separator hose (421) from suction nozzle (381)
+  3. Remove four hex nuts holding lower housing (424G) to pedestal (423)
+  4. Remove vacuum pump lower housing (424G) and actuator neck seal (424C)
+  5. Lubricate new actuator neck seal (424C) and push into vacuum pump lower housing (424G)
+  6. Fit assembly over actuator shaft (14A)
+  7. Orient vacuum pump inlet suction nozzle to face separator and replace four hex nuts
+  8. Refit actuator/seal assembly and remaining components as per “Actuator Seal Removal and
+     Replacement" above
+
+Crank Shaft (14) Removal
+  1. Remove actuator neck seal (424C) as per “Actuator Neck Seal Removal and Replacement” above
+  2. Remove 1/2" NPT drain plug from bearing housing (151); drain and discard oil
+  3. Remove four 3/8" capscrews from pedestal (423) lower flange
+  4. Carefully remove the vacuum pump pedestal (423) complete with seals and linear bearing (20D);
+     remove and discard O-ring (59A) take special care not to damage the actuator rod surface
+  5. Remove four 1/4" capscrews from inspection plate (342)
+  6. Remove inspection cover (342); remove and discard gasket (197A)
+  7. Remove thumbscrew dippers (427) from crank shaft (14)
+  8. Remove four 1/4" capscrews from O.D.E. bearing cover (22A)
+  9. Remove bearing cover (22A) and O-ring (59); discard O-ring
+ 10. Bend back lock washer tabs (363) and remove bearing locknut (129); use ‘C’ spanner SKF REF
+     HN5 or equivalent
+ 11. Remove lock washer (363)
+ 12. Remove four 1/4" capscrews from drive end bearing cover (22)
+ 13. Remove drive end bearing cover (22) complete with lip seal (18)
+ 14. Remove O-ring (59) and discard
+ 15. Carefully pull shaft (14) from housing, complete with drive end bearing (20)
+ 16. Remove connecting rod (239)/actuator shaft (14A) assembly and inspect bushings
+ 17. Use a bearing puller to remove bearing (20) from shaft (14)
+
+Crank Shaft (14) Replacement
+ 18. On a new replacement shaft (14), with a zero lead, ground lip seal surface, no Speedi-Sleeve is
+     required. On a reinstalled shaft, when surface condition dictates, or on a new shaft with a turned
+     surface, install a Speedi-sleeve (15A) .06" to .12" past outside drive end shoulder.
+ 19. Carefully slide opposite drive end (ODE) of shaft and bearing assembly into drive end of housing
+     through the con-rod bushing (20A) and engage shaft end in ODE bearing (21)
+ 20. Fit lock washer (363) engaging locating tab in shaft groove
+ 21. Fit bearing locknut (129) and tighten with ‘C’ spanner; bend lock washer tab into groove
+ 22. Replace appropriate total thickness of shims (107) to leave .007" to .010" clearance between ODE
+     bearing (21) and installed cover (22A)
+ 23. Fit ODE bearing cover (22A) and new O-ring (59A); secure with four 1/4" capscrews at 10 ft-lbs
+ 24. Fit drive end bearing cover (22) complete with lip seal (18) and new O-ring (59A) secure with four
+     1/4" capscrews; tighten to 10 ft-lbs
+ 25. If actuator shaft (14A) has been disassembled from connecting rod (239), reassemble with bushing
+     (20B) fulcrum pin (61) and snap rings (35) before continuing
+ 26. Carefully lower the pedestal (423), complete with seal O-ring (59A) and linear bearing (20D), over
+     actuator shaft (14A). Assembly tool A20688-438-SD is available to assist reassembly of the
+     pedestal without damage to lip seals (18A), (18B).
+ 27. Secure pedestal with top flat relief properly oriented to clear inlet nozzle (381)
+ 28. Refit actuator neck seal (424C) and remaining components as per “Actuator Neck Seal Removal
+     and Replacement" at the top of this page
+
+
+                                            page 33 of 46
+                                          CORNELL PUMP COMPANY
+
+ 29. Refill bearing housing with 10W-30 oil. Fill so that static oil level is at the center of the sight glass
+     (188). Do not overfill.
+
+Crank Shaft Lip Seal (18) Removal and Replacement
+  1. Remove ½" NPT drain plug from bearing housing (151); drain and discard oil
+  2. Remove four 1/4" capscrews from drive end bearing cover (22)
+  3. Remove drive end bearing cover (22) complete with lip seal (18)
+  4. Remove and discard O-ring (59)
+  5. Pull lip seal (18) from cover (22) and discard
+  6. Clean and lubricate lip seal cavity. Press in lip seal (18) fully against shoulder; lip nearest the
+     bearing.
+  7. Inspect speedi-sleeve (15A); replace if required
+  8. Lubricate shaft sealing surface
+  9. Fit new O-ring (59) on bearing cover (22) and slide assembly over shaft. Align screw holes.
+ 10. Secure cover (22) to bearing housing (151) with four 1/4" capscrews. Tighten to 10 ft-lbs.
+ 11. Fill bearing housing with 10W-30 oil to where the static oil level is below the center of the sight
+     glass (188). Do not overfill.
+
+Roller Bearings Removal and Replacement
+       Follow procedure per "Crank Shaft Removal and Replacement" and "Lip Seal Removal and
+Replacement" on previous pages
+
+Con Rod / Drive Rod Assembly Removal and Replacement
+       It is reocmmended that these items be purchased preassembled with bearings finish machined
+and reamed. Removal is as per "Crank Shaft..." and "Lip Seal Removal and Replacement" on previous
+pages.
+
+Pedestal Bearing (20D) and Seals (18A, 18B) Removal and Replacement
+  1. Remove vacuum pump pedestal assembly per “Crank Shaft Removal & Replacement” complete
+     with lip seals (18A, 18B)
+  2. Remove seals from housing
+  3. Use bearing drift to push out pedestal bearing (20D)
+  4. Lubricate new bearing (20D) and press into housing until bottom edges of bearing and housing are
+     flush with one an other
+  5. Lubricate seal housing and press in lower seal (18B), lip nearest to bearing
+     Assembly tool A20689-438-SD is available to assist reassembly of lip seals in pedestal.
+  6. Press wiper seal (18A) into pedestal (423) with wiper lip uppermost
+  7. Replace pedestal assembly and remaining components as per “Crank Shaft Removal and
+     Replacement." Check bearing housing (151) oil level daily and add 10W-30 oil as necessary. Fill to
+     center of sight glass. Do not overfill. Every 6 months or every 1500 hours drain bearing housing
+     (151) and refill with fresh 10W-30 oil. If pumpage is seen exhausting from vacuum pump
+     discharge, shut pump down and inspect separator. Refer to page 10 for separator servicing and
+     operation.
+
+
+
+
+                                                page 34 of 46
+                                         CORNELL PUMP COMPANY
+
+
+                     Separator Service and Operation
+                                          Redi-Prime®
+Refer to appendix for illustration and part numbers.
+
+Float (RP18) Removal and Installation
+   1. Loosen hose clamp and disconnect air hose from prime valve (RP01)
+   2. Remove eight 3/8" hex nuts and capscrews from float box cover (RP06)
+   3. Lift off float box cover (RP06) complete with float linkage and prime valve assemblies
+   4. Unscrew float (RP18) from rod set screw (RP17).
+
+Reinstallation
+  5. Screw float (RP18) onto rod (RP16) and lock with set screw (RP17)
+  6. Replace float box cover (RP06) complete with float linkage and prime valve assemblies
+  7. Replace eight 3/8" hex nuts and capscrews and tighten against gasket (RP13)
+  8. Replace vacuum pump hose and tighten hose clamp
+
+Prime Valve (RP01) Removal and Reinstallation
+   1. Remove the float box cover (RP06) complete with float linkage and prime valve assembly as
+      described in "Float Removal and Installation" above
+   2. Valve body (RP01) can be separated from float box cover by removal the 3/8" capscrews for
+      access to the o-ring (RP04). No other parts are directly accessible from outside of the cover.
+
+Float Valve Linkage Removal and Installation
+There is normally no reason to remove or replace the float valve linkage unless parts have experienced
+damage. In the event of required replacement, use the following instructions:
+   1. Separate the linkage frame (RP10) from the cover (RP06) by removal of two 5/16" capscrews.
+      There may also be stainless flat washers between the frame and cover. (It is important to replace
+      these washers when replacing the frame, as the total mounting distance between the top of the
+      cover and the frame is an essential element in proper priming valve operation.)
+   2. All elements of the linkage are held in position with clevis pins (RP05), side links (RP07) and cotter
+      pins (RP08). To remove any damaged element, straighten and remove the necessary cotter pins
+      and clevis pins. NOTE: The two actuator arms (RP11 & RP12) are very similar in appearance.
+      Before removing either of these parts, make special note of their position and direction in
+      relationship to other assembly parts.
+   3. Valve stem assembly (RP02) may be removed by a similar action of pin removal. Two cross drilled
+      holes in the lower end of this part, with slightly separated center lines, accommodate accumulated
+      tolerances in the assembled linkage parts. In most instances the drill from which the clevis pin has
+      been removed will be one to re-use on reassembly.
+
+Linkage Replacement
+   1. Reverse the previous procedure steps.
+   2. When the linkage is correctly reassembled and fastened to the cover, the valve seat o-ring (RP03)
+      should seat firmly when the float ball is raised to its uppermost position, and a 1/8" minimum gap
+      should remain between the two actuator arms (RP11 & RP12). If the arms can come together, the
+      valve may not be adequately seating.
+
+Strainer / Baffle
+At factory assembly, the strainer (RP20) is pushed onto the bottom cone of the separator float box (RP15)
+and is held in place by friction. During normal operation this strainer can drop loose from the cone and
+rest on the slotted suction spool pipe. This is NOT a problem. Air being evacuated from the suction piping
+can travel freely through the slots and around the strainer.
+
+                                               page 35 of 46
+                                        CORNELL PUMP COMPANY
+
+
+
+Maintenance
+There is no regular maintenance to be performed on the separator. However, there are precautions for
+operation during freezing conditions. These precautions are covered in the "Start-up Instructions /
+Operation"section of this manual, and are repeated here for convenience:
+
+In freezing conditions, ensure that there is no ice in the separator chamber to impede separator float
+movement. Warm water can be poured over the separator, or into the separator chamber through the
+separator hose connection. When pumping in extremely cold conditions, ice may form on the separator
+valve seat preventing closure and allowing water into the air pump. Close observation must be
+maintained and the pump shut down at the first signs of water coming from the vacuum pump.
+
+NOTE: During an initial re-prime, there may be liquid remaining in the suction spool above the slots. This
+may allow a brief misting out the discharge before the prime valve has closed. If at any other time during
+operation, pumpage is seen continuously exhausting from the vacuum pump discharge, the pump should
+immediately be shut down and the float box cover should be removed. Inspect the float assembly for any
+impediment to its movement. It should be able to fully close the valve stem assembly to the valve seat.
+Also check the prime valve for any damage or debris.
+
+
+
+
+                                              page 36 of 46
+                                          CORNELL PUMP COMPANY
+
+
+       Discharge Check Valve Operation and Servicing
+The discharge check valve enables automatic priming of the pump by closing the air leakage path on the
+discharge side of the pump. This allows the primer to pull the pump casing vacuum down sufficiently that
+atmospheric pressure will push liquid into the pump. Once primed, the pump generates enough pressure
+to push the check valve open and allow the flow of liquid through the discharge.
+
+The presence of the check valve, as with any other fitting in the piping system, adds resistance (pipe
+friction) to the total head the pump must overcome during normal operation, and not just while priming for
+start-up. The amount of this added friction varies with the rate of flow, as well as with pipe size. To
+determine the extent of the addition for a specific performance point, see appendix for chart.
+
+If the check valve disc should be prevented from completely closing due to debris or damage, the pump
+will not re-prime. In such a case it will be necessary to remove the inspection cover and clean out the
+debris or service the valve. See the end of this manual for parts drawing and list.
+
+Maintenance
+Check valve requires no scheduled lubrication or maintenance. For service or inspection, the valve can
+be serviced without removal from the line.
+
+Valve inspection - if inspection of the valve is required, follow the disassembly instructions.
+
+Disassembly
+The valve can be disassembled without removing it from the pump.
+
+
+           The line must be drained before removing the cover or pressure may be released
+           causing bodily harm.
+
+
+  1. Relieve pressure and drain the pump. Refer to parts page in the appendix.
+  2. Remove the cover bolts (5) on the top cover.
+  3. Pry cover (2) loose and lift off valve body
+  4. Remove disc (3) and inspect for cracks, tears or damage in rubber sealing surface
+  5. Clean and inspect parts. Replace worn parts as necessary
+
+Reassembly
+All parts must be cleaned. Gasket surfaces should be cleaned with a stiff wire brush in the direction of the
+serrations or machine marks. Worn parts and gaskets should be replaced during reassembly.
+   1. Place disc (3) over seat with beaded seating surface directed down.
+   2. Lay cover gasket (4) and cover (2) over bolt holes and disc hinge
+   3. Insert lubricated bolts (5) noting that the bolts in the hinge area are longer than the others.
+   4. Cover bolts should be tightened to the following specification during assembly
+
+    Size                  Torque (ft-lbs)                  Size                  Torque (ft-lbs)
+3/8"           24                                       3/4"          105
+1/2"           59                                       7/8"          200
+5/8"           117                                      1"            300
+
+
+
+
+                                                page 37 of 46
+                                      CORNELL PUMP COMPANY
+
+
+Redi-Prime® and Venturi-Prime Troubleshooting Guide
+
+       Problem               Probable Cause(s)                                Solution(s)
+                       Pump not primed                         Inspect priming system
+                       Speed too low or head too high          Consult factory
+                       Head insufficient to open check
+                                                               Consult factory
+Failure to pump        valve
+                       Air leak                                Locate and correct
+                       Plugged suction                         Correct
+                       Suction lift too high                   Consult factory
+                       Drain taps on volute or vacuum
+                                                               Close all drain taps
+                       pump open
+                                                               Open valve inspection cover, remove
+                       Discharge check valve not seating
+                                                               debris, check condition of disk and seat
+                       Air leak on suction hose                Check all connections
+Failure to prime
+                       Air entering at inlet to suction        Ensure full submergence
+                                                               Disconnect hose (421) and connect
+                       Faulty vacuum pump or                   vacuum gauge to intake nozzle. Gauge
+                       compressor                              should read 25" HG, minimum; if not,
+                                                               dismantle vacuum pump and check seals
+Vacuum pump or                                                 Replace, and properly tension and/or
+                       Overtightened or misaligned
+compressor belt broken                                         properly align
+                       Air entering suction inlet              Ensure full submergence and no vortices
+                      Impeller or wear rings worn       Check condition and clearances
+Pump loses prime when
+running                                                 Check lift against pump's published
+                      Suction level has dropped too low
+                                                        capabilities
+                       Air hose (B01) leak                     Check clamps and hose condition
+                       Air entering suction                    Check for leaks and proper submergence
+                                                               Check: suction strainer, discharge check
+                       Blockage
+                                                               valve separator, kinked or blocked hoses
+                       Reduced pump speed                      Check with tach and adjust
+                       Worn impeller or wear rings             Inspect and replace or repair
+                                                               Connect pressure gauges to suction and
+Reduced output         System head greater than                discharge at pump, calculate head and
+                       anticipated                             compare to performance curve.
+                                                               Consult factory
+                                                               Correct rotation is clockwise as viewed
+                       Improper rotation
+                                                               from driver location
+                                                               Calculate NPSH available and compare
+                       Insufficient NPSHA
+                                                               with pump curve
+
+
+
+                                               page 38 of 46
+                                        CORNELL PUMP COMPANY
+
+
+      Problem                  Probable Cause(s)                            Solution(s)
+                                                              Replace (see "Separator Service and
+                         Prime valve seat damaged
+Water discharge from                                          Operation" section in manual)
+venturi or vacuum                                             Clear blockage (see "Separator Service
+                         Float restricted
+pump                                                          and Operation" section in manual)
+                         Float punctured                      Replace
+Rapid fluid gain from R-
+                         Mechanical seal leaking              Replace (see pump manual)
+D Resevoir
+                         Mechanical seal leaking              Replace (see pump manual)
+Rapid fluid loss from R-
+                         R-D Lipseal leaking                  Replace (see pump manual)
+D Resevoir
+                         R-D line fitting loose               Check and tighten
+Main vacuum pump         Overgreased, wrong grade or          Remove bearing covers and remove
+bearing hot              contaminated grease                  excess or incorrect grease
+                                                              Check hose clamps and hoses for
+Vacuum pump or           Air leak                             looseness or cracks. Replace as
+compressor housing                                            necessary.
+excessively hot (above                                        Check coolant lines back to engine for
+                         Coolant leak
+140°F)                                                        leaks
+                         Speed too high                       Consult factory
+                         Loose fasteners                      Check all fasteners on pump, engine
+                         Engine out of tune                   Consult engine supplier
+                                                              Check NPSH available against NPSH
+Excessive vibration      Pump cavitation
+                                                              required and reduce lift if possible
+                                                              Check for blockage in suction
+                         Damaged bearings                     Check noise from bearing housings
+                                                              Check temperatures
+                         Leakage                              Tighten bolts, replace gasket
+                                                              Inspect disc for damage - replace
+                         Valve leaks when closed              Inspect seating surface, clean if
+Discharge check valve
+                                                              necessary
+                                                              Check for obstruction in valve, see
+                         Valve does not open
+                                                              disassembly procedure
+
+
+
+
+                                              page 39 of 46
+                                        CORNELL PUMP COMPANY
+
+
+                              Winterizing and Storage
+                             Cornell Redi-Prime® Pumps
+
+Storage Preparation
+  1. Drain all water from main pump piping, including suction line and discharge line. Remove volute
+     drain plug and vent plug to empty pump casing.
+  2. Drain all water from stop cock (196) at bottom of diaphragm in vacuum pump. Be sure to close
+     upon draining all water.
+  3. Verify correct oil level in vacuum pump bearing housing and seal oil reservoir. Add oil as
+     necessary.
+  4. Add grease to main pump bearing frame fittings and vacuum pump pedestal fitting. Three to six
+     strokes at each fitting with a hand grease gun should be sufficient.
+  5. Jog the main pump motor for 10 to 15 seconds. Shut down motor and replace all plugs removed for
+     draining.
+
+Winter Storage
+  6. Occasional motor starts once every month are recommended, with running for 10 to 15 seconds to
+     replace and maintain a lubricating film on the bearings and operating parts.
+
+Restart Preparation
+  7. In installations where winter shut-down and storage is the normal situation, it is recommended that
+     lubricating oil and seal barrier oil be drained and replaced to correct levels before the beginning of
+     each new season.
+  8. Add fresh grease to main bearing frame and vacuum pump pedestal fittings.
+  9. Check all gasketed flanges, especially those on the suction side of the pump, for bolt tightness to
+     eliminate the effect of air leaks on the priming time.
+ 10. Open stop cock (196) at bottom of diaphragm in vacuum pump to be sure all water and moisture
+     has been drained. Close stop cock upon completion.
+
+
+
+
+                                              page 40 of 46
+         CORNELL PUMP COMPANY
+
+
+Redi-Prime® Assembly Parts Page
+
+
+
+
+             page 41 of 46
+     CORNELL PUMP COMPANY
+
+
+Separator Assembly Page
+
+
+
+
+         page 42 of 46
+         CORNELL PUMP COMPANY
+
+
+Discharge Check Valve Parts Page
+
+
+
+
+             page 43 of 46
+     CORNELL PUMP COMPANY
+
+
+Check Valve Losses Page
+
+
+
+
+         page 44 of 46
+            CORNELL PUMP COMPANY
+
+
+Redi-Prime® Vacuum Pump Assembly Page
+
+
+
+
+                page 45 of 46
+           CORNELL PUMP COMPANY
+
+
+Redi-Prime® Vacuum Pump Power Page
+
+
+
+
+               page 46 of 46
+
