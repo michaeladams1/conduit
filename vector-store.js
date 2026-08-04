@@ -36,13 +36,14 @@ async function searchVectorStore(query, maxResults = 5) {
 
   const results = data.data || [];
   if (results.length === 0) {
-    return "No matching sections were found in the Condensed Hydraulic Data Book for this query.";
+    return "No matching sections were found in the reference data for this query.";
   }
 
   return results
     .map((r, i) => {
       const text = (r.content || []).map((c) => c.text).join("\n");
-      return `[Excerpt ${i + 1}, relevance ${r.score?.toFixed(2) ?? "?"}]\n${text}`;
+      const source = r.filename || "unknown source";
+      return `[Excerpt ${i + 1}, source: ${source}, relevance ${r.score?.toFixed(2) ?? "?"}]\n${text}`;
     })
     .join("\n\n---\n\n");
 }
