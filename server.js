@@ -275,7 +275,6 @@ wss.on("connection", (twilioWs) => {
     {
       headers: {
         Authorization: `Bearer ${OPENAI_API_KEY}`,
-        "OpenAI-Beta": "realtime=v1",
       },
     }
   );
@@ -285,12 +284,20 @@ wss.on("connection", (twilioWs) => {
       JSON.stringify({
         type: "session.update",
         session: {
-          modalities: ["audio", "text"],
+          type: "realtime",
+          model: REALTIME_MODEL,
+          output_modalities: ["audio"],
           instructions: BASE_INSTRUCTIONS,
-          voice: REALTIME_VOICE,
-          input_audio_format: "g711_ulaw",
-          output_audio_format: "g711_ulaw",
-          turn_detection: { type: "server_vad" },
+          audio: {
+            input: {
+              format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio sends
+              turn_detection: { type: "server_vad" },
+            },
+            output: {
+              format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio expects back
+              voice: REALTIME_VOICE,
+            },
+          },
           tools: [SEARCH_TOOL, CALCULATE_TOOL],
           tool_choice: "auto",
         },
@@ -326,7 +333,7 @@ wss.on("connection", (twilioWs) => {
     }
 
     switch (event.type) {
-      case "response.audio.delta":
+      case "response.output_audio.delta":
         if (streamSid) {
           twilioWs.send(
             JSON.stringify({
