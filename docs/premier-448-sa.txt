@@ -1,0 +1,76 @@
+PREMIER PUMP+POWER — Model 448-SA
+Vacuum Assisted, Heavy Duty Solids Handling Pump
+Contact: sales@premier-pump.net | 360-574-4519
+
+PUMP
+Suction size: 4" AISI 125# flange
+Discharge size: 4" AISI 125# flange
+Solids handling: 3"
+Max suction lift: 28 feet
+Wear ring: ASTM A48, Class 30 cast iron
+Volute casing: Ductile iron, ASTM A536 65-45-12
+Backplate: Ductile iron, ASTM A536 65-45-12
+Mechanical seal: Tungsten vs. silicon carbide seal faces. Viton elastomers. 300 series
+stainless steel hardware and spring. Seal system designed for dry indefinite running.
+Impeller: Enclosed type, two vane, non-clog. CA6NM cast stainless, ASTM A743.
+Bearing housing: Grease lubricated, 100,000 hour B10 life. ASTM A48, Class 30 cast iron.
+Option for oil lubricated available.
+Shaft: LaSalle Stressproof
+
+DRIVE
+Model: Yanmar 3TNV88F
+Horsepower: 24.4 HP at 2200 RPM
+Operating speed: 1200-2200 RPM
+Governor: Electronic
+Fuel consumption: Max 1.57 gallons per hour
+Safety shut down: Oil temperature, oil level
+Control panel: Controls Inc
+
+FRAME
+Type: Trailer
+Construction: Heavy duty, powder coated, fabricated steel. Fork pockets and lifting frame.
+Options for galvanizing available.
+Fuel tank: 65 gallons
+Axle: Single 3500 lb, torsion flex
+Brakes: Electric with DOT lighting package
+
+PRIMING
+Priming system: 50 CFM diaphragm vacuum pump, mechanically driven
+Air/water chamber: Chamber designed to separate air and water before entering the pump case
+Discharge check valve: Swing type, ductile iron with Buna-N disc
+
+PERFORMANCE CURVE DATA
+Performance shown is for specific gravity 1.0, 60°F water, frame mounted configuration.
+Other mounting styles or specific gravity may require curve adjustments.
+Speed: various (1500, 1800, 2000, 2200 RPM curves shown)
+Impeller diameter: 8.25" - 0°
+Style: enclosed
+Volute: single
+Solids diameter: 3"
+Specific speed (Ns): 2600
+Suction: 4"
+Discharge: 4"
+Number of vanes: 2
+Capacity range shown: 0 to 1800 GPM (0 to 110 L/sec, 0 to 400 m3/hr)
+Total dynamic head range shown: 0 to 130 feet (0 to 35 meters)
+Horsepower curves shown at 10 HP, 15 HP, and 20 HP
+Efficiency curves shown at 70%, 72%, 76%, and 80%
+Suction lift curves shown at 8 ft (2.4 m), 10 ft (3.1 m), 12 ft (3.7 m), and 15 ft (4.6 m)
+Approximate performance at each speed:
+- 1500 RPM: total dynamic head roughly 20-50 feet depending on capacity
+- 1800 RPM: total dynamic head roughly 25-75 feet depending on capacity
+- 2000 RPM: total dynamic head roughly 30-95 feet depending on capacity
+- 2200 RPM: total dynamic head roughly 35-115 feet depending on capacity
+Best efficiency point is generally in the 76-80% range near the middle of each curve's
+capacity range.
+
+DIMENSIONS AND WEIGHT
+Shipping weight, dry: 2700 lbs
+Shipping weight, wet: 3162 lbs
+Overall length: 109 13/16 inches
+Overall width: 73 7/16 inches
+Overall height: 71 3/4 inches
+Hitch height: 36 11/16 inches
+Frame width at axle: 67 1/4 inches
+Notes: dimensions are for reference only, actual figures may vary. All heights are
+dependent on site conditions.
