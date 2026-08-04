@@ -382,22 +382,23 @@ wss.on("connection", (twilioWs) => {
               // turn simply fired on background noise.
               transcription: { model: "gpt-4o-mini-transcribe" },
               turn_detection: {
-                type: "server_vad",
-                // Raised from the 0.5 default -- background noise on job
-                // site calls was loud enough to false-trigger "someone is
-                // speaking" with nothing actually said. Higher threshold
-                // needs louder, clearer speech to activate.
-                threshold: 0.65,
-                prefix_padding_ms: 300,
-                // Default is much shorter (closer to 200-500ms), which was
-                // cutting people off mid-thought after just a word or two.
-                // Give callers more room to pause and keep talking before
-                // the system decides they're done.
-                silence_duration_ms: 800,
-                // Explicit (matches the default, but spelled out so it's
-                // not silently relying on a default that could change):
-                // the caller can cut the assistant off mid-sentence, and
-                // that new turn immediately starts a fresh response.
+                // Switched from server_vad (pure volume threshold) to
+                // semantic_vad: instead of just "was it loud enough,"
+                // this judges whether what was said actually sounds like
+                // a complete thought. Continuous engine/background noise
+                // doesn't form real words, so this should false-trigger
+                // far less than a volume threshold ever could, even a
+                // high one -- that's what was causing the bot to go
+                // silent mid-answer (background noise kept triggering
+                // barge-in, wiping out real audio already in flight).
+                type: "semantic_vad",
+                // low = waits longer / needs more confidence before
+                // deciding the caller is done or that they're actually
+                // speaking. Trades a bit of responsiveness for a lot
+                // fewer false triggers on a noisy line.
+                eagerness: "low",
+                // the caller can still cut the assistant off mid-sentence,
+                // and that new turn immediately starts a fresh response.
                 interrupt_response: true,
                 create_response: true,
               },
