@@ -334,25 +334,11 @@ wss.on("connection", (twilioWs) => {
         },
       })
     );
-    openaiReady = true;
-    // Have the model open the call itself, in its own natural voice,
-    // instead of a separate robotic Twilio TTS greeting beforehand.
-    openaiWs.send(
-      JSON.stringify({
-        type: "response.create",
-        response: {
-          instructions:
-            "Greet the caller warmly and briefly in one short sentence, then invite their question. Do not mention being an AI or a bot.",
-        },
-      })
-    );
-    // Flush any audio that arrived while we were connecting.
-    for (const payload of pendingAudio) {
-      openaiWs.send(
-        JSON.stringify({ type: "input_audio_buffer.append", audio: payload })
-      );
-    }
-    pendingAudio = [];
+    // IMPORTANT: don't send audio or trigger a response yet. We wait for
+    // the "session.updated" confirmation below -- if we speak before the
+    // server has actually applied our audio format, the model can fall
+    // back to its default format (raw PCM) while we still forward it to
+    // Twilio as if it were g711 mu-law, producing garbled, warped audio.
   });
 
   openaiWs.on("message", (raw) => {
@@ -364,6 +350,32 @@ wss.on("connection", (twilioWs) => {
     }
 
     switch (event.type) {
+      case "session.updated":
+        // Confirmed: the server has actually applied our audio format.
+        // Safe now to flush any buffered caller audio and trigger the
+        // greeting -- doing this earlier risked mismatched audio formats
+        // (see comment above where session.update is sent).
+        if (!openaiReady) {
+          openaiReady = true;
+          for (const payload of pendingAudio) {
+            openaiWs.send(
+              JSON.stringify({ type: "input_audio_buffer.append", audio: payload })
+            );
+          }
+          pendingAudio = [];
+
+          openaiWs.send(
+            JSON.stringify({
+              type: "response.create",
+              response: {
+                instructions:
+                  "Greet the caller warmly and briefly in one short sentence, then invite their question. Do not mention being an AI or a bot.",
+              },
+            })
+          );
+        }
+        break;
+
       case "response.output_audio.delta":
         if (streamSid) {
           twilioWs.send(
