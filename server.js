@@ -369,9 +369,24 @@ wss.on("connection", (twilioWs) => {
           audio: {
             input: {
               format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio sends
+              // Callers are often on job sites (trucks, wind, road noise),
+              // not quiet headsets. far_field noise reduction filters that
+              // background noise out BEFORE it reaches voice detection,
+              // which cuts down on the model responding to noise instead
+              // of real speech.
+              noise_reduction: { type: "far_field" },
+              // Lets us log what the model actually heard on each turn --
+              // without this, if it starts talking unprompted we have no
+              // way to tell whether it heard real (misheard) words or the
+              // turn simply fired on background noise.
+              transcription: { model: "gpt-4o-mini-transcribe" },
               turn_detection: {
                 type: "server_vad",
-                threshold: 0.5,
+                // Raised from the 0.5 default -- background noise on job
+                // site calls was loud enough to false-trigger "someone is
+                // speaking" with nothing actually said. Higher threshold
+                // needs louder, clearer speech to activate.
+                threshold: 0.65,
                 prefix_padding_ms: 300,
                 // Default is much shorter (closer to 200-500ms), which was
                 // cutting people off mid-thought after just a word or two.
@@ -509,6 +524,17 @@ wss.on("connection", (twilioWs) => {
 
       case "error":
         console.error("OpenAI Realtime error:", JSON.stringify(event));
+        break;
+
+      case "input_audio_buffer.speech_started":
+        console.log("VAD: speech started (turn detector triggered)");
+        break;
+
+      case "conversation.item.input_audio_transcription.completed":
+        // What the model actually heard for that turn -- if this is
+        // empty/garbage text but the model still replied, that confirms
+        // a false-trigger from noise rather than a real misunderstanding.
+        console.log("Heard from caller:", JSON.stringify(event.transcript));
         break;
 
       default:
