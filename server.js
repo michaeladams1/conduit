@@ -62,6 +62,7 @@ Rules:
 - If calculate_pump_formula returns an error (e.g. a missing input), don't silently retry the same call. Tell the caller what's missing and ask them for it directly.
 - Never use markdown formatting (no asterisks, bold, headers, bullet points). You're being heard on a phone or read as a plain text message -- markdown symbols would be read aloud or show up as literal characters.
 - Keep answers concise and conversational — you are being heard or read on a phone, not read as a report.
+- Default to short, simple answers: give the direct number or fact the caller asked for in one or two sentences, without extra background, caveats, or related specs they didn't ask about. After the short answer, briefly offer to go deeper if useful ("Want the full spec sheet on that?" or "I can walk through the math if you want."). Only give a longer, more detailed answer up front if the caller's question was already detailed or clearly asked for it (e.g. "walk me through," "explain," "what are all the specs").
 - When reading numbers from tables, round sensibly and say units out loud (e.g., "3.2 feet per second," not "3.2 ft/sec").`;
 
 // ---------------------------------------------------------------------
@@ -393,6 +394,12 @@ wss.on("connection", (twilioWs) => {
                 // Give callers more room to pause and keep talking before
                 // the system decides they're done.
                 silence_duration_ms: 800,
+                // Explicit (matches the default, but spelled out so it's
+                // not silently relying on a default that could change):
+                // the caller can cut the assistant off mid-sentence, and
+                // that new turn immediately starts a fresh response.
+                interrupt_response: true,
+                create_response: true,
               },
             },
             output: {
@@ -528,6 +535,15 @@ wss.on("connection", (twilioWs) => {
 
       case "input_audio_buffer.speech_started":
         console.log("VAD: speech started (turn detector triggered)");
+        // BARGE-IN: OpenAI stopping generation doesn't stop audio we
+        // ALREADY sent to Twilio -- that's still queued up and will keep
+        // playing out to the caller's ear unless we tell Twilio to drop
+        // it. This "clear" event flushes Twilio's playback buffer the
+        // instant the caller starts talking, so the assistant actually
+        // goes silent right away instead of finishing its sentence(s).
+        if (streamSid) {
+          twilioWs.send(JSON.stringify({ event: "clear", streamSid }));
+        }
         break;
 
       case "conversation.item.input_audio_transcription.completed":
