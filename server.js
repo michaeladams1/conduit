@@ -93,16 +93,21 @@ app.get("/privacy", (req, res) => {
 questions answered from an industrial pump hydraulics reference.</p>
 <h2>What we collect</h2>
 <p>We process the phone number and message content of each call or text
-in order to generate a response. We do not sell, rent, or share mobile
-phone numbers or message content with third parties for marketing
-purposes.</p>
+in order to generate a response.</p>
+<h2>No sharing of mobile information</h2>
+<p>Text messaging originator opt-in data and consent will not be shared
+with any third parties, affiliates, or partners for marketing or
+promotional purposes, under any circumstance. Mobile phone numbers and
+message content are used solely to operate this service and are not
+sold, rented, or shared with third parties.</p>
 <h2>Message frequency</h2>
 <p>Message frequency varies based on how often you text in a question.
-Each inbound message typically receives one reply.</p>
+Each inbound message typically receives one reply. Message and data
+rates may apply.</p>
 <h2>Opt-out</h2>
 <p>Reply STOP at any time to stop receiving messages, or HELP for
-support. Message and data rates may apply.</p>
-<h2>Contact</h2>
+support.</p>
+<h2>Contact</h2>[This tool call rendered an interactive widget in the chat. The user can already see the result — do not repeat it in text or with another visualization tool.]
 <p>Questions about this policy can be sent to the number that operates
 this service.</p>
 </body></html>`);
