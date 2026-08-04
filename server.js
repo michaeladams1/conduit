@@ -301,6 +301,14 @@ wss.on("connection", (twilioWs) => {
   let openaiReady = false;
   // Buffer any audio that arrives before the OpenAI session is ready.
   let pendingAudio = [];
+  // Tracks whether OpenAI currently has an in-progress response (from
+  // "response.created" until "response.done"). The API rejects a new
+  // response.create while one is already active, so if a tool result
+  // comes back mid-response (e.g. the model spoke a "let me check that"
+  // preamble before calling the tool), we queue the follow-up instead
+  // of firing it immediately and having it silently rejected.
+  let responseActive = false;
+  let followUpNeeded = false;
 
   openaiWs = new WebSocket(
     `wss://api.openai.com/v1/realtime?model=${encodeURIComponent(REALTIME_MODEL)}`,
@@ -377,6 +385,18 @@ wss.on("connection", (twilioWs) => {
         }
         break;
 
+      case "response.created":
+        responseActive = true;
+        break;
+
+      case "response.done":
+        responseActive = false;
+        if (followUpNeeded) {
+          followUpNeeded = false;
+          openaiWs.send(JSON.stringify({ type: "response.create" }));
+        }
+        break;
+
       case "response.output_audio.delta":
         if (streamSid) {
           twilioWs.send(
@@ -424,7 +444,18 @@ wss.on("connection", (twilioWs) => {
               },
             })
           );
-          openaiWs.send(JSON.stringify({ type: "response.create" }));
+          // Only ask for a new response if nothing is currently in
+          // progress. If the model is still mid-response (e.g. it spoke
+          // a short preamble like "let me check that" before calling
+          // this tool), sending response.create now gets rejected with
+          // "conversation already has an active response" -- so instead
+          // we flag it and let the "response.done" handler above fire it
+          // once the current response actually finishes.
+          if (responseActive) {
+            followUpNeeded = true;
+          } else {
+            openaiWs.send(JSON.stringify({ type: "response.create" }));
+          }
         })();
         break;
       }
