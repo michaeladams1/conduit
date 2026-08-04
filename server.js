@@ -32,6 +32,7 @@ const {
   REALTIME_MODEL = "gpt-realtime",
   SMS_MODEL = "gpt-4o-mini",
   REALTIME_VOICE = "marin",
+  ALLOWED_PHONE_NUMBERS = "",
 } = process.env;
 
 if (!OPENAI_API_KEY) {
@@ -51,6 +52,22 @@ Rules:
 - For anything requiring math -- friction loss, brake horsepower, pump efficiency, pumping cost, affinity laws (speed changes) -- always call the calculate_pump_formula tool instead of doing the arithmetic yourself. Never compute these by hand.
 - Keep answers concise and conversational — you are being heard or read on a phone, not read as a report.
 - When reading numbers from tables, round sensibly and say units out loud (e.g., "3.2 feet per second," not "3.2 ft/sec").`;
+
+// ---------------------------------------------------------------------
+// Access control. If ALLOWED_PHONE_NUMBERS is set (comma-separated,
+// E.164 format like +13462149215), only those numbers can call or text
+// this line. If it's left empty, everyone is allowed (open access) --
+// this keeps the app working the same way it always has unless you
+// explicitly opt into gating it.
+// ---------------------------------------------------------------------
+const allowedNumbers = ALLOWED_PHONE_NUMBERS.split(",")
+  .map((n) => n.trim())
+  .filter(Boolean);
+
+function isCallerAllowed(fromNumber) {
+  if (allowedNumbers.length === 0) return true; // no allowlist configured = open
+  return allowedNumbers.includes(fromNumber);
+}
 
 // ---------------------------------------------------------------------
 // Express app: TwiML webhooks
@@ -115,8 +132,16 @@ availability, or fitness for a particular purpose.</p>
 // Twilio Voice webhook — point your Twilio number's "A call comes in" to
 // POST https://YOUR-RAILWAY-URL/incoming-call
 app.post("/incoming-call", (req, res) => {
-  const host = req.headers["x-forwarded-host"] || req.get("host");
   const twiml = new twilio.twiml.VoiceResponse();
+
+  if (!isCallerAllowed(req.body.From)) {
+    console.log(`Blocked call from ${req.body.From} (not on allowlist)`);
+    twiml.say("This line is not available to your number. Goodbye.");
+    twiml.hangup();
+    return res.type("text/xml").send(twiml.toString());
+  }
+
+  const host = req.headers["x-forwarded-host"] || req.get("host");
   const connect = twiml.connect();
   connect.stream({ url: `wss://${host}/media-stream` });
   res.type("text/xml").send(twiml.toString());
@@ -127,6 +152,12 @@ app.post("/incoming-call", (req, res) => {
 app.post("/incoming-sms", async (req, res) => {
   const question = (req.body.Body || "").trim();
   const twiml = new twilio.twiml.MessagingResponse();
+
+  if (!isCallerAllowed(req.body.From)) {
+    console.log(`Blocked text from ${req.body.From} (not on allowlist)`);
+    twiml.message("This number is not available to you.");
+    return res.type("text/xml").send(twiml.toString());
+  }
 
   if (!question) {
     twiml.message("Text me a pump hydraulics question and I'll look it up.");
