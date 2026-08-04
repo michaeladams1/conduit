@@ -40,29 +40,42 @@ Air/water chamber: Chamber designed to separate air and water before entering th
 Discharge check valve: Swing type, ductile iron with Buna-N disc
 
 PERFORMANCE CURVE DATA
-Performance shown is for specific gravity 1.0, 60°F water, frame mounted configuration.
-Other mounting styles or specific gravity may require curve adjustments.
-Speed: various (1500, 1800, 2000, 2200 RPM curves shown)
+IMPORTANT NOTE ON THIS SECTION: the original spec sheet shows this data as a
+plotted performance curve graph, not a data table. The figures below are
+APPROXIMATE VALUES read visually off that chart, not exact measured data
+points. When answering questions from this section, always tell the caller
+these are approximate/estimated from a performance curve, and that for a
+precise operating point they should confirm with Premier Pump+Power
+directly (sales@premier-pump.net, 360-574-4519).
+
+Performance shown is for specific gravity 1.0, 60°F water, frame mounted
+configuration. Other mounting styles or specific gravity may require curve
+adjustments.
 Impeller diameter: 8.25" - 0°
-Style: enclosed
-Volute: single
+Style: enclosed, single volute
 Solids diameter: 3"
 Specific speed (Ns): 2600
-Suction: 4"
-Discharge: 4"
-Number of vanes: 2
-Capacity range shown: 0 to 1800 GPM (0 to 110 L/sec, 0 to 400 m3/hr)
-Total dynamic head range shown: 0 to 130 feet (0 to 35 meters)
-Horsepower curves shown at 10 HP, 15 HP, and 20 HP
-Efficiency curves shown at 70%, 72%, 76%, and 80%
-Suction lift curves shown at 8 ft (2.4 m), 10 ft (3.1 m), 12 ft (3.7 m), and 15 ft (4.6 m)
-Approximate performance at each speed:
-- 1500 RPM: total dynamic head roughly 20-50 feet depending on capacity
-- 1800 RPM: total dynamic head roughly 25-75 feet depending on capacity
-- 2000 RPM: total dynamic head roughly 30-95 feet depending on capacity
-- 2200 RPM: total dynamic head roughly 35-115 feet depending on capacity
-Best efficiency point is generally in the 76-80% range near the middle of each curve's
-capacity range.
+Suction: 4", Discharge: 4", Number of vanes: 2
+Capacity axis range: 0 to 1800 GPM (0 to 110 L/sec, 0 to 400 m3/hr)
+Total dynamic head axis range: 0 to 130 feet (0 to 35 meters)
+Four speed curves are plotted: 1500, 1800, 2000, and 2200 RPM.
+Overlaid on the speed curves are: efficiency curves at 70%, 72%, 76%, and
+80%; horsepower curves at 10, 15, and 20 HP; and suction lift curves at 8 ft
+(2.4 m), 10 ft (3.1 m), 12 ft (3.7 m), and 15 ft (4.6 m).
+
+Approximate shut-off head (zero flow) and approximate head at the curve's
+right-hand (maximum capacity) end, per speed -- again, these are visual
+estimates, not exact figures:
+- 1500 RPM: approximately 52 ft at shut-off, tapering to approximately 18 ft
+  near its max capacity of roughly 580-600 GPM.
+- 1800 RPM: approximately 76 ft at shut-off, tapering to approximately 25 ft
+  near its max capacity of roughly 900-950 GPM.
+- 2000 RPM: approximately 98 ft at shut-off, tapering to approximately 40 ft
+  near its max capacity of roughly 1050-1100 GPM.
+- 2200 RPM: approximately 118 ft at shut-off, tapering to approximately 25 ft
+  near its max capacity of roughly 900 GPM.
+Best efficiency (76-80%) generally falls in the middle portion of each
+curve's capacity range, roughly 400-800 GPM depending on speed.
 
 DIMENSIONS AND WEIGHT
 Shipping weight, dry: 2700 lbs
