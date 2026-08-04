@@ -405,6 +405,8 @@ wss.on("connection", (twilioWs) => {
             output: {
               format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio expects back
               voice: REALTIME_VOICE,
+              // 1.0 is normal pace; 0.8 = 20% slower, per request.
+              speed: 0.8,
             },
           },
           tools: [SEARCH_TOOL, CALCULATE_TOOL],
