@@ -1,0 +1,19 @@
+{
+  "name": "conduit",
+  "version": "1.0.0",
+  "description": "Twilio phone + SMS assistant that answers questions from the Cornell Pump Condensed Hydraulic Data Book, using OpenAI's Realtime API for voice.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ws": "^8.18.0",
+    "dotenv": "^16.4.5",
+    "twilio": "^5.3.0"
+  }
+}
