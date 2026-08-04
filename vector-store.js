@@ -39,13 +39,20 @@ async function searchVectorStore(query, maxResults = 5) {
     return "No matching sections were found in the reference data for this query.";
   }
 
-  return results
-    .map((r, i) => {
-      const text = (r.content || []).map((c) => c.text).join("\n");
-      const source = r.filename || "unknown source";
-      return `[Excerpt ${i + 1}, source: ${source}, relevance ${r.score?.toFixed(2) ?? "?"}]\n${text}`;
-    })
-    .join("\n\n---\n\n");
+  return (
+    results
+      .map((r, i) => {
+        const text = (r.content || []).map((c) => c.text).join("\n");
+        const source = r.filename || "unknown source";
+        return `[Excerpt ${i + 1}, source: ${source}, relevance ${r.score?.toFixed(2) ?? "?"}]\n${text}`;
+      })
+      .join("\n\n---\n\n") +
+    "\n\n---\n\n[REMINDER: these are just the best-matching excerpts for this exact search " +
+    "query -- they are NOT necessarily the only equipment you have reference data for. If the " +
+    "caller's question depends on a specific pump or unit and they haven't named one, confirm " +
+    "which one they mean before answering. Do not treat 'this was my only search match' as " +
+    "confirmation of which equipment they're asking about.]"
+  );
 }
 
 module.exports = { searchVectorStore };
