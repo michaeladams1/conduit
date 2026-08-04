@@ -30,7 +30,7 @@ const {
   OPENAI_API_KEY,
   PORT = 3000,
   REALTIME_MODEL = "gpt-realtime",
-  SMS_MODEL = "gpt-4o-mini",
+  SMS_MODEL = "gpt-5.4-mini",
   REALTIME_VOICE = "marin",
   ALLOWED_PHONE_NUMBERS = "",
 } = process.env;
