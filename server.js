@@ -24,7 +24,7 @@ const http = require("http");
 const WebSocket = require("ws");
 const twilio = require("twilio");
 const { searchVectorStore } = require("./vector-store");
-const { runFormula, FORMULAS } = require("./calculations");
+const { runFormula, FORMULAS, FORMULA_PARAMS } = require("./calculations");
 
 const {
   OPENAI_API_KEY,
@@ -51,6 +51,7 @@ Rules:
 - Always ground your answer in the retrieved excerpts from the data book. Do not invent numbers.
 - If the retrieved excerpts don't contain the answer, say plainly that it isn't in your reference data, and only then offer a brief, clearly-labeled general engineering answer if you're confident it's correct ("That's not in my reference data, but generally speaking...").
 - For anything requiring math -- friction loss, brake horsepower, pump efficiency, pumping cost, affinity laws (speed changes) -- always call the calculate_pump_formula tool instead of doing the arithmetic yourself. Never compute these by hand.
+- If calculate_pump_formula returns an error (e.g. a missing input), don't silently retry the same call. Tell the caller what's missing and ask them for it directly.
 - Keep answers concise and conversational — you are being heard or read on a phone, not read as a report.
 - When reading numbers from tables, round sensibly and say units out loud (e.g., "3.2 feet per second," not "3.2 ft/sec").`;
 
@@ -179,6 +180,13 @@ app.post("/incoming-sms", async (req, res) => {
 
 // JSON schema for the calculator tool, shared by both SMS (Chat Completions
 // format) and voice (Realtime format, defined separately below).
+const CALC_PARAMS_DESCRIPTION =
+  "Named numeric inputs the chosen formula needs. Exact field names per formula:\n" +
+  Object.entries(FORMULA_PARAMS)
+    .map(([name, params]) => `- ${name}: ${params}`)
+    .join("\n") +
+  "\nEfficiencies are always given as a PERCENT (e.g. 75 for 75%), never a decimal.";
+
 const CALC_TOOL_PARAMETERS = {
   type: "object",
   properties: {
@@ -189,8 +197,7 @@ const CALC_TOOL_PARAMETERS = {
     },
     args: {
       type: "object",
-      description:
-        "Named numeric inputs the formula needs, e.g. {\"flowGpm\":100,\"diameterInches\":6,\"cFactor\":100} for friction_loss_hazen_williams.",
+      description: CALC_PARAMS_DESCRIPTION,
     },
   },
   required: ["formula", "args"],
