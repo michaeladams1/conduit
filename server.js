@@ -136,7 +136,7 @@ app.post("/incoming-call", (req, res) => {
 
   if (!isCallerAllowed(req.body.From)) {
     console.log(`Blocked call from ${req.body.From} (not on allowlist)`);
-    twiml.say("This line is not available to your number. Goodbye.");
+    twiml.say("Thank you for calling. This service is currently limited to approved users. Please reach out to Kyle to be added to the access list. Goodbye.");
     twiml.hangup();
     return res.type("text/xml").send(twiml.toString());
   }
@@ -155,7 +155,7 @@ app.post("/incoming-sms", async (req, res) => {
 
   if (!isCallerAllowed(req.body.From)) {
     console.log(`Blocked text from ${req.body.From} (not on allowlist)`);
-    twiml.message("This number is not available to you.");
+    twiml.message("Thanks for reaching out. This service is currently limited to approved users. Please reach out to Kyle to be added to the access list.");
     return res.type("text/xml").send(twiml.toString());
   }
 
