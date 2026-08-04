@@ -277,7 +277,9 @@ async function askOpenAIText(question, context) {
       messages.push(msg);
       for (const call of msg.tool_calls) {
         const args = JSON.parse(call.function.arguments || "{}");
+        console.log("SMS tool call:", JSON.stringify(args));
         const result = runFormula(args.formula, args.args || {});
+        console.log("SMS tool result:", JSON.stringify(result));
         messages.push({
           role: "tool",
           tool_call_id: call.id,
