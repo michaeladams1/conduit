@@ -151,8 +151,7 @@ carrier.</p>
 <p>Reply STOP at any time to stop receiving messages. You will receive
 no further messages after opting out.</p>
 <h2>Help</h2>
-<p>Reply HELP at any time for support, or see the Privacy Policy at
-/privacy for more information.</p>
+<p>Reply HELP at any time for support, or see the <a href="https://conduit-production-4201.up.railway.app/privacy">Privacy Policy</a> for more information.</p>
 <h2>Carrier liability</h2>
 <p>Carriers are not liable for delayed or undelivered messages.</p>
 <h2>No warranty</h2>
