@@ -359,7 +359,16 @@ wss.on("connection", (twilioWs) => {
           audio: {
             input: {
               format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio sends
-              turn_detection: { type: "server_vad" },
+              turn_detection: {
+                type: "server_vad",
+                threshold: 0.5,
+                prefix_padding_ms: 300,
+                // Default is much shorter (closer to 200-500ms), which was
+                // cutting people off mid-thought after just a word or two.
+                // Give callers more room to pause and keep talking before
+                // the system decides they're done.
+                silence_duration_ms: 800,
+              },
             },
             output: {
               format: { type: "audio/pcmu" }, // g711 mu-law, what Twilio expects back
