@@ -89,7 +89,25 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Conduit voice/SMS assistant is running.");
+  res.type("text/html").send(`<!doctype html>
+<html><head><title>Conduit — Pump Hydraulics Q&A</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}</style>
+</head><body>
+<h1>Conduit</h1>
+<p>Conduit is a free question-and-answer service for industrial pump
+hydraulics questions, operated by Michael Adams (Sole Proprietor).</p>
+<h2>How it works</h2>
+<p><strong>Call or text (346) 214-9215</strong> with a pump hydraulics
+question — friction loss, pipe sizing, viscosity, or pump performance
+formulas — and you'll get an automated answer sourced from a publicly
+available industrial pump reference manual.</p>
+<p>No signup, no account, no marketing messages. Reply STOP at any
+time to stop receiving messages, or HELP for support. Message and
+data rates may apply.</p>
+<p><a href="/terms">Terms and Conditions</a> |
+<a href="/privacy">Privacy Policy</a></p>
+</body></html>`);
 });
 
 app.get("/privacy", (req, res) => {
