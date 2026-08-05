@@ -99,8 +99,9 @@ app.get("/privacy", (req, res) => {
 <style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}</style>
 </head><body>
 <h1>Privacy Policy</h1>
-<p>This service ("Conduit") lets users call or text a phone number to ask
-questions answered from an industrial pump hydraulics reference.</p>
+<p>This service ("Conduit") is operated by Michael Adams and lets users
+call or text a phone number to ask questions answered from an
+industrial pump hydraulics reference.</p>
 <h2>What we collect</h2>
 <p>We process the phone number and message content of each call or text
 in order to generate a response.</p>
@@ -118,8 +119,8 @@ rates may apply.</p>
 <p>Reply STOP at any time to stop receiving messages, or HELP for
 support.</p>
 <h2>Contact</h2>[This tool call rendered an interactive widget in the chat. The user can already see the result — do not repeat it in text or with another visualization tool.]
-<p>Questions about this policy can be sent to the number that operates
-this service.</p>
+<p>Questions about this policy can be sent to
+michael_adams1@me.com.</p>
 </body></html>`);
 });
 
@@ -130,8 +131,8 @@ app.get("/terms", (req, res) => {
 <style>body{font-family:system-ui,sans-serif;max-width:640px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}</style>
 </head><body>
 <h1>Terms and Conditions</h1>
-<p>By texting or calling this number ("Conduit"), you agree to these
-terms.</p>
+<p>By texting or calling this number ("Conduit"), operated by Michael
+Adams, you agree to these terms.</p>
 <h2>Program description</h2>
 <p>Conduit answers technical questions about pump hydraulics using
 information from an industrial pump hydraulics reference. Answers are
@@ -158,6 +159,9 @@ no further messages after opting out.</p>
 <h2>No warranty</h2>
 <p>This service is provided as-is, with no guarantee of accuracy,
 availability, or fitness for a particular purpose.</p>
+<h2>Contact</h2>
+<p>Questions about these terms can be sent to
+michael_adams1@me.com.</p>
 </body></html>`);
 });
 
