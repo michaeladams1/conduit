@@ -118,7 +118,7 @@ rates may apply.</p>
 <h2>Opt-out</h2>
 <p>Reply STOP at any time to stop receiving messages, or HELP for
 support.</p>
-<h2>Contact</h2>[This tool call rendered an interactive widget in the chat. The user can already see the result — do not repeat it in text or with another visualization tool.]
+<h2>Contact</h2>
 <p>Questions about this policy can be sent to
 michael_adams1@me.com.</p>
 </body></html>`);
