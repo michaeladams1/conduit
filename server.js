@@ -102,9 +102,12 @@ hydraulics questions, operated by Michael Adams (Sole Proprietor).</p>
 question — friction loss, pipe sizing, viscosity, or pump performance
 formulas — and you'll get an automated answer sourced from a publicly
 available industrial pump reference manual.</p>
-<p>No signup, no account, no marketing messages. Reply STOP at any
-time to stop receiving messages, or HELP for support. Message and
-data rates may apply.</p>
+<p><strong>By texting this number, you agree to receive SMS text
+messages from Conduit in response to your questions.</strong> No
+signup, no account, no marketing messages. Message frequency varies
+based on how often you text in a question. Message and data rates may
+apply. Reply STOP at any time to stop receiving messages, or HELP for
+support.</p>
 <p><a href="/terms">Terms and Conditions</a> |
 <a href="/privacy">Privacy Policy</a></p>
 </body></html>`);
