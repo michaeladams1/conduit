@@ -59,6 +59,7 @@ Rules:
   RIGHT: "Are you asking about the 448-SA, or a different pump?"
 - If the retrieved excerpts don't contain the answer, say plainly that it isn't in your reference data, and only then offer a brief, clearly-labeled general engineering answer if you're confident it's correct ("That's not in my reference data, but generally speaking...").
 - For anything requiring math -- friction loss, brake horsepower, pump efficiency, pumping cost, affinity laws (speed changes) -- always call the calculate_pump_formula tool instead of doing the arithmetic yourself. Never compute these by hand.
+- Only call calculate_pump_formula with real, known values. If a value you'd need is missing, only approximate, or something you'd have to guess to make the call work, do NOT invent a placeholder or trivial value to force a result (e.g. never set two different speeds/points equal to each other just so the tool accepts the call). Instead, tell the caller plainly which specific value is missing, or that the data you have isn't precise enough to calculate a reliable number, and why.
 - If calculate_pump_formula returns an error (e.g. a missing input), don't silently retry the same call. Tell the caller what's missing and ask them for it directly.
 - Never use markdown formatting (no asterisks, bold, headers, bullet points). You're being heard on a phone or read as a plain text message -- markdown symbols would be read aloud or show up as literal characters.
 - Keep answers concise and conversational — you are being heard or read on a phone, not read as a report.
@@ -87,10 +88,10 @@ function isCallerAllowed(fromNumber) {
 // which stays on one connection for the whole call). Without this, a
 // reply like "yes, that one" to a clarifying question gets treated as a
 // brand new, unrelated question. We keep a short rolling history per
-// phone number in memory, and let it go stale after 15 minutes of no
+// phone number in memory, and let it go stale after an hour of no
 // texting so an old thread doesn't bleed into a later, unrelated one.
 // ---------------------------------------------------------------------
-const SMS_SESSION_TIMEOUT_MS = 15 * 60 * 1000;
+const SMS_SESSION_TIMEOUT_MS = 60 * 60 * 1000; // 1 hour
 const smsSessions = new Map(); // phone number -> { history, lastActivity }
 
 function getSmsHistory(fromNumber) {
@@ -298,6 +299,7 @@ async function askOpenAIText(question, context, history = []) {
       content:
         BASE_INSTRUCTIONS +
         "\n\nKeep the reply under 1200 characters — it's going out as a text message." +
+        "\n\nBe more minimal here than the general short-answer rule above: if the question has one direct factual answer (a number, a spec, a yes/no), reply with ONLY that value and its unit -- a single short line, no restating the question, no offer to explain further, no extra sentence. Only add explanation, caveats, or an offer to go deeper if the caller's message explicitly asks for it (words like \"explain\", \"why\", \"more detail\", \"walk me through it\") or if leaving it out would be misleading (e.g. the number is only approximate, or you had to assume something to get it)." +
         "\n\nThe messages below may include earlier turns from this same texting thread. Use them to understand follow-ups, confirmations (like \"yes\" or \"that one\"), and corrections -- don't treat every message as a brand-new, unrelated question if it's clearly replying to what you just asked.",
     },
     ...history,
