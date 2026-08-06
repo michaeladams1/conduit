@@ -82,6 +82,37 @@ function isCallerAllowed(fromNumber) {
 }
 
 // ---------------------------------------------------------------------
+// SMS conversation memory. Each text-in/text-out is its own isolated
+// HTTP request with no built-in memory of prior texts (unlike voice,
+// which stays on one connection for the whole call). Without this, a
+// reply like "yes, that one" to a clarifying question gets treated as a
+// brand new, unrelated question. We keep a short rolling history per
+// phone number in memory, and let it go stale after 15 minutes of no
+// texting so an old thread doesn't bleed into a later, unrelated one.
+// ---------------------------------------------------------------------
+const SMS_SESSION_TIMEOUT_MS = 15 * 60 * 1000;
+const smsSessions = new Map(); // phone number -> { history, lastActivity }
+
+function getSmsHistory(fromNumber) {
+  const session = smsSessions.get(fromNumber);
+  if (!session) return [];
+  if (Date.now() - session.lastActivity > SMS_SESSION_TIMEOUT_MS) {
+    smsSessions.delete(fromNumber);
+    return [];
+  }
+  return session.history;
+}
+
+function saveSmsTurn(fromNumber, question, answer) {
+  const history = getSmsHistory(fromNumber);
+  history.push({ role: "user", content: question });
+  history.push({ role: "assistant", content: answer });
+  // Keep only the last 5 question/answer pairs so requests stay small.
+  const trimmed = history.slice(-10);
+  smsSessions.set(fromNumber, { history: trimmed, lastActivity: Date.now() });
+}
+
+// ---------------------------------------------------------------------
 // Express app: TwiML webhooks
 // ---------------------------------------------------------------------
 const app = express();
@@ -223,7 +254,9 @@ app.post("/incoming-sms", async (req, res) => {
 
   try {
     const context = await searchVectorStore(question, 5);
-    const answer = await askOpenAIText(question, context);
+    const history = getSmsHistory(req.body.From);
+    const answer = await askOpenAIText(question, context, history);
+    saveSmsTurn(req.body.From, question, answer);
     twiml.message(answer.slice(0, 1500)); // keep it SMS-sized
   } catch (err) {
     console.error("SMS handling error:", err);
@@ -258,14 +291,16 @@ const CALC_TOOL_PARAMETERS = {
   required: ["formula", "args"],
 };
 
-async function askOpenAIText(question, context) {
+async function askOpenAIText(question, context, history = []) {
   const messages = [
     {
       role: "system",
       content:
         BASE_INSTRUCTIONS +
-        "\n\nKeep the reply under 1200 characters — it's going out as a text message.",
+        "\n\nKeep the reply under 1200 characters — it's going out as a text message." +
+        "\n\nThe messages below may include earlier turns from this same texting thread. Use them to understand follow-ups, confirmations (like \"yes\" or \"that one\"), and corrections -- don't treat every message as a brand-new, unrelated question if it's clearly replying to what you just asked.",
     },
+    ...history,
     {
       role: "user",
       content: `Question: ${question}\n\nRetrieved excerpts from the Condensed Hydraulic Data Book:\n${context}`,
